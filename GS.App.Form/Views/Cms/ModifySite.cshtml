@@ -1,0 +1,92 @@
+﻿@model Site
+@helper  GenerateCmsTempList()
+{
+if (ViewBag.TempName == null)
+{
+    return;
+}
+
+var temp = ((IEnumerable<string>)ViewBag.TempName);
+if (!temp.Any())
+{
+    return;
+}
+    <ul class="am-dropdown-content">
+        @foreach (var item in temp)
+        {
+            var clas = item == Model.PageName ? "class=am-active" : string.Empty;
+            <li data-t @clas onclick="$('li[data-t]').removeClass('am-active'); $('#pageName').val($(this).find('a').html());$(this).addClass('am-active')"><a>@item</a></li>
+        }
+    </ul>
+}
+<title>新建站点</title>
+<link rel="stylesheet" href="~/Assets/css/amazeui.min.css" />
+<link rel="stylesheet" href="~/Assets/css/amazeui.datatables.min.css" />
+<link rel="stylesheet" href="~/Assets/css/app.css" />
+<link href="~/css/themes/default/default.css" rel="stylesheet" />
+<script src="~/js/jquery-1.7.2.min.js"></script>
+<script src="~/Assets/js/amazeui.min.js"></script>
+<script src="~/js/common.js"></script>
+<script src="~/js/cms.js" data-init="form" data-message="@ViewBag.message"></script>
+<body class="theme-white" style="background-color:#ffffff;overflow:hidden;">
+    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+        <div class="widget am-cf">
+            <div class="widget-head am-cf">
+                <div class="widget-title am-fl">新建站点</div>
+                <div class="widget-function am-fr">
+                    <a href="/Cms/Site" class="am-icon-reply"></a>
+                </div>
+            </div>
+            <div class="widget-body am-fr">
+                <form action="@ViewBag.Action" method="post" onsubmit="return window.valid()" class="am-form tpl-form-line-form">
+                    <div class="am-form-group">
+                        <label class="am-u-sm-3 am-form-label" style="font-size:14px">站点名称</label>
+                        <div class="am-u-sm-6">
+                            <input class="tpl-form-input" name="Name" id="name" required placeholder="站点名称" value="@Model.Name" type="text"><small></small>
+                        </div>
+                        <div class="am-u-sm-3">
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label class="am-u-sm-3 am-form-label" style="font-size:14px">启动页面</label>
+                        <div class="am-u-sm-6" data-am-dropdown>
+                            <input class="tpl-form-input am-dropdown-toggle" data-am-dropdown-toggle name="PageName" id="pageName" required placeholder="启动页面名称" value="@Model.PageName" type="text"><small></small>
+                            @GenerateCmsTempList()
+                        </div>
+                        <div class="am-u-sm-3">
+                        </div>
+                    </div>
+
+                    <div class="am-form-group">
+                        <label class="am-u-sm-3 am-form-label" style="font-size:14px">ip 过滤</label>
+                        <div class="am-u-sm-9">
+                            <input class="tpl-form-input" name="IpFilter" id="ipFilter" placeholder="ip 过滤" value="@Model.IpFilter" type="text"><small></small>
+                            <small>多个过滤地址中间用 ',' 隔开</small>
+                        </div>
+
+                    </div>
+                    <div class="am-form-group">
+                        <label class="am-u-sm-3 am-form-label" style="font-size:14px">Icon 图标</label>
+                        <div class="am-u-sm-3">
+                            <button type="button" data-file="&quot;_58&quot;" id="icon" style="float:left" class="am-btn am-btn-default am-btn-sm">
+                                <i class="am-icon-cloud-upload"></i>
+                                点击选择文件
+                            </button>
+                            <input class="tpl-form-input" name="Icon" readonly="readonly" style="float:left" type="text" value="@Model.Icon">
+                        </div>
+                        <div class="am-u-sm-3">
+                        </div>
+                        <div class="am-u-sm-3">
+                        </div>
+                    </div>
+                    <input type="hidden" name="Id" id="id" value="@Model.Id">
+                    <div class="am-form-group">
+                        <div class="am-u-sm-9 am-u-sm-push-3">
+                            <button type="submit" id="sub" class="am-btn am-btn-primary tpl-btn-bg-color-success">保存提交</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

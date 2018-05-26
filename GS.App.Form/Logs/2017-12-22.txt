@@ -1,0 +1,135 @@
+2017-12-22 13:08:01,390 [38] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:08:01,458 [38] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:08:08,633 [23] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:08:08,634 [23] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:09:29,339 [44] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:09:29,340 [44] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:11:58,425 [34] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:11:58,427 [34] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:13:44,697 [38] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:13:44,699 [38] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:15:33,361 [44] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:15:33,362 [44] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:15:43,501 [34] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:15:43,501 [34] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:15:46,196 [37] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:15:46,197 [37] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:15:53,141 [7] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:15:53,142 [7] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:17:35,234 [38] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:17:35,236 [38] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:17:58,199 [37] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:17:58,200 [37] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:19:46,329 [23] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:19:46,330 [23] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:23:56,856 [44] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:23:56,857 [44] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:25:15,376 [23] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:25:15,378 [23] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:47:20,961 [42] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:47:20,964 [42] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:50:59,842 [23] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:50:59,895 [23] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:51:05,204 [42] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:51:05,205 [42] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:52:11,895 [40] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:52:11,896 [40] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:58:52,031 [23] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:58:52,032 [23] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:59:02,185 [41] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:59:02,186 [41] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:59:14,498 [7] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:59:14,499 [7] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 13:59:27,678 [23] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 13:59:27,679 [23] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:00:01,794 [23] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:00:01,795 [23] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:00:33,384 [23] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:00:33,384 [23] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:02:23,972 [23] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:02:23,974 [23] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:11:21,572 [35] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:11:21,573 [35] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:21:41,594 [7] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:21:41,596 [7] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:24:37,671 [29] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:24:37,672 [29] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:26:24,825 [7] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:26:24,855 [7] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:35:44,857 [27] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:35:44,858 [27] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:35:59,735 [24] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:35:59,736 [24] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:38:05,459 [27] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:38:05,461 [27] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:38:22,742 [23] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:38:22,743 [23] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:38:29,092 [23] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:38:29,093 [23] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:38:32,354 [22] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:38:32,355 [22] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:41:06,742 [27] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:41:06,744 [27] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:41:13,189 [24] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:41:13,192 [24] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:46:56,037 [27] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:46:56,102 [27] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:49:05,073 [27] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:49:05,076 [27] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 14:52:31,187 [29] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 14:52:31,188 [29] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 15:21:02,452 [22] INFO  - insert into [表单名称5454](_209,_18,_111,_24,_174,_250,_155,_129,[Updatetime]) values ('2,3','0','','2017-12-22','.','1','','山西-大同-矿区  __内蒙古自治区-乌海市-乌达区','2017-12-22 07:02')
+2017-12-22 16:02:18,120 [26] ERROR - 2017-12-22 : 未找到路径“/setting/param”的控制器或该控制器未实现 IController。--   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-12-22 16:02:26,427 [26] ERROR - 2017-12-22 : 未找到路径“/setting/param”的控制器或该控制器未实现 IController。--   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-12-22 16:03:01,402 [23] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 16:03:01,451 [23] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 16:03:06,712 [29] ERROR - 2017-12-22 : 未找到路径“/setting/param”的控制器或该控制器未实现 IController。--   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-12-22 16:03:09,294 [18] ERROR - 2017-12-22 : 未找到路径“/setting/param”的控制器或该控制器未实现 IController。--   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-12-22 16:07:46,017 [23] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 16:07:46,018 [23] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 16:10:08,326 [31] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.CmsController
+2017-12-22 16:10:08,327 [31] ERROR - 2017-12-22 : An error occurred while sending the request.--
+2017-12-22 16:10:13,243 [28] ERROR - 2017-12-22 : 未找到路径“/setting/param”的控制器或该控制器未实现 IController。--   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-12-22 16:10:57,313 [24] ERROR - 2017-12-22 : 未找到路径“/setting/param”的控制器或该控制器未实现 IController。--   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

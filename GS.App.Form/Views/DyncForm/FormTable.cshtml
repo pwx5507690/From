@@ -1,0 +1,48 @@
+﻿@model PagedList<SQLDynamicRow>
+@{
+    int page = Convert.ToInt32(ViewBag.page);
+    string code = Convert.ToString(ViewBag.code);
+}
+<title>@ViewBag.Title</title>
+<link rel="stylesheet" href="~/Assets/css/amazeui.min.css" />
+<link rel="stylesheet" href="~/Assets/css/amazeui.datatables.min.css" />
+<link rel="stylesheet" href="~/Assets/css/app.css" />
+<style>
+	#pager {
+		margin-right: 20px;
+	}
+</style>
+<script src="~/js/jquery-1.7.2.min.js"></script>
+<script src="~/Assets/js/amazeui.min.js"></script>
+<script src="~/js/dyncFormView.js" data-message="@ViewBag.message"></script>
+<body class="theme-white" style="background-color:#ffffff;overflow:hidden;">
+	<div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+        <div class="widget am-cf">
+            <div class="widget-head am-cf">
+                <div class="wwidget-title am-fl">@ViewBag.Title</div>
+                <div class="widget-function am-fr">
+                    <a href="/CustomFrom/DyncForm" class="am-icon-reply"></a>
+                </div>
+            </div>
+            <div class="widget-body  am-fr">
+                @Html.BuildByKey("seachTitle", $"/DyncForm/Index?code={ViewBag.code}","输入查询关键字")
+               
+               @Html.BuildFormTable(Model, page, code)
+                <div class="am-u-sm-12">
+                    @Html.Pager(Model, new PagerOptions
+           {
+               HorizontalAlign = "Right",
+               RouteName = "Default",
+               PageIndexParameterName = "currentPage",
+               ContainerTagName = "ul",
+               CssClass = "am-pagination tpl-pagination",
+               CurrentPagerItemTemplate = "<li class=\"am-active\"><a href=\"#\">{0}</a></li>",
+               DisabledPagerItemTemplate = "<li class=\"am-disabled\"><a>{0}</a></li>",
+               PagerItemTemplate = "<li>{0}</li>",
+               Id = "pager"
+           })
+                </div>
+            </div>
+        </div>
+	</div>
+</body>

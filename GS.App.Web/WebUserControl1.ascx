@@ -1,0 +1,1 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="/PageServices/CustomControl.cs" Inherits="GS.App.Web.PageServices.CustomControl" %>

@@ -1,0 +1,243 @@
+﻿@model CmsTempModel
+@helper  GenerateCmsTempList(IEnumerable<SiteTemp> source, string type)
+{
+if (source == null || !source.Any())
+{
+        <li data-name="empty">无对应模板</li>
+    return;
+}
+var icon = string.Empty;
+if (type == "css")
+{
+    icon = "am-icon-css3 am-icon-fw";
+}
+else if (type == "js")
+{
+    icon = "am-icon-jsfiddle am-icon-fw";
+}
+else if (type == "aspx")
+{
+    icon = "am-icon-html5 am-icon-fw";
+}
+else if (type == "control")
+{
+    icon = "am-icon-building am-icon-fw";
+}
+foreach (var item in source)
+{
+        <li data-name="@item.TempName" data-temp-id="@item.Id" data-scouce="@Model.Current.Name|@item.TempName|@item.TempType">
+            <i class="@icon"></i>
+            <span>@item.TempName</span>
+            <i data-temp-delete="@item.Id|@Model.Current.Id|@item.TempName|@item.TempType" class="am-icon-trash" style="float:right;font-size:14px">
+
+            </i>
+        </li>
+}
+}
+@helper  GenerateRsesourceContent()
+{
+if (Model.SiteResource.Any())
+{
+
+    foreach (var item in Model.SiteResource)
+    {
+        var type = string.Empty;
+        if (item.ResourceType == "PNG" || item.ResourceType == "JPG" || item.ResourceType == "JPEG"
+            || item.ResourceType == "ICON" || item.ResourceType == "GIF")
+        {
+            type = "图片";
+        }
+        else
+        {
+            type = "文本";
+        }
+
+        <tr>
+            <td>@item.ResourceName</td>
+            <td>@type</td>
+            <td>@item.Updatetime</td>
+            <td>
+                <div class="tpl-table-black-operation">
+                    <a href="javascript:;" data-href="@item.Path" data-fancybox="@item.Id">
+                        <i class="am-icon-search-plus"></i>预览
+                    </a>
+                    <a href="@item.Path" target="_blank">
+                        <i class="am-icon-download"></i>下载
+                    </a>
+                    <a href="javascript:;" data-resource-id="@item.Id" class="tpl-table-black-operation-del">
+                        <i class="am-icon-trash"></i> 删除
+                    </a>
+                </div>
+            </td>
+        </tr>
+    }
+
+}
+}
+<title>站点模板</title>
+<link rel="stylesheet" href="~/Assets/css/amazeui.min.css" />
+<link rel="stylesheet" href="~/Assets/css/amazeui.datatables.min.css" />
+<link rel="stylesheet" href="~/Assets/css/app.css" />
+<link href="~/css/themes/default/default.css" rel="stylesheet" />
+<link href="~/css/amazeui.chosen.css" rel="stylesheet" />
+<style>
+    .chosen-single div {
+     top:8px!important;
+    }
+    ul[data-temp] > li {
+        cursor: pointer
+    }
+
+    .scouce-active {
+        background: #ececec !important;
+        font-weight: bold;
+    }
+
+    ol > li {
+        cursor: pointer
+    }
+
+    .am-active {
+        cursor: auto;
+        color: #0e90d2 !important;
+    }
+</style>
+<link href="~/js/plugins/code/prettify.css" rel="stylesheet" />
+<script src="~/js/jquery-1.7.2.min.js"></script>
+<script src="~/Assets/js/amazeui.min.js"></script>
+<script src="~/js/amazeui.chosen.js"></script>
+<script src="~/js/monaco-editor-0.10.1/package/min/vs/loader.js"></script>
+<script src="~/js/cms.js" data-init="tempView" data-message="@ViewBag.message"></script>
+<body class="theme-white" style="background-color:#ffffff;overflow:hidden;">
+    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+        <div class="widget am-cf">
+            <div class="widget-head am-cf">
+                <div class="widget-title am-fl">站点模板-@Model.Current.Name</div>
+            </div>
+            <div class="widget-body am-fr">
+                @{
+                    if (Model.Site == null || !Model.Site.Any())
+                    {
+                        <br /><br /><div class='am-alert am-alert-secondary' style='text-align:center;background:#ffffff;border:none;color:#838FA1'>
+                            <p>
+                                <a href="/Cms/ModifySite">无站点应用</a>
+                            </p>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+                            <div class="am-form-group">
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <a class="am-btn am-btn-default am-btn-success" href="/Cms/GenerateCmsTempView">
+                                            <span class="am-icon-plus"></span>新增模板
+                                        </a>
+                                    </div>
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        @Html.BuliderDropdownView((DropdownControlModel)ViewData["SiteDropDown"])
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="am-u-sm-12">
+                            <ol class="am-breadcrumb am-breadcrumb-slash">
+                                <li data-temp="aspx">页面</li>
+                                <li data-temp="control">控件</li>
+                                <li data-temp="js">脚本</li>
+                                <li data-temp="css">样式</li>
+                                <li data-temp="resource">资源文件</li>
+                            </ol>
+                        </div>
+                        <div class="am-u-sm-12 am-u-md-12 am-u-lg-12" style="display:none" id="resourceConent">
+                            <a class="am-btn am-btn-default am-btn-sm" id="fileResource">
+                                <i class="am-icon-cloud-upload"></i>
+                                点击资源选择文件
+                            </a>
+                            <table class="am-table am-table-compact am-table-striped tpl-table-black">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            名称
+                                        </th>
+                                        <th>
+                                            资源类型
+                                        </th>
+                                        <th>
+                                            上传时间
+                                        </th>
+                                        <th>编辑</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="rsesourceContent">
+                                    @GenerateRsesourceContent()
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <div id="tempConent">
+                            <div class="am-u-sm-12 am-u-md-3 am-u-lg-3" style="font-size:12px">
+                                <ul class="am-list am-list-static  am-list-border" data-temp="aspx" style="display:none">
+                                    @GenerateCmsTempList(Model.PageTemp, "aspx")
+                                </ul>
+                                <ul class="am-list am-list-static am-list-border" data-temp="js" style="display:none">
+                                    @GenerateCmsTempList(Model.JsTemp, "js")
+                                </ul>
+                                <ul class="am-list am-list-static am-list-border" data-temp="css" style="display:none">
+                                    @GenerateCmsTempList(Model.CssTemp, "css")
+                                </ul>
+                                <ul class="am-list am-list-static am-list-border" data-temp="control" style="display:none">
+                                    @GenerateCmsTempList(Model.ControlTemp, "control")
+                                </ul>
+                            </div>
+                           
+                            <div class="am-u-sm-12 am-u-md-9 am-u-lg-9">
+                                @*<div id="empty" style="display:none;
+                                                color: #444;
+                                    background-color: #f5f5f5;
+                                    border-color: #ddd;" class="am-alert am-alert">
+                                                                    <p>请选择模板或创建对应模板...</p>
+                                                                </div>*@
+                                <div id="panelContent" class="am-panel am-panel-default">
+                                    <div class="am-panel-hd">
+                                        <div class="am-form tpl-form-line-form">
+                                            <div class="am-form-group">
+                                                <div class="am-u-sm-6">
+                                                    <input type="hidden" id="tempType" />
+                                                    <input type="hidden" id="tempId" />
+                                                    <input type="hidden" id="siteName" value="@Model.Current.Name" />
+                                                    <input type="hidden" id="siteId" value="@Model.SiteId" />
+                                                    <input type="text" value="页面" class="tpl-form-input" name="name" id="name" placeholder="请入输菜单名称">
+                                                </div>
+                                                <div class="am-u-sm-3">
+                                                    <div class="am-btn-group am-btn-group-xs">
+                                                        <a id="saveTemp" class="am-btn am-btn-primary tpl-btn-bg-color-success" href="#">
+                                                            保存
+                                                        </a>
+                                                        <a class="am-btn am-btn-default am-btn-sm" style="margin-left:15px;" id="fileTemp">
+                                                            <i class="am-icon-cloud-upload"></i>
+                                                            点击选择文件
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="am-u-sm-3">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="am-panel-bd">
+                                        <div style="height:550px;" id="container"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+
+            </div>
+        </div>
+    </div>
+
+</body>
+

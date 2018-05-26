@@ -1,0 +1,763 @@
+2017-11-24 08:43:11,599 [6] INFO  - elm count = 1
+2017-11-24 08:43:13,753 [5] INFO  - elm count = 1
+2017-11-24 08:43:13,787 [5] INFO  - elm count = 1
+2017-11-24 08:43:15,913 [5] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.DyncFormController   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 GS.Common.Http.HttpRequest.Send(HttpParam param, IHttpException iHttpException, HttpClient httpClient, CancellationToken cancellationToken) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 35
+   在 GS.Common.Http.ApiProxy.Send(HttpMethod method, String url, HttpContent content) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\ApiProxy.cs:行号 69
+   在 GS.App.Form.Models.Bulider.FormItemView.SetSourceValue(DyncField dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 133
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 26
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 58
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-24 08:43:15,931 [5] ERROR - 2017-11-24 : An error occurred while sending the request.--
+2017-11-24 08:43:53,570 [12] INFO  - elm count = 1
+2017-11-24 08:43:53,598 [12] INFO  - elm count = 1
+2017-11-24 08:44:06,997 [12] INFO  - elm count = 1
+2017-11-24 08:44:06,998 [12] INFO  - elm count = 1
+2017-11-24 08:45:00,977 [7] INFO  - elm count = 1
+2017-11-24 08:45:00,978 [7] INFO  - elm count = 1
+2017-11-24 08:45:00,984 [7] INFO  - elm count = 1
+2017-11-24 08:45:00,985 [7] INFO  - elm count = 1
+2017-11-24 08:53:10,305 [20] INFO  - elm count = 1
+2017-11-24 08:55:22,640 [22] INFO  - elm count = 1
+2017-11-24 08:56:52,623 [21] INFO  - elm count = 1
+2017-11-24 08:57:36,866 [22] INFO  - elm count = 1
+2017-11-24 08:58:45,169 [5] INFO  - elm count = 1
+2017-11-24 08:59:32,087 [5] INFO  - elm count = 1
+2017-11-24 08:59:32,088 [5] INFO  - elm count = 1
+2017-11-24 09:03:00,311 [13] ERROR - C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\FormTable.cshtml(33): error CS1503: Argument 1: cannot convert from 'void' to 'System.Web.WebPages.HelperResult'GS.App.Form.Controllers.DyncFormController   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-24 09:03:00,328 [13] ERROR - 2017-11-24 : C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\FormTable.cshtml(33): error CS1503: Argument 1: cannot convert from 'void' to 'System.Web.WebPages.HelperResult'--   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-11-24 09:04:30,289 [11] INFO  - elm count = 1
+2017-11-24 09:04:30,291 [11] INFO  - elm count = 1
+2017-11-24 09:10:51,455 [8] INFO  - elm count = 1
+2017-11-24 09:10:51,468 [8] INFO  - elm count = 1
+2017-11-24 09:13:57,625 [5] INFO  - use DyncData create table 表单名称5454 ( Id int identity(1,1) primary key,  [Updatetime] [datetime] NULL ,_96 [nvarchar](150) NULL,_206 [nvarchar](150) NULL,_56 text NULL,_44 [ date ] NULL,_134 [nvarchar](150) NULL,_118 [nvarchar](150) NULL)
+2017-11-24 09:13:57,969 [5] ERROR - 第 6 个列、参数或变量: 找不到数据类型  date 。GS.App.Form.Controllers.CustomFromController   在 GS.SQL.DataSource.DBHelper.ExecuteNonQueryTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 104
+   在 GS.SQL.DataSource.SQLDynamic.CreateDataTable(String dt, Dictionary`2 dic, String db) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDynamic.cs:行号 88
+   在 GS.Services.DynamicDataservices.CreateTable(DyncForm dyncForm, IEnumerable`1 dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 200
+   在 GS.Services.DynamicDataservices.UpdateForm(DyncForm dyncForm, IEnumerable`1 dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 165
+   在 GS.App.Form.Controllers.CustomFromController.Update(DyncForm formData, List`1 parameterData) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 132
+   在 GS.App.Form.Controllers.CustomFromController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 163
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-24 09:13:57,977 [5] ERROR - 2017-11-24 : 第 6 个列、参数或变量: 找不到数据类型  date 。--   在 GS.SQL.DataSource.DBHelper.ExecuteNonQueryTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 104
+   在 GS.SQL.DataSource.SQLDynamic.CreateDataTable(String dt, Dictionary`2 dic, String db) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDynamic.cs:行号 88
+   在 GS.Services.DynamicDataservices.CreateTable(DyncForm dyncForm, IEnumerable`1 dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 200
+   在 GS.Services.DynamicDataservices.UpdateForm(DyncForm dyncForm, IEnumerable`1 dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 165
+   在 GS.App.Form.Controllers.CustomFromController.Update(DyncForm formData, List`1 parameterData) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 132
+   在 GS.App.Form.Controllers.CustomFromController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 163
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-11-24 09:44:04,834 [29] INFO  - use DyncData create table 表单名称5454 ( Id int identity(1,1) primary key,  [Updatetime] [datetime] NULL ,_143 [nvarchar](150) NULL,_90 [nvarchar](150) NULL,_100 text NULL,_127 [datetime] NULL,_44 [nvarchar](150) NULL,_240 [nvarchar](150) NULL)
+2017-11-24 09:44:15,850 [18] INFO  - elm count = 1
+2017-11-24 09:44:17,753 [29] INFO  - elm count = 1
+2017-11-24 09:44:17,757 [29] INFO  - elm count = 1
+2017-11-24 09:44:23,080 [29] INFO  - elm count = 1
+2017-11-24 09:44:23,081 [29] INFO  - elm count = 1
+2017-11-24 09:44:23,082 [29] INFO  - elm count = 1
+2017-11-24 09:44:23,082 [29] INFO  - elm count = 1
+2017-11-24 09:44:23,083 [29] INFO  - elm count = 1
+2017-11-24 09:44:23,083 [29] INFO  - elm count = 1
+2017-11-24 09:44:23,084 [29] INFO  - elm count = 1
+2017-11-24 09:46:03,158 [24] INFO  - elm count = 1
+2017-11-24 09:46:28,810 [5] INFO  - use DyncData create table 表单名称5454 ( Id int identity(1,1) primary key,  [Updatetime] [datetime] NULL ,_131 [nvarchar](150) NULL,_61 [nvarchar](150) NULL,_90 text NULL,_50 [datetime] NULL,_251 [nvarchar](150) NULL,_157 [nvarchar](150) NULL)
+2017-11-24 09:46:41,298 [29] INFO  - elm count = 1
+2017-11-24 09:46:43,088 [18] INFO  - elm count = 1
+2017-11-24 09:46:43,088 [18] INFO  - elm count = 1
+2017-11-24 09:46:43,101 [18] INFO  - elm count = 1
+2017-11-24 09:46:43,102 [18] INFO  - elm count = 1
+2017-11-24 09:46:43,102 [18] INFO  - elm count = 1
+2017-11-24 09:46:43,105 [18] INFO  - elm count = 1
+2017-11-24 09:46:43,105 [18] INFO  - elm count = 1
+2017-11-24 09:46:43,106 [18] INFO  - elm count = 1
+2017-11-24 09:46:43,107 [18] INFO  - elm count = 1
+2017-11-24 09:51:07,386 [5] INFO  - use DyncData create table 表单名称5454 ( Id int identity(1,1) primary key,  [Updatetime] [datetime] NULL ,_27 [nvarchar](150) NULL,_139 [nvarchar](150) NULL,_93 text NULL,_219 [datetime] NULL,_24 [nvarchar](150) NULL,_86 [nvarchar](150) NULL)
+2017-11-24 09:52:22,299 [12] INFO  - elm count = 1
+2017-11-24 09:52:42,377 [29] INFO  - use DyncData create table 表单名称5454 ( Id int identity(1,1) primary key,  [Updatetime] [datetime] NULL ,_167 [nvarchar](150) NULL,_92 [nvarchar](150) NULL,_168 text NULL,_28 [datetime] NULL,_52 [nvarchar](150) NULL,_189 [nvarchar](150) NULL)
+2017-11-24 09:53:27,453 [22] INFO  - use DyncData create table 表单名称5454 ( Id int identity(1,1) primary key,  [Updatetime] [datetime] NULL ,_134 [nvarchar](150) NULL,_66 [nvarchar](150) NULL,_173 text NULL,_120 [datetime] NULL,_124 [nvarchar](150) NULL,_243 [nvarchar](150) NULL)
+2017-11-24 09:57:16,538 [12] INFO  - elm count = 1
+2017-11-24 09:57:17,900 [22] INFO  - elm count = 1
+2017-11-24 09:57:17,901 [22] INFO  - elm count = 1
+2017-11-24 09:57:17,916 [22] INFO  - elm count = 1
+2017-11-24 09:57:17,917 [22] INFO  - elm count = 1
+2017-11-24 09:57:17,917 [22] INFO  - elm count = 1
+2017-11-24 09:57:17,918 [22] INFO  - elm count = 1
+2017-11-24 09:57:17,919 [22] INFO  - elm count = 1
+2017-11-24 09:57:17,920 [22] INFO  - elm count = 1
+2017-11-24 09:57:17,920 [22] INFO  - elm count = 1
+2017-11-24 10:07:41,644 [14] INFO  - elm count = 1
+2017-11-24 10:10:34,519 [8] INFO  - use DyncData create table 表单名称5454 ( Id int identity(1,1) primary key,  [Updatetime] [datetime] NULL ,_95 [nvarchar](150) NULL,_32 [nvarchar](150) NULL,_129 text NULL,_253 [datetime] NULL,_173 [nvarchar](150) NULL,_171 [nvarchar](150) NULL,_149 [nvarchar](500) NULL,_144 [nvarchar](150) NULL)
+2017-11-24 10:10:36,687 [28] INFO  - elm count = 1
+2017-11-24 10:10:38,040 [27] INFO  - elm count = 1
+2017-11-24 10:10:38,041 [27] INFO  - elm count = 1
+2017-11-24 10:10:38,079 [27] INFO  - elm count = 1
+2017-11-24 10:10:38,080 [27] INFO  - elm count = 1
+2017-11-24 10:10:38,080 [27] INFO  - elm count = 1
+2017-11-24 10:10:38,081 [27] INFO  - elm count = 1
+2017-11-24 10:10:38,082 [27] INFO  - elm count = 1
+2017-11-24 10:10:38,082 [27] INFO  - elm count = 1
+2017-11-24 10:10:38,083 [27] INFO  - elm count = 1
+2017-11-24 10:10:38,084 [27] INFO  - elm count = 1
+2017-11-24 10:10:38,084 [27] INFO  - elm count = 1
+2017-11-24 10:12:05,478 [11] INFO  - elm count = 1
+2017-11-24 10:12:05,478 [11] INFO  - elm count = 1
+2017-11-24 10:12:05,489 [11] INFO  - elm count = 1
+2017-11-24 10:12:05,489 [11] INFO  - elm count = 1
+2017-11-24 10:12:05,490 [11] INFO  - elm count = 1
+2017-11-24 10:12:05,491 [11] INFO  - elm count = 1
+2017-11-24 10:12:05,492 [11] INFO  - elm count = 1
+2017-11-24 10:12:05,494 [11] INFO  - elm count = 1
+2017-11-24 10:12:05,494 [11] INFO  - elm count = 1
+2017-11-24 10:12:05,495 [11] INFO  - elm count = 1
+2017-11-24 10:12:05,496 [11] INFO  - elm count = 1
+2017-11-24 10:29:07,600 [22] INFO  - elm count = 1
+2017-11-24 10:29:09,010 [23] INFO  - elm count = 1
+2017-11-24 10:29:09,011 [23] INFO  - elm count = 1
+2017-11-24 10:29:09,032 [23] INFO  - elm count = 1
+2017-11-24 10:29:09,033 [23] INFO  - elm count = 1
+2017-11-24 10:29:09,034 [23] INFO  - elm count = 1
+2017-11-24 10:29:09,035 [23] INFO  - elm count = 1
+2017-11-24 10:29:09,036 [23] INFO  - elm count = 1
+2017-11-24 10:29:09,037 [23] INFO  - elm count = 1
+2017-11-24 10:29:09,038 [23] INFO  - elm count = 1
+2017-11-24 10:29:09,038 [23] INFO  - elm count = 1
+2017-11-24 10:29:09,039 [23] INFO  - elm count = 1
+2017-11-24 10:29:27,157 [23] INFO  - insert into [表单名称5454](_95,_129,_253,_173,_171,_149,_144,[Updatetime]) values ('123','aaaa','2014-11-27','aa','aa','aaa','aaaa','2017-11-24 02:27')
+2017-11-24 10:29:27,399 [12] INFO  - elm count = 1
+2017-11-24 10:29:47,399 [22] INFO  - elm count = 1
+2017-11-24 10:29:47,400 [22] INFO  - elm count = 1
+2017-11-24 10:29:47,406 [22] INFO  - elm count = 1
+2017-11-24 10:29:47,407 [22] INFO  - elm count = 1
+2017-11-24 10:29:47,408 [22] INFO  - elm count = 1
+2017-11-24 10:29:47,410 [22] INFO  - elm count = 1
+2017-11-24 10:29:47,410 [22] INFO  - elm count = 1
+2017-11-24 10:29:47,411 [22] INFO  - elm count = 1
+2017-11-24 10:29:47,412 [22] INFO  - elm count = 1
+2017-11-24 10:29:47,413 [22] INFO  - elm count = 1
+2017-11-24 10:29:47,414 [22] INFO  - elm count = 1
+2017-11-24 10:39:33,804 [18] INFO  - elm count = 1
+2017-11-24 10:39:33,804 [18] INFO  - elm count = 1
+2017-11-24 10:39:33,833 [18] INFO  - elm count = 1
+2017-11-24 10:39:33,891 [18] INFO  - elm count = 1
+2017-11-24 10:39:33,892 [18] INFO  - elm count = 1
+2017-11-24 10:39:33,893 [18] INFO  - elm count = 1
+2017-11-24 10:39:33,895 [18] INFO  - elm count = 1
+2017-11-24 10:39:33,896 [18] INFO  - elm count = 1
+2017-11-24 10:39:33,897 [18] INFO  - elm count = 1
+2017-11-24 10:39:33,898 [18] INFO  - elm count = 1
+2017-11-24 10:39:33,899 [18] INFO  - elm count = 1
+2017-11-24 10:40:16,350 [18] INFO  - elm count = 1
+2017-11-24 10:40:16,350 [18] INFO  - elm count = 1
+2017-11-24 10:40:16,358 [18] INFO  - elm count = 1
+2017-11-24 10:40:16,359 [18] INFO  - elm count = 1
+2017-11-24 10:40:16,360 [18] INFO  - elm count = 1
+2017-11-24 10:40:16,361 [18] INFO  - elm count = 1
+2017-11-24 10:40:16,362 [18] INFO  - elm count = 1
+2017-11-24 10:40:16,363 [18] INFO  - elm count = 1
+2017-11-24 10:40:16,363 [18] INFO  - elm count = 1
+2017-11-24 10:40:16,364 [18] INFO  - elm count = 1
+2017-11-24 10:40:16,365 [18] INFO  - elm count = 1
+2017-11-24 10:41:29,634 [13] INFO  - elm count = 1
+2017-11-24 10:41:29,634 [13] INFO  - elm count = 1
+2017-11-24 10:41:29,658 [13] INFO  - elm count = 1
+2017-11-24 10:41:29,744 [13] INFO  - elm count = 1
+2017-11-24 10:41:29,744 [13] INFO  - elm count = 1
+2017-11-24 10:41:29,745 [13] INFO  - elm count = 1
+2017-11-24 10:41:29,746 [13] INFO  - elm count = 1
+2017-11-24 10:41:29,746 [13] INFO  - elm count = 1
+2017-11-24 10:41:29,748 [13] INFO  - elm count = 1
+2017-11-24 10:41:29,749 [13] INFO  - elm count = 1
+2017-11-24 10:41:29,749 [13] INFO  - elm count = 1
+2017-11-24 10:41:47,791 [14] INFO  - elm count = 1
+2017-11-24 10:41:47,791 [14] INFO  - elm count = 1
+2017-11-24 10:41:47,801 [14] INFO  - elm count = 1
+2017-11-24 10:41:47,803 [14] INFO  - elm count = 1
+2017-11-24 10:41:47,804 [14] INFO  - elm count = 1
+2017-11-24 10:41:47,804 [14] INFO  - elm count = 1
+2017-11-24 10:41:47,805 [14] INFO  - elm count = 1
+2017-11-24 10:41:47,806 [14] INFO  - elm count = 1
+2017-11-24 10:41:47,807 [14] INFO  - elm count = 1
+2017-11-24 10:41:47,807 [14] INFO  - elm count = 1
+2017-11-24 10:41:47,808 [14] INFO  - elm count = 1
+2017-11-24 10:43:01,253 [27] INFO  - elm count = 1
+2017-11-24 10:43:01,253 [27] INFO  - elm count = 1
+2017-11-24 10:43:01,264 [27] INFO  - elm count = 1
+2017-11-24 10:43:01,267 [27] INFO  - elm count = 1
+2017-11-24 10:43:01,268 [27] INFO  - elm count = 1
+2017-11-24 10:43:01,268 [27] INFO  - elm count = 1
+2017-11-24 10:43:01,269 [27] INFO  - elm count = 1
+2017-11-24 10:43:01,270 [27] INFO  - elm count = 1
+2017-11-24 10:43:01,270 [27] INFO  - elm count = 1
+2017-11-24 10:43:01,271 [27] INFO  - elm count = 1
+2017-11-24 10:43:01,272 [27] INFO  - elm count = 1
+2017-11-24 10:43:13,267 [14] INFO  - elm count = 1
+2017-11-24 10:43:13,268 [14] INFO  - elm count = 1
+2017-11-24 10:43:13,275 [14] INFO  - elm count = 1
+2017-11-24 10:43:13,276 [14] INFO  - elm count = 1
+2017-11-24 10:43:13,276 [14] INFO  - elm count = 1
+2017-11-24 10:43:13,277 [14] INFO  - elm count = 1
+2017-11-24 10:43:13,277 [14] INFO  - elm count = 1
+2017-11-24 10:43:13,278 [14] INFO  - elm count = 1
+2017-11-24 10:43:13,278 [14] INFO  - elm count = 1
+2017-11-24 10:43:13,279 [14] INFO  - elm count = 1
+2017-11-24 10:43:13,279 [14] INFO  - elm count = 1
+2017-11-24 10:43:25,836 [14] INFO  - elm count = 1
+2017-11-24 10:43:25,837 [14] INFO  - elm count = 1
+2017-11-24 10:43:25,845 [14] INFO  - elm count = 1
+2017-11-24 10:43:25,845 [14] INFO  - elm count = 1
+2017-11-24 10:43:25,847 [14] INFO  - elm count = 1
+2017-11-24 10:43:25,848 [14] INFO  - elm count = 1
+2017-11-24 10:43:25,848 [14] INFO  - elm count = 1
+2017-11-24 10:43:25,849 [14] INFO  - elm count = 1
+2017-11-24 10:43:25,849 [14] INFO  - elm count = 1
+2017-11-24 10:43:25,850 [14] INFO  - elm count = 1
+2017-11-24 10:43:25,850 [14] INFO  - elm count = 1
+2017-11-24 10:43:29,210 [25] INFO  - update [表单名称5454] set _95='12',_129='',_253='',_173='aa',_171='aa',_149='aaa',_144='aaaa',[Updatetime]='2017-11-24 02:29' where id=1
+2017-11-24 10:43:29,322 [8] INFO  - elm count = 1
+2017-11-24 10:43:33,661 [27] INFO  - elm count = 1
+2017-11-24 10:43:33,662 [27] INFO  - elm count = 1
+2017-11-24 10:43:33,669 [27] INFO  - elm count = 1
+2017-11-24 10:43:33,669 [27] INFO  - elm count = 1
+2017-11-24 10:43:33,670 [27] INFO  - elm count = 1
+2017-11-24 10:43:33,671 [27] INFO  - elm count = 1
+2017-11-24 10:43:33,672 [27] INFO  - elm count = 1
+2017-11-24 10:43:33,673 [27] INFO  - elm count = 1
+2017-11-24 10:43:33,674 [27] INFO  - elm count = 1
+2017-11-24 10:43:33,675 [27] INFO  - elm count = 1
+2017-11-24 10:43:33,675 [27] INFO  - elm count = 1
+2017-11-24 10:46:12,381 [11] INFO  - elm count = 1
+2017-11-24 10:46:12,382 [11] INFO  - elm count = 1
+2017-11-24 10:46:12,398 [11] INFO  - elm count = 1
+2017-11-24 10:46:12,399 [11] INFO  - elm count = 1
+2017-11-24 10:46:12,401 [11] INFO  - elm count = 1
+2017-11-24 10:46:12,401 [11] INFO  - elm count = 1
+2017-11-24 10:46:12,402 [11] INFO  - elm count = 1
+2017-11-24 10:46:12,403 [11] INFO  - elm count = 1
+2017-11-24 10:46:12,403 [11] INFO  - elm count = 1
+2017-11-24 10:46:12,404 [11] INFO  - elm count = 1
+2017-11-24 10:46:12,405 [11] INFO  - elm count = 1
+2017-11-24 10:46:40,385 [8] INFO  - elm count = 1
+2017-11-24 10:46:40,386 [8] INFO  - elm count = 1
+2017-11-24 10:46:40,393 [8] INFO  - elm count = 1
+2017-11-24 10:46:40,394 [8] INFO  - elm count = 1
+2017-11-24 10:46:40,395 [8] INFO  - elm count = 1
+2017-11-24 10:46:40,396 [8] INFO  - elm count = 1
+2017-11-24 10:46:40,396 [8] INFO  - elm count = 1
+2017-11-24 10:46:40,397 [8] INFO  - elm count = 1
+2017-11-24 10:46:40,398 [8] INFO  - elm count = 1
+2017-11-24 10:46:40,398 [8] INFO  - elm count = 1
+2017-11-24 10:46:40,399 [8] INFO  - elm count = 1
+2017-11-24 10:47:07,880 [25] INFO  - elm count = 1
+2017-11-24 10:47:07,881 [25] INFO  - elm count = 1
+2017-11-24 10:47:07,887 [25] INFO  - elm count = 1
+2017-11-24 10:47:07,889 [25] INFO  - elm count = 1
+2017-11-24 10:47:07,889 [25] INFO  - elm count = 1
+2017-11-24 10:47:07,890 [25] INFO  - elm count = 1
+2017-11-24 10:47:07,891 [25] INFO  - elm count = 1
+2017-11-24 10:47:07,892 [25] INFO  - elm count = 1
+2017-11-24 10:47:07,893 [25] INFO  - elm count = 1
+2017-11-24 10:47:07,893 [25] INFO  - elm count = 1
+2017-11-24 10:47:07,894 [25] INFO  - elm count = 1
+2017-11-24 10:47:13,893 [8] INFO  - update [表单名称5454] set _95='1,2',_129='',_253='',_173='aa',_171='aa',_149='aaa',_144='aaaa',[Updatetime]='2017-11-24 02:13' where id=1
+2017-11-24 10:47:13,955 [25] INFO  - elm count = 1
+2017-11-24 10:47:16,217 [12] INFO  - elm count = 1
+2017-11-24 10:47:16,218 [12] INFO  - elm count = 1
+2017-11-24 10:47:16,225 [12] INFO  - elm count = 1
+2017-11-24 10:47:16,225 [12] INFO  - elm count = 1
+2017-11-24 10:47:16,226 [12] INFO  - elm count = 1
+2017-11-24 10:47:16,226 [12] INFO  - elm count = 1
+2017-11-24 10:47:16,227 [12] INFO  - elm count = 1
+2017-11-24 10:47:16,227 [12] INFO  - elm count = 1
+2017-11-24 10:47:16,228 [12] INFO  - elm count = 1
+2017-11-24 10:47:16,229 [12] INFO  - elm count = 1
+2017-11-24 10:47:16,229 [12] INFO  - elm count = 1
+2017-11-24 10:47:45,675 [8] INFO  - elm count = 1
+2017-11-24 10:47:45,676 [8] INFO  - elm count = 1
+2017-11-24 10:47:45,685 [8] INFO  - elm count = 1
+2017-11-24 10:47:45,685 [8] INFO  - elm count = 1
+2017-11-24 10:47:45,686 [8] INFO  - elm count = 1
+2017-11-24 10:47:45,686 [8] INFO  - elm count = 1
+2017-11-24 10:47:45,687 [8] INFO  - elm count = 1
+2017-11-24 10:47:45,688 [8] INFO  - elm count = 1
+2017-11-24 10:47:45,688 [8] INFO  - elm count = 1
+2017-11-24 10:47:45,689 [8] INFO  - elm count = 1
+2017-11-24 10:47:45,689 [8] INFO  - elm count = 1
+2017-11-24 10:48:10,983 [8] INFO  - update [表单名称5454] set _95='1,2',_129='',_253='',_173='aa',_171='aa',_149='aaa',_144='aaaa',[Updatetime]='2017-11-24 02:10' where id=1
+2017-11-24 10:48:11,043 [12] INFO  - elm count = 1
+2017-11-24 10:49:14,836 [25] INFO  - elm count = 1
+2017-11-24 10:49:23,071 [25] INFO  - elm count = 1
+2017-11-24 10:49:23,456 [25] INFO  - elm count = 1
+2017-11-24 10:49:41,816 [25] INFO  - elm count = 1
+2017-11-24 10:49:41,817 [25] INFO  - elm count = 1
+2017-11-24 10:49:41,817 [25] INFO  - elm count = 1
+2017-11-24 10:49:41,818 [25] INFO  - elm count = 1
+2017-11-24 10:49:41,819 [25] INFO  - elm count = 1
+2017-11-24 10:49:41,820 [25] INFO  - elm count = 1
+2017-11-24 10:49:41,820 [25] INFO  - elm count = 1
+2017-11-24 10:49:41,821 [25] INFO  - elm count = 1
+2017-11-24 10:49:41,822 [25] INFO  - elm count = 1
+2017-11-24 10:49:49,419 [12] ERROR - <log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>从客户端(value="...{"Value":"<option value=\"_61\...")中检测到有潜在危险的 Request.Form 值。GS.App.Form.Controllers.DyncFormController   在 System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   在 System.Web.HttpRequest.<>c__DisplayClass280_0.<ValidateHttpValueCollection>b__0(String key, String value)
+   在 System.Web.HttpValueCollection.EnsureKeyValidated(String key)
+   在 System.Web.HttpValueCollection.Get(String name)
+   在 System.Collections.Specialized.NameValueCollection.get_Item(String name)
+   在 GS.App.Form.Controllers.DyncFormController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\DyncFormController.cs:行号 111
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)</format><args>{}</args></log4net.Error>
+2017-11-24 10:49:49,487 [12] ERROR - 2017-11-24 : 从客户端(value="...{"Value":"<option value=\"_61\...")中检测到有潜在危险的 Request.Form 值。--   在 System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   在 System.Web.HttpRequest.<>c__DisplayClass280_0.<ValidateHttpValueCollection>b__0(String key, String value)
+   在 System.Web.HttpValueCollection.EnsureKeyValidated(String key)
+   在 System.Web.HttpValueCollection.Get(String name)
+   在 System.Collections.Specialized.NameValueCollection.get_Item(String name)
+   在 GS.App.Form.Controllers.DyncFormController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\DyncFormController.cs:行号 111
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-11-24 10:50:11,154 [8] INFO  - elm count = 1
+2017-11-24 10:50:11,155 [8] INFO  - elm count = 1
+2017-11-24 10:50:11,163 [8] INFO  - elm count = 1
+2017-11-24 10:50:11,164 [8] INFO  - elm count = 1
+2017-11-24 10:50:11,164 [8] INFO  - elm count = 1
+2017-11-24 10:50:11,165 [8] INFO  - elm count = 1
+2017-11-24 10:50:11,165 [8] INFO  - elm count = 1
+2017-11-24 10:50:11,166 [8] INFO  - elm count = 1
+2017-11-24 10:50:11,166 [8] INFO  - elm count = 1
+2017-11-24 10:50:11,167 [8] INFO  - elm count = 1
+2017-11-24 10:50:11,167 [8] INFO  - elm count = 1
+2017-11-24 10:50:18,570 [12] ERROR - 未将对象引用设置到对象的实例。GS.App.Form.Controllers.DyncFormController   在 GS.App.Form.Controllers.DyncFormController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\DyncFormController.cs:行号 116
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-24 10:50:18,572 [12] ERROR - 2017-11-24 : 未将对象引用设置到对象的实例。--   在 GS.App.Form.Controllers.DyncFormController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\DyncFormController.cs:行号 116
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-11-24 10:50:29,496 [8] INFO  - elm count = 1
+2017-11-24 10:50:29,496 [8] INFO  - elm count = 1
+2017-11-24 10:50:29,502 [8] INFO  - elm count = 1
+2017-11-24 10:50:29,502 [8] INFO  - elm count = 1
+2017-11-24 10:50:29,503 [8] INFO  - elm count = 1
+2017-11-24 10:50:29,503 [8] INFO  - elm count = 1
+2017-11-24 10:50:29,504 [8] INFO  - elm count = 1
+2017-11-24 10:50:29,505 [8] INFO  - elm count = 1
+2017-11-24 10:50:29,506 [8] INFO  - elm count = 1
+2017-11-24 10:50:29,506 [8] INFO  - elm count = 1
+2017-11-24 10:50:29,507 [8] INFO  - elm count = 1
+2017-11-24 10:52:05,268 [8] INFO  - elm count = 1
+2017-11-24 10:52:05,269 [8] INFO  - elm count = 1
+2017-11-24 10:52:05,280 [8] INFO  - elm count = 1
+2017-11-24 10:52:05,281 [8] INFO  - elm count = 1
+2017-11-24 10:52:05,283 [8] INFO  - elm count = 1
+2017-11-24 10:52:05,283 [8] INFO  - elm count = 1
+2017-11-24 10:52:05,284 [8] INFO  - elm count = 1
+2017-11-24 10:52:05,285 [8] INFO  - elm count = 1
+2017-11-24 10:52:05,285 [8] INFO  - elm count = 1
+2017-11-24 10:52:05,286 [8] INFO  - elm count = 1
+2017-11-24 10:52:05,287 [8] INFO  - elm count = 1
+2017-11-24 10:53:21,937 [14] INFO  - elm count = 1
+2017-11-24 10:53:21,938 [14] INFO  - elm count = 1
+2017-11-24 10:53:21,948 [14] INFO  - elm count = 1
+2017-11-24 10:53:21,950 [14] INFO  - elm count = 1
+2017-11-24 10:53:21,952 [14] INFO  - elm count = 1
+2017-11-24 10:53:21,953 [14] INFO  - elm count = 1
+2017-11-24 10:53:21,954 [14] INFO  - elm count = 1
+2017-11-24 10:53:21,955 [14] INFO  - elm count = 1
+2017-11-24 10:53:21,955 [14] INFO  - elm count = 1
+2017-11-24 10:53:21,957 [14] INFO  - elm count = 1
+2017-11-24 10:53:21,957 [14] INFO  - elm count = 1
+2017-11-24 13:44:36,284 [106] INFO  - elm count = 1
+2017-11-24 13:44:55,348 [106] INFO  - elm count = 1
+2017-11-24 13:44:55,350 [106] INFO  - elm count = 1
+2017-11-24 13:45:00,526 [106] INFO  - elm count = 1
+2017-11-24 13:45:00,527 [106] INFO  - elm count = 1
+2017-11-24 13:45:00,527 [106] INFO  - elm count = 1
+2017-11-24 13:45:00,528 [106] INFO  - elm count = 1
+2017-11-24 13:45:00,528 [106] INFO  - elm count = 1
+2017-11-24 13:45:00,529 [106] INFO  - elm count = 1
+2017-11-24 13:45:00,530 [106] INFO  - elm count = 1
+2017-11-24 13:45:00,531 [106] INFO  - elm count = 1
+2017-11-24 13:45:00,532 [106] INFO  - elm count = 1
+2017-11-24 13:45:41,716 [115] INFO  - elm count = 1
+2017-11-24 13:45:41,717 [115] INFO  - elm count = 1
+2017-11-24 13:45:41,750 [115] INFO  - elm count = 1
+2017-11-24 13:45:41,751 [115] INFO  - elm count = 1
+2017-11-24 13:45:41,752 [115] INFO  - elm count = 1
+2017-11-24 13:45:41,754 [115] INFO  - elm count = 1
+2017-11-24 13:45:41,754 [115] INFO  - elm count = 1
+2017-11-24 13:45:41,755 [115] INFO  - elm count = 1
+2017-11-24 13:45:41,756 [115] INFO  - elm count = 1
+2017-11-24 13:45:41,757 [115] INFO  - elm count = 1
+2017-11-24 13:45:41,757 [115] INFO  - elm count = 1
+2017-11-24 13:48:48,353 [16] INFO  - elm count = 1
+2017-11-24 13:48:48,354 [16] INFO  - elm count = 1
+2017-11-24 13:48:48,384 [16] INFO  - elm count = 1
+2017-11-24 13:48:48,385 [16] INFO  - elm count = 1
+2017-11-24 13:48:48,386 [16] INFO  - elm count = 1
+2017-11-24 13:48:48,387 [16] INFO  - elm count = 1
+2017-11-24 13:48:48,387 [16] INFO  - elm count = 1
+2017-11-24 13:48:48,388 [16] INFO  - elm count = 1
+2017-11-24 13:48:48,388 [16] INFO  - elm count = 1
+2017-11-24 13:48:48,389 [16] INFO  - elm count = 1
+2017-11-24 13:48:48,389 [16] INFO  - elm count = 1
+2017-11-24 13:51:03,647 [21] INFO  - elm count = 1
+2017-11-24 13:52:41,434 [115] INFO  - use DyncData create table 表单名称5454 ( Id int identity(1,1) primary key,  [Updatetime] [datetime] NULL ,_38 [nvarchar](150) NULL,_200 [nvarchar](150) NULL,_56 text NULL,_36 [datetime] NULL,_174 [nvarchar](150) NULL,_199 [nvarchar](150) NULL,_236 [nvarchar](500) NULL,_252 [nvarchar](150) NULL)
+2017-11-24 14:28:34,712 [111] INFO  - insert into [表单名称5454](_38,_200,_56,_36,_174,_174,_199,_236,_252,[Updatetime]) values ('1,2','889898','sfdd','2016-05-28','s','dd','3','ddddd','河北,石家庄,长安区  ','2017-11-24 06:34')
+2017-11-24 14:28:34,952 [111] ERROR - 在 INSERT 的 SET 子句或列列表中多次指定了列名“_174”。在同一子句中不得为一个列分配多个值。请修改该子句，以确保一个列仅更新一次。如果此语句在视图中更新或插入列，列别名可能掩盖您的代码中的重复情况。GS.App.Form.Controllers.DyncFormController   在 GS.SQL.DataSource.DBHelper.ExecuteNonQueryTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 104
+   在 GS.SQL.DataSource.SQLDynamic.AddDyncForm(SQLDynamicRow sQLDynamicRow, String tblName) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDynamic.cs:行号 231
+   在 GS.Services.DynamicDataservices.AddDyncTableData(SQLDynamicRow sQLDynamicRow, String tableName) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 173
+   在 GS.App.Form.Controllers.DyncFormController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\DyncFormController.cs:行号 143
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-24 14:28:34,970 [111] ERROR - 2017-11-24 : 在 INSERT 的 SET 子句或列列表中多次指定了列名“_174”。在同一子句中不得为一个列分配多个值。请修改该子句，以确保一个列仅更新一次。如果此语句在视图中更新或插入列，列别名可能掩盖您的代码中的重复情况。--   在 GS.SQL.DataSource.DBHelper.ExecuteNonQueryTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 104
+   在 GS.SQL.DataSource.SQLDynamic.AddDyncForm(SQLDynamicRow sQLDynamicRow, String tblName) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDynamic.cs:行号 231
+   在 GS.Services.DynamicDataservices.AddDyncTableData(SQLDynamicRow sQLDynamicRow, String tableName) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 173
+   在 GS.App.Form.Controllers.DyncFormController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\DyncFormController.cs:行号 143
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-11-24 14:32:51,390 [8] INFO  - insert into [表单名称5454](_38,_200,_56,_36,_174,_199,_236,_252,[Updatetime]) values ('1,2','889898','ddddd','2017-11-25','aaaa','2','aaaa','天津,和平区','2017-11-24 06:51')
+2017-11-24 14:34:07,565 [16] INFO  - insert into [表单名称5454](_38,_200,_56,_36,_174,_199,_236,_252,[Updatetime]) values ('1,2,3','yyyy','dsaas','','d','1','','内蒙古,呼和浩特,新城区  ','2017-11-24 06:07')
+2017-11-24 14:51:21,370 [96] INFO  - insert into [表单名称5454](_38,_200,_56,_36,_174,_199,_236,_252,[Updatetime]) values ('1,2,3','889898','fsdds','2017-11-03','r.d','2','','天津,和平区','2017-11-24 06:21')
+2017-11-24 15:10:04,415 [101] INFO  - 1,2,3
+2017-11-24 15:10:26,442 [101] INFO  - 889898
+2017-11-24 15:10:26,444 [101] INFO  - fsdds
+2017-11-24 15:10:26,445 [101] INFO  - 03/11/2017 00:00:00
+2017-11-24 15:10:26,446 [101] INFO  - 2
+2017-11-24 15:10:26,446 [101] INFO  - 
+2017-11-24 15:10:26,447 [101] INFO  - 天津,和平区
+2017-11-24 15:13:58,519 [11] INFO  - 1,2,3
+2017-11-24 15:14:16,707 [11] INFO  - 889898
+2017-11-24 15:14:16,709 [11] INFO  - fsdds
+2017-11-24 15:14:16,710 [11] INFO  - 03/11/2017 00:00:00
+2017-11-24 15:14:16,711 [11] INFO  - 2
+2017-11-24 15:14:16,712 [11] INFO  - 
+2017-11-24 15:14:16,712 [11] INFO  - 天津,和平区
+2017-11-24 15:15:30,566 [101] INFO  - 
+2017-11-24 15:15:46,991 [101] INFO  - 
+2017-11-24 15:15:46,993 [101] INFO  - 
+2017-11-24 15:15:46,994 [101] INFO  - 2017-11-24
+2017-11-24 15:15:46,995 [101] INFO  - 
+2017-11-24 15:15:46,995 [101] INFO  - 
+2017-11-24 15:15:46,996 [101] INFO  - 
+2017-11-24 15:17:55,348 [91] INFO  - 
+2017-11-24 15:17:58,862 [91] INFO  - 
+2017-11-24 15:17:58,863 [91] INFO  - 
+2017-11-24 15:17:58,864 [91] INFO  - 2017-11-24
+2017-11-24 15:17:58,865 [91] INFO  - 
+2017-11-24 15:17:58,865 [91] INFO  - 
+2017-11-24 15:17:58,866 [91] INFO  - 
+2017-11-24 15:18:17,149 [101] INFO  - 1,2,3
+2017-11-24 15:18:17,157 [101] INFO  - 889898
+2017-11-24 15:18:17,157 [101] INFO  - fsdds
+2017-11-24 15:18:17,158 [101] INFO  - 03/11/2017 00:00:00
+2017-11-24 15:18:17,158 [101] INFO  - 2
+2017-11-24 15:18:17,159 [101] INFO  - 
+2017-11-24 15:18:17,160 [101] INFO  - 天津,和平区
+2017-11-24 15:32:57,208 [96] INFO  - 1
+2017-11-24 15:32:57,219 [96] INFO  - 24/11/2017 06:51:00
+2017-11-24 15:32:57,220 [96] INFO  - 1,2
+2017-11-24 15:32:57,220 [96] INFO  - 889898
+2017-11-24 15:32:57,220 [96] INFO  - ddddd
+2017-11-24 15:32:57,220 [96] INFO  - 25/11/2017 00:00:00
+2017-11-24 15:32:57,221 [96] INFO  - aaaa
+2017-11-24 15:32:57,221 [96] INFO  - 2
+2017-11-24 15:32:57,221 [96] INFO  - aaaa
+2017-11-24 15:32:57,222 [96] INFO  - 天津,和平区
+2017-11-24 15:32:57,235 [96] INFO  - 1
+2017-11-24 15:32:57,235 [96] INFO  - 24/11/2017 06:51:00
+2017-11-24 15:32:57,236 [96] INFO  - 1,2
+2017-11-24 15:32:57,236 [96] INFO  - 889898
+2017-11-24 15:32:57,236 [96] INFO  - ddddd
+2017-11-24 15:32:57,236 [96] INFO  - 25/11/2017 00:00:00
+2017-11-24 15:32:57,237 [96] INFO  - aaaa
+2017-11-24 15:32:57,237 [96] INFO  - 2
+2017-11-24 15:32:57,237 [96] INFO  - aaaa
+2017-11-24 15:32:57,237 [96] INFO  - 天津,和平区
+2017-11-24 15:32:57,295 [96] INFO  - 3
+2017-11-24 15:32:57,295 [96] INFO  - 24/11/2017 06:21:00
+2017-11-24 15:32:57,296 [96] INFO  - 1,2,3
+2017-11-24 15:32:57,296 [96] INFO  - 889898
+2017-11-24 15:32:57,297 [96] INFO  - fsdds
+2017-11-24 15:32:57,298 [96] INFO  - 03/11/2017 00:00:00
+2017-11-24 15:32:57,298 [96] INFO  - r.d
+2017-11-24 15:32:57,299 [96] INFO  - 2
+2017-11-24 15:32:57,299 [96] INFO  - 
+2017-11-24 15:32:57,300 [96] INFO  - 天津,和平区
+2017-11-24 15:32:57,312 [96] INFO  - 2
+2017-11-24 15:32:57,312 [96] INFO  - 24/11/2017 06:07:00
+2017-11-24 15:32:57,313 [96] INFO  - 1,2,3
+2017-11-24 15:32:57,313 [96] INFO  - yyyy
+2017-11-24 15:32:57,314 [96] INFO  - dsaas
+2017-11-24 15:32:57,314 [96] INFO  - 01/01/1900 00:00:00
+2017-11-24 15:32:57,315 [96] INFO  - d
+2017-11-24 15:32:57,315 [96] INFO  - 1
+2017-11-24 15:32:57,315 [96] INFO  - 
+2017-11-24 15:32:57,316 [96] INFO  - 内蒙古,呼和浩特,新城区  
+2017-11-24 16:02:50,481 [79] INFO  - 1,2,3
+2017-11-24 16:03:34,679 [79] INFO  - 889898
+2017-11-24 16:03:34,681 [79] INFO  - fsdds
+2017-11-24 16:03:34,682 [79] INFO  - 03/11/2017 00:00:00
+2017-11-24 16:03:34,682 [79] INFO  - 2
+2017-11-24 16:03:34,683 [79] INFO  - 
+2017-11-24 16:03:34,684 [79] INFO  - 天津,和平区
+2017-11-24 16:05:11,378 [95] INFO  - 1,2,3
+2017-11-24 16:05:11,414 [95] INFO  - 889898
+2017-11-24 16:05:11,414 [95] INFO  - fsdds
+2017-11-24 16:05:11,415 [95] INFO  - 03/11/2017 00:00:00
+2017-11-24 16:05:11,417 [95] INFO  - 2
+2017-11-24 16:05:11,418 [95] INFO  - 
+2017-11-24 16:05:11,418 [95] INFO  - 天津,和平区
+2017-11-24 16:28:31,066 [12] INFO  - update [表单名称5454] set _38='1,2,3',_200='yyyy',_56='',_36='2017-11-03',_174='r.d',_199='2',_236='',_252='河北,唐山,路北区  ,dnjnjd',[Updatetime]='2017-11-24 08:31' where id=3
+2017-11-24 16:30:46,262 [96] INFO  - update [表单名称5454] set _38='1,2,3',_200='yyyy',_56='',_36='2017-11-03',_174='r.d',_199='2',_236='',_252='内蒙古,呼和浩特,新城区  ,河北,唐山,路北区  ,dnjnjd',[Updatetime]='2017-11-24 08:46' where id=3
+2017-11-24 16:31:09,919 [76] INFO  - update [表单名称5454] set _38='1,2,3',_200='yyyy',_56='',_36='2017-11-03',_174='r.d',_199='2',_236='',_252='河北,邯郸,邯山区  ,内蒙古,呼和浩特,新城区  ,河北,唐山,路北区  ,dnjnjd',[Updatetime]='2017-11-24 08:09' where id=3

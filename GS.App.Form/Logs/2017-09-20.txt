@@ -1,0 +1,6 @@
+2017-09-20 13:37:11,358 [5] ERROR - 2017-09-20 : The requested database Connection is not defined in configuration.
+2017-09-20 13:37:24,818 [13] ERROR - 2017-09-20 : The requested database Connection is not defined in configuration.
+2017-09-20 13:37:45,273 [12] ERROR - 2017-09-20 : The requested database Connection is not defined in configuration.
+2017-09-20 13:38:10,050 [5] ERROR - 2017-09-20 : The requested database Connection is not defined in configuration.
+2017-09-20 14:00:26,010 [25] ERROR - 2017-09-20 : The requested database Connection is not defined in configuration.
+2017-09-20 14:36:52,278 [11] ERROR - 2017-09-20 : The requested database Connection is not defined in configuration.

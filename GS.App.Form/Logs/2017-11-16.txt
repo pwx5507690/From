@@ -1,0 +1,454 @@
+2017-11-16 12:04:11,403 [12] INFO  - elm count = 1
+2017-11-16 12:04:13,414 [10] INFO  - elm count = 1
+2017-11-16 12:04:13,495 [10] INFO  - elm count = 1
+2017-11-16 12:04:16,666 [10] ERROR - request api error api=http://localhost:91//api/dyncData/exp/Dropdown|StatusCode=InternalServerError, message=System.Net.Http.StreamContent
+2017-11-16 12:04:16,735 [10] ERROR - send api http://localhost:91//api/dyncData/exp/Dropdown errorGS.App.Form.Controllers.DyncFormController   在 GS.Common.Http.HttpRequest.Send(HttpParam param, IHttpException iHttpException, HttpClient httpClient, CancellationToken cancellationToken) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 46
+   在 GS.Common.Http.ApiProxy.Send(HttpMethod method, String url, HttpContent content) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\ApiProxy.cs:行号 69
+   在 GS.App.Form.Models.Bulider.FormItemView.SetSourceValue(DyncField dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 133
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 26
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 60
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-16 12:04:16,754 [10] ERROR - 2017-11-16 : send api http://localhost:91//api/dyncData/exp/Dropdown error--   在 GS.Common.Http.HttpRequest.Send(HttpParam param, IHttpException iHttpException, HttpClient httpClient, CancellationToken cancellationToken) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 46
+   在 GS.Common.Http.ApiProxy.Send(HttpMethod method, String url, HttpContent content) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\ApiProxy.cs:行号 69
+   在 GS.App.Form.Models.Bulider.FormItemView.SetSourceValue(DyncField dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 133
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 26
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 60
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-11-16 12:04:39,212 [16] INFO  - elm count = 1
+2017-11-16 12:04:39,212 [16] INFO  - elm count = 1
+2017-11-16 12:04:39,216 [16] ERROR - request api error api=http://localhost:91//api/dyncData/exp/Dropdown|StatusCode=InternalServerError, message=System.Net.Http.StreamContent
+2017-11-16 12:04:39,217 [16] ERROR - send api http://localhost:91//api/dyncData/exp/Dropdown errorGS.App.Form.Controllers.DyncFormController   在 GS.Common.Http.HttpRequest.Send(HttpParam param, IHttpException iHttpException, HttpClient httpClient, CancellationToken cancellationToken) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 46
+   在 GS.Common.Http.ApiProxy.Send(HttpMethod method, String url, HttpContent content) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\ApiProxy.cs:行号 69
+   在 GS.App.Form.Models.Bulider.FormItemView.SetSourceValue(DyncField dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 133
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 26
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 60
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-16 12:04:39,219 [16] ERROR - 2017-11-16 : send api http://localhost:91//api/dyncData/exp/Dropdown error--   在 GS.Common.Http.HttpRequest.Send(HttpParam param, IHttpException iHttpException, HttpClient httpClient, CancellationToken cancellationToken) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 46
+   在 GS.Common.Http.ApiProxy.Send(HttpMethod method, String url, HttpContent content) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\ApiProxy.cs:行号 69
+   在 GS.App.Form.Models.Bulider.FormItemView.SetSourceValue(DyncField dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 133
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 26
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 60
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-11-16 12:23:44,893 [23] INFO  - elm count = 1
+2017-11-16 12:23:46,423 [22] INFO  - elm count = 1
+2017-11-16 12:23:46,438 [22] INFO  - elm count = 1
+2017-11-16 12:23:46,802 [22] INFO  - elm count = 1
+2017-11-16 12:23:46,802 [22] INFO  - elm count = 1
+2017-11-16 12:25:01,987 [27] INFO  - elm count = 1
+2017-11-16 12:25:05,995 [28] INFO  - elm count = 1
+2017-11-16 12:25:08,464 [27] INFO  - elm count = 1
+2017-11-16 12:25:09,957 [22] INFO  - elm count = 1
+2017-11-16 12:25:09,958 [22] INFO  - elm count = 1
+2017-11-16 12:25:09,958 [22] INFO  - elm count = 1
+2017-11-16 12:25:09,959 [22] INFO  - elm count = 1
+2017-11-16 12:25:11,819 [28] INFO  - elm count = 1
+2017-11-16 12:25:16,792 [28] INFO  - elm count = 1
+2017-11-16 12:25:18,448 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,448 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,449 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,449 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,450 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,450 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,451 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,451 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,452 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,452 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,454 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,454 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,455 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,455 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,455 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,455 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,457 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,457 [26] INFO  - elm count = 1
+2017-11-16 12:25:18,457 [26] INFO  - elm count = 1
+2017-11-16 12:25:20,925 [22] INFO  - elm count = 1
+2017-11-16 12:25:27,840 [28] INFO  - elm count = 1
+2017-11-16 12:25:29,325 [26] INFO  - elm count = 1
+2017-11-16 12:25:29,326 [26] INFO  - elm count = 1
+2017-11-16 12:25:29,326 [26] INFO  - elm count = 1
+2017-11-16 12:25:29,327 [26] INFO  - elm count = 1
+2017-11-16 12:25:29,327 [26] INFO  - elm count = 1
+2017-11-16 12:25:29,328 [26] INFO  - elm count = 1
+2017-11-16 12:25:29,328 [26] INFO  - elm count = 1
+2017-11-16 12:25:35,897 [27] INFO  - elm count = 1
+2017-11-16 12:25:43,497 [26] ERROR - 对象名 '表单名称123345677' 无效。GS.App.Form.Controllers.DyncFormController   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.DoLoadDataSet(IDbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String tableName)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteDataSet(DbCommand command)
+   在 GS.SQL.DataSource.DBHelper.ExecuteDataSetTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 72
+   在 GS.SQL.DataSource.SQLDynamic.GetDyncGrid(Int32 page, Int32 current, String tblName, String where, String order) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDynamic.cs:行号 298
+   在 GS.Services.DynamicDataservices.GetDyncFormTableByCode(Int32 pageSize, Int32 currentPage, String code) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 151
+   在 GS.App.Form.Controllers.DyncFormController.FormTable(String code, Int32 currentPage) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\DyncFormController.cs:行号 170
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-16 12:25:43,514 [26] ERROR - 2017-11-16 : 对象名 '表单名称123345677' 无效。--   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.DoLoadDataSet(IDbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String tableName)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteDataSet(DbCommand command)
+   在 GS.SQL.DataSource.DBHelper.ExecuteDataSetTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 72
+   在 GS.SQL.DataSource.SQLDynamic.GetDyncGrid(Int32 page, Int32 current, String tblName, String where, String order) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDynamic.cs:行号 298
+   在 GS.Services.DynamicDataservices.GetDyncFormTableByCode(Int32 pageSize, Int32 currentPage, String code) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 151
+   在 GS.App.Form.Controllers.DyncFormController.FormTable(String code, Int32 currentPage) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\DyncFormController.cs:行号 170
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-11-16 12:25:47,468 [28] ERROR - 对象名 '表单名称69969' 无效。GS.App.Form.Controllers.DyncFormController   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.DoLoadDataSet(IDbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String tableName)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteDataSet(DbCommand command)
+   在 GS.SQL.DataSource.DBHelper.ExecuteDataSetTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 72
+   在 GS.SQL.DataSource.SQLDynamic.GetDyncGrid(Int32 page, Int32 current, String tblName, String where, String order) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDynamic.cs:行号 298
+   在 GS.Services.DynamicDataservices.GetDyncFormTableByCode(Int32 pageSize, Int32 currentPage, String code) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 151
+   在 GS.App.Form.Controllers.DyncFormController.FormTable(String code, Int32 currentPage) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\DyncFormController.cs:行号 170
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-16 12:25:47,469 [28] ERROR - 2017-11-16 : 对象名 '表单名称69969' 无效。--   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.DoLoadDataSet(IDbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String tableName)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteDataSet(DbCommand command)
+   在 GS.SQL.DataSource.DBHelper.ExecuteDataSetTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 72
+   在 GS.SQL.DataSource.SQLDynamic.GetDyncGrid(Int32 page, Int32 current, String tblName, String where, String order) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDynamic.cs:行号 298
+   在 GS.Services.DynamicDataservices.GetDyncFormTableByCode(Int32 pageSize, Int32 currentPage, String code) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 151
+   在 GS.App.Form.Controllers.DyncFormController.FormTable(String code, Int32 currentPage) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\DyncFormController.cs:行号 170
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-11-16 12:26:01,223 [28] INFO  - elm count = 1
+2017-11-16 12:26:02,349 [22] INFO  - elm count = 1
+2017-11-16 12:26:02,350 [22] INFO  - elm count = 1
+2017-11-16 12:26:02,351 [22] INFO  - elm count = 1
+2017-11-16 12:26:02,351 [22] INFO  - elm count = 1
+2017-11-16 12:26:02,352 [22] INFO  - elm count = 1
+2017-11-16 12:26:02,352 [22] INFO  - elm count = 1
+2017-11-16 12:26:02,352 [22] INFO  - elm count = 1
+2017-11-16 12:45:37,312 [7] INFO  - elm count = 1
+2017-11-16 12:52:35,651 [12] INFO  - elm count = 1
+2017-11-16 12:55:39,379 [12] INFO  - elm count = 1
+2017-11-16 13:12:15,571 [6] INFO  - elm count = 1
+2017-11-16 13:12:17,208 [7] INFO  - elm count = 1
+2017-11-16 13:12:17,208 [7] INFO  - elm count = 1
+2017-11-16 13:12:17,209 [7] INFO  - elm count = 1
+2017-11-16 13:12:17,209 [7] INFO  - elm count = 1
+2017-11-16 13:12:17,210 [7] INFO  - elm count = 1
+2017-11-16 13:12:17,275 [7] INFO  - elm count = 1
+2017-11-16 13:12:17,277 [7] INFO  - elm count = 1
+2017-11-16 15:10:45,733 [97] INFO  - elm count = 1
+2017-11-16 15:10:54,276 [99] INFO  - elm count = 1
+2017-11-16 15:10:54,276 [99] INFO  - elm count = 1
+2017-11-16 15:11:00,636 [99] ERROR - request api error api=http://localhost:91//api/dyncData/exp/Dropdown|StatusCode=InternalServerError, message=System.Net.Http.StreamContent
+2017-11-16 15:11:01,158 [99] ERROR - send api http://localhost:91//api/dyncData/exp/Dropdown errorGS.App.Form.Controllers.DyncFormController   在 GS.Common.Http.HttpRequest.Send(HttpParam param, IHttpException iHttpException, HttpClient httpClient, CancellationToken cancellationToken) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 46
+   在 GS.Common.Http.ApiProxy.Send(HttpMethod method, String url, HttpContent content) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\ApiProxy.cs:行号 69
+   在 GS.App.Form.Models.Bulider.FormItemView.SetSourceValue(DyncField dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 133
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 26
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 60
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-16 15:11:01,255 [99] ERROR - 2017-11-16 : send api http://localhost:91//api/dyncData/exp/Dropdown error--   在 GS.Common.Http.HttpRequest.Send(HttpParam param, IHttpException iHttpException, HttpClient httpClient, CancellationToken cancellationToken) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 46
+   在 GS.Common.Http.ApiProxy.Send(HttpMethod method, String url, HttpContent content) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\ApiProxy.cs:行号 69
+   在 GS.App.Form.Models.Bulider.FormItemView.SetSourceValue(DyncField dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 133
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 26
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 60
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

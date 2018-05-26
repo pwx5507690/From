@@ -1,0 +1,28 @@
+2017-11-17 10:07:23,688 [7] ERROR - 2017-11-17 : A public action method 'Index' was not found on controller 'GS.App.Identity.Controllers.LoginController'.--   在 System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-11-17 12:43:55,710 [104] ERROR - 2017-11-17 : 未能加载文件或程序集“Autofac, Version=4.0.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)--
+2017-11-17 12:46:35,693 [104] ERROR - 2017-11-17 : 未将对象引用设置到对象的实例。--   在 GS.Common.Injection.Core.WebModuleRegistration.Load(ContainerBuilder builder) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Injection.Core\WebModuleRegistration.cs:行号 20
+   在 Autofac.Module.Configure(IComponentRegistry componentRegistry)
+   在 Autofac.ContainerBuilder.Build(IComponentRegistry componentRegistry, Boolean excludeDefaultModules)
+   在 Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistry componentRegistry)
+   在 Autofac.ContainerBuilder.Update(IContainer container, ContainerBuildOptions options)
+   在 Autofac.ContainerBuilder.Update(IContainer container)
+   在 GS.Common.Injection.Core.AutofacConfig.Configure(IContainer container, String assemblyPrefix) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Injection.Core\AutofacConfig.cs:行号 18
+   在 GS.Common.Injection.Core.Bootstrap.ConfigureApplication(IContainer container) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Injection.Core\Bootstrap.cs:行号 34
+   在 GS.Common.Web.Application.Application_Start() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Web\Application.cs:行号 28
+   在 GS.App.Identity.MvcApplication.Application_Start() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Identity\Global.asax.cs:行号 16

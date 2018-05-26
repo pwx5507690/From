@@ -1,0 +1,31 @@
+2017-11-13 08:52:06,987 [23] INFO  - elm count = 1
+2017-11-13 08:52:08,679 [14] INFO  - elm count = 1
+2017-11-13 08:52:08,754 [14] INFO  - elm count = 1
+2017-11-13 08:52:08,788 [14] ERROR - Unexpected character encountered while parsing value: d. Path '', line 0, position 0.GS.App.Form.Controllers.DyncFormController   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.JsonTextReader.Read()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 GS.Common.Util.JsonUtil.DeserializeObject[T](String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Util\JsonUtil.cs:行号 27
+   在 GS.App.Form.Models.Bulider.FormItemView.GetDropdownElement(DyncField dyncField, String fromatHtml, String defaultValue) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 112
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 74
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 60
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)

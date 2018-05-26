@@ -1,0 +1,223 @@
+﻿@{
+    var gblAppSettings = (GS.Api.Model.Config.AppSettings)ViewBag.AppSettings;
+}
+@helper  GenerateUploadExtensionList()
+{
+var uploadExtension = (string)ViewBag.UploadExtension;
+var uploadExtensionList = uploadExtension.Split(',');
+var array = new[] { "png", "jpeg", "jpg", "bmp", "icon", "gif", "txt", "docx", "xlsx", "csv", "pdf", "log" };
+foreach (var item in array)
+{
+    var selected = uploadExtensionList.Contains(item) ? "selected" : "";
+        <option value="@item" @selected>@item</option>
+}
+}
+@helper  GenerateCacheList()
+{
+var appSettings = (GS.Api.Model.Config.AppSettings)ViewBag.AppSettings;
+var cacheStorage = appSettings.CacheStorage;
+var array = new[] {"MemoryCache","Redis"};
+foreach (var item in array)
+{
+    var selected = cacheStorage == item ? "selected" : "";
+        <option value="@item" @selected>@item</option>
+}
+}
+@helper  GenerateAuthenticationList()
+{
+var appSettings = (GS.Api.Model.Config.AppSettings)ViewBag.AppSettings;
+var array = new[] { true, false };
+foreach (var item in array)
+{
+    var selected = appSettings.IsAuthentication == item ? "selected" : "";
+    var label = item ? "开启" : "关闭";
+        <option value="@item.ToString()" @selected>@label</option>
+}
+}
+ <title>参数设置</title>
+<meta name="description" content="参数设置">
+<meta name="keywords" content="index">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="icon" type="image/png" href="/Assets/i/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="/Assets/i/app-icon72x72@2x.png">
+<meta name="apple-mobile-web-app-title" content="参数设置" />
+<link rel="stylesheet" href="/Assets/css/amazeui.min.css" />
+<link rel="stylesheet" href="/Assets/css/app.css">
+<link href="~/css/amazeui.chosen.css" rel="stylesheet" />
+<script src="~/js/jquery-1.7.2.min.js"></script>
+<script src="~/js/amazeui.chosen.js"></script>
+<script>
+    var message = "@ViewBag.Message";
+    var error = "@ViewBag.Error";
+</script>
+<script src="~/js/param.js"></script>
+<body class="theme-white" style="background-color:#ffffff;overflow:hidden;">
+    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12" style="height:100%">
+        <div class="widget am-cf">
+            <div class="widget-head am-cf">
+                <div class="widget-title am-fl">地址参数设置</div>
+            </div>
+            <div class="widget-body am-fr">
+                <form action="/Setting/ModifiedParam"  class="am-form tpl-form-line-form" onsubmit="return valid()">
+                 <input type="hidden" value="@Request["type"]" name="Type" />
+                    <div class="am-form-group">
+                        <label class="am-u-sm-3 am-form-label">
+                            Cms 发布域名接口地址
+                            <span class="tpl-form-line-small-title">Cms Interface Address</span>
+                        </label>
+                        <div class="am-u-sm-3">
+                            <input type="text" value="@ViewBag.WebCmsAddress" class="tpl-form-input" name="WebCmsAddress" id="WebCmsAddress"
+                                   required placeholder="请输入Cms 发布地址">
+                            <small>动态存取接受的远程地址..</small>
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                    </div>
+
+                    <div class="am-form-group">
+                        <label class="am-u-sm-3 am-form-label">
+                            Api 域名地址
+                            <span class="tpl-form-line-small-title">Api Address</span>
+                        </label>
+                        <div class="am-u-sm-3">
+                            <input type="text" value="@ViewBag.ApiAddress" class="tpl-form-input" name="ApiAddress" id="ApiAddress"
+                                   required placeholder="请输入Api地址">
+                            <small>api 数据调用接口..</small>
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                    </div>
+
+                    <div class="am-form-group">
+                        <label class="am-u-sm-3 am-form-label">
+                            登录域名地址
+                            <span class="tpl-form-line-small-title">Login</span>
+                        </label>
+                        <div class="am-u-sm-3">
+                            <input type="text" value="@ViewBag.LoginPath" class="tpl-form-input" name="LoginPath" id="LoginPath"
+                                   required placeholder="请输入登录地址">
+                            <small>统一单点登录地址..</small>
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                    </div>
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">其他参数设置</div>
+                    </div>
+                    <div class="am-form-group" style="margin-top:20px">
+                        <label class="am-u-sm-3 am-form-label">
+                            上传文件类型
+                            <span class="tpl-form-line-small-title">Upload Type</span>
+                        </label>
+                        <div class="am-u-sm-3">
+                            <select id="uploadtype" multiple placeholder="请选择类型">
+                                @GenerateUploadExtensionList()
+                            </select>
+                            <input type="hidden" name="UploadExtension" />
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                    </div>
+                    <div class="am-form-group" style="margin-top:20px">
+                        <label class="am-u-sm-3 am-form-label">
+                            缓存类型
+                            <span class="tpl-form-line-small-title">Cache Type</span>
+                        </label>
+                        <div class="am-u-sm-3">
+                            <select id="cacheStorage" placeholder="缓存类型">
+                                @GenerateCacheList()
+                            </select>
+                            <small>redis 务必启动redis 数据库</small>
+                            <input type="hidden" name="CacheStorage" />
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                    </div>
+                    <div id="redisDb" class="am-form-group" style="margin-top:20px;display:none">
+                        <label class="am-u-sm-3 am-form-label">
+                            Redis 配置
+                            <span class="tpl-form-line-small-title">Redis Config</span>
+                        </label>
+                        <div class="am-u-sm-3">
+                            <input type="text" value="@gblAppSettings.RedisReaderPath" class="tpl-form-input" name="RedisReaderPath" id="redisReaderPath"
+                                   placeholder="Redis 读取地址">
+
+                        </div>
+                        <div class="am-u-sm-3">
+                            <input type="text" value="@gblAppSettings.RedisWriterPath" class="tpl-form-input" name="RedisWriterPath" id="redisWriterPath"
+                                   placeholder="Redis 存入地址">
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                    </div>
+                    <div class="widget-head am-cf">
+                        <div class="widget-title am-fl">api 参数设置</div>
+                    </div>
+                    <div class="am-form-group" style="margin-top:20px">
+                        <label class="am-u-sm-3 am-form-label">
+                            允许访问的域
+                            <span class="tpl-form-line-small-title">CorsDomains</span>
+                        </label>
+                        <div class="am-u-sm-3">
+                            <input type="text" value="@gblAppSettings.CorsDomains" class="tpl-form-input" name="CorsDomains" id="corsDomains"
+                                   placeholder="跨域地址">
+                            <small>如果多个用','隔开</small>
+
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                    </div>
+                    <div class="am-form-group" style="margin-top:20px">
+                        <label class="am-u-sm-3 am-form-label">
+                            api 权限认证
+                            <span class="tpl-form-line-small-title">Api Authentication</span>
+                        </label>
+                        <div class="am-u-sm-3">
+                            <select id="isAuthentication">
+                                @GenerateAuthenticationList()
+                            </select>
+                            <input type="hidden" name="IsAuthentication" />
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                        <div class="am-u-sm-3">
+
+                        </div>
+                    </div>
+                    <div class="am-u-sm-9 am-u-sm-push-3">
+                        <button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success">提交</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+

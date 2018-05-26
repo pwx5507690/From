@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B91FF35-4B3E-42A7-949F-EE5CE0BBA708}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GS.App.Form</RootNamespace>
+    <AssemblyName>GS.App.Form</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>2.1</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=4.6.2.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.6.2\lib\net45\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Configuration, Version=4.0.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.Configuration.4.0.1\lib\net45\Autofac.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.Mvc5.4.0.2\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Client, Version=2.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Client.2.2.2\lib\net45\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.2.2.2\lib\net45\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb, Version=2.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.SystemWeb.2.2.2\lib\net45\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.Configuration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.1.0.0\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.1.0.0\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Webdiyer.MvcPager, Version=3.0.2015.802, Culture=neutral, PublicKeyToken=f6872c5a09aed72c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Webdiyer.MvcPager.3.0.1.1\lib\Webdiyer.MvcPager.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Authentication\CustomAuthorizeAttribute.cs" />
+    <Compile Include="Authentication\CustomErrorAttribute.cs" />
+    <Compile Include="Controllers\AuthorityController.cs" />
+    <Compile Include="Controllers\CmsController.cs" />
+    <Compile Include="Controllers\FileUploadController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MessageController.cs" />
+    <Compile Include="Controllers\SettingController.cs" />
+    <Compile Include="Models\Bulider\FormItemView.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\CustomFromController.cs" />
+    <Compile Include="Controllers\DyncFormController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Bulider\FormView.cs" />
+    <Compile Include="Models\Bulider\Temp.cs" />
+    <Compile Include="Models\CmsSiteResource.cs" />
+    <Compile Include="Models\CmsTempModel.cs" />
+    <Compile Include="Models\DropdownModel.cs" />
+    <Compile Include="Models\FormItemViewModel.cs" />
+    <Compile Include="Models\FormViewModel.cs" />
+    <Compile Include="Models\LetterModel.cs" />
+    <Compile Include="Models\WebCmsSendModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result\ExceptionResult.cs" />
+    <Compile Include="Result\JsonNetResult.cs" />
+    <Compile Include="Result\UploadResult.cs" />
+    <Compile Include="Route\CustomRoute.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="Temp\FormTemp.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\css\admin.css" />
+    <Content Include="Assets\css\amazeui.datatables.min.css" />
+    <Content Include="Assets\css\amazeui.min.css" />
+    <Content Include="Assets\css\app.css" />
+    <Content Include="Assets\css\flexslider.css" />
+    <Content Include="Assets\css\font-awesome.min.css" />
+    <Content Include="Assets\css\fullcalendar.min.css" />
+    <Content Include="Assets\css\fullcalendar.print.css" />
+    <Content Include="Assets\css\google-code-prettify.css" />
+    <Content Include="Assets\css\monokai.css" />
+    <Content Include="Assets\img\a5.png" />
+    <Content Include="Assets\img\k.jpg" />
+    <Content Include="Assets\img\log.png" />
+    <Content Include="Assets\img\logo.png" />
+    <Content Include="Assets\img\logo2.png" />
+    <Content Include="Assets\img\logo3.png" />
+    <Content Include="Assets\img\logo4.png" />
+    <Content Include="Assets\img\logoa.png" />
+    <Content Include="Assets\img\logob.png" />
+    <Content Include="Assets\img\user01.png" />
+    <Content Include="Assets\img\user02.png" />
+    <Content Include="Assets\img\user03.png" />
+    <Content Include="Assets\img\user04.png" />
+    <Content Include="Assets\img\user05.png" />
+    <Content Include="Assets\img\user06.png" />
+    <Content Include="Assets\img\user07.png" />
+    <Content Include="Assets\i\app-icon72x72%402x.png" />
+    <Content Include="Assets\i\examples\admin-chrome.png" />
+    <Content Include="Assets\i\examples\admin-firefox.png" />
+    <Content Include="Assets\i\examples\admin-ie.png" />
+    <Content Include="Assets\i\examples\admin-opera.png" />
+    <Content Include="Assets\i\examples\admin-safari.png" />
+    <Content Include="Assets\i\examples\adminPage.png" />
+    <Content Include="Assets\i\examples\blogPage.png" />
+    <Content Include="Assets\i\examples\landing.png" />
+    <Content Include="Assets\i\examples\landingPage.png" />
+    <Content Include="Assets\i\examples\loginPage.png" />
+    <Content Include="Assets\i\examples\sidebarPage.png" />
+    <Content Include="Assets\i\favicon.png" />
+    <Content Include="Assets\i\startup-640x1096.png" />
+    <Content Include="Assets\js\amazeui.datatables.min.js" />
+    <Content Include="Assets\js\amazeui.min.js" />
+    <Content Include="Assets\js\dataTables.responsive.min.js" />
+    <Content Include="Assets\js\echarts.min.js" />
+    <Content Include="Assets\js\fullcalendar.min.js" />
+    <Content Include="Assets\js\jquery-migrate-1.2.1.js" />
+    <Content Include="Assets\js\jquery.min.js" />
+    <Content Include="Assets\js\moment.js" />
+    <Content Include="Client\form.html" />
+    <Content Include="Client\tempDepartment.html" />
+    <Content Include="Client\tempDepartmentQuery.html" />
+    <Content Include="Client\tempLink.html" />
+    <Content Include="Client\tempMenu.html" />
+    <Content Include="Client\tempMenuQuery.html" />
+    <Content Include="Client\tempRole.html" />
+    <Content Include="Client\tempRoleQuery.html" />
+    <Content Include="Client\tempUser.html" />
+    <Content Include="Client\tempUserQuery.html" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Css\amazeui.chosen.css" />
+    <Content Include="Css\common.css" />
+    <Content Include="Css\default.css" />
+    <Content Include="Css\formbuild.css" />
+    <Content Include="Css\formview.css" />
+    <Content Include="Css\jquery-ui-1.9.2.custom.css" />
+    <Content Include="Css\jquery-ui-1.css" />
+    <Content Include="Css\jquery.css" />
+    <Content Include="Css\jquery.mCustomScrollbar.min.css" />
+    <Content Include="Css\pagerstyles.css" />
+    <Content Include="Css\themes\common\anchor.gif" />
+    <Content Include="Css\themes\common\blank.gif" />
+    <Content Include="Css\themes\common\flash.gif" />
+    <Content Include="Css\themes\common\loading.gif" />
+    <Content Include="Css\themes\common\media.gif" />
+    <Content Include="Css\themes\common\rm.gif" />
+    <Content Include="Css\themes\default\background.png" />
+    <Content Include="Css\themes\default\default.css" />
+    <Content Include="Css\themes\default\default.png" />
+    <Content Include="Css\themes\qq\editor.gif" />
+    <Content Include="Css\themes\qq\qq.css" />
+    <Content Include="Css\themes\simple\simple.css" />
+    <Content Include="Css\widgets.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Html\itembatchedit.html" />
+    <Content Include="Html\predefinechoices.html" />
+    <Content Include="Html\predefinelikert.html" />
+    <Content Include="Images\builderBg.png" />
+    <Content Include="Images\cancel.png" />
+    <Content Include="Images\iconbg.gif" />
+    <Content Include="Images\index.png" />
+    <Content Include="Images\loader.gif" />
+    <Content Include="Images\locksmall.png" />
+    <Content Include="Images\sidebarbg.png" />
+    <Content Include="Images\sortdown.gif" />
+    <Content Include="Images\sortup.gif" />
+    <Content Include="Js\address-cn.js" />
+    <Content Include="Js\ajaxfileupload.js" />
+    <Content Include="Js\amazeui.chosen.js" />
+    <Content Include="Js\amazeui.chosen.min.js" />
+    <Content Include="Js\amazeui.datatables.min.js" />
+    <Content Include="Js\amazeui.min.js" />
+    <Content Include="Js\application.js" />
+    <Content Include="Js\boy_1.png" />
+    <Content Include="Js\city.min.js" />
+    <Content Include="Assets\js\client\department.js" />
+    <Content Include="Assets\js\client\main.js" />
+    <Content Include="Assets\js\client\menu.js" />
+    <Content Include="Assets\js\client\role.js" />
+    <Content Include="Assets\js\client\user.js" />
+    <Content Include="Js\cms.js" />
+    <Content Include="Js\common.js" />
+    <Content Include="Assets\js\common\app.js" />
+    <Content Include="Assets\js\common\config.js" />
+    <Content Include="Assets\js\common\control.js" />
+    <Content Include="Assets\js\common\extend.js" />
+    <Content Include="Assets\js\common\run.js" />
+    <Content Include="Assets\js\common\strat.js" />
+    <Content Include="Assets\js\common\userStorage.js" />
+    <Content Include="Js\dataDancing.js" />
+    <Content Include="Js\dataTables.responsive.min.js" />
+    <Content Include="Js\directfileupload.js" />
+    <Content Include="Js\dyncFormOptionView.js" />
+    <Content Include="Js\dyncFormView.js" />
+    <Content Include="Js\fancybox\blank.gif" />
+    <Content Include="Js\fancybox\fancybox-x.png" />
+    <Content Include="Js\fancybox\fancybox-y.png" />
+    <Content Include="Js\fancybox\fancybox.png" />
+    <Content Include="Js\fancybox\fancy_close.png" />
+    <Content Include="Js\fancybox\fancy_loading.png" />
+    <Content Include="Js\fancybox\fancy_nav_left.png" />
+    <Content Include="Js\fancybox\fancy_nav_right.png" />
+    <Content Include="Js\fancybox\fancy_shadow_e.png" />
+    <Content Include="Js\fancybox\fancy_shadow_n.png" />
+    <Content Include="Js\fancybox\fancy_shadow_ne.png" />
+    <Content Include="Js\fancybox\fancy_shadow_nw.png" />
+    <Content Include="Js\fancybox\fancy_shadow_s.png" />
+    <Content Include="Js\fancybox\fancy_shadow_se.png" />
+    <Content Include="Js\fancybox\fancy_shadow_sw.png" />
+    <Content Include="Js\fancybox\fancy_shadow_w.png" />
+    <Content Include="Js\fancybox\fancy_title_left.png" />
+    <Content Include="Js\fancybox\fancy_title_main.png" />
+    <Content Include="Js\fancybox\fancy_title_over.png" />
+    <Content Include="Js\fancybox\fancy_title_right.png" />
+    <Content Include="Js\fancybox\jquery.easing-1.3.pack.js" />
+    <Content Include="Js\fancybox\jquery.fancybox-1.3.4.css" />
+    <Content Include="Js\fancybox\jquery.fancybox-1.3.4.js" />
+    <Content Include="Js\fancybox\jquery.fancybox-1.3.4.pack.js" />
+    <Content Include="Js\fancybox\jquery.mousewheel-3.0.4.pack.js" />
+    <Content Include="Js\formbuilder.js" />
+    <Content Include="Js\formview.js" />
+    <Content Include="Js\google-code-prettify.js" />
+    <Content Include="Js\gulpfile.js" />
+    <Content Include="Js\head.js" />
+    <Content Include="Js\head.load.min.js" />
+    <Content Include="Js\html5shiv.js" />
+    <Content Include="Js\javascript.js" />
+    <Content Include="Js\jquery-1.7.2.min.js" />
+    <Content Include="Js\jquery-1.js" />
+    <Content Include="Js\jquery-ui-1.8.24.custom.min.js" />
+    <Content Include="Js\jquery-ui-1.9.2.custom.js" />
+    <Content Include="Js\jquery-ui-1.js" />
+    <Content Include="Js\jquery.cityselect.js" />
+    <Content Include="Js\jquery.flexslider.js" />
+    <Content Include="Js\jquery.html5uploader.js" />
+    <Content Include="Js\jquery.js" />
+    <Content Include="Js\jquery.mCustomScrollbar.min.js" />
+    <Content Include="Js\jquery.min.js" />
+    <Content Include="Js\jquery.mousewheel.min.js" />
+    <Content Include="Js\jquery.signalR-2.2.2.js" />
+    <Content Include="Js\jquery_002.js" />
+    <Content Include="Js\kindeditor-all-min.js" />
+    <Content Include="Js\kindeditor-all.js" />
+    <Content Include="Js\lang\ar.js" />
+    <Content Include="Js\lang\en.js" />
+    <Content Include="Js\lang\ko.js" />
+    <Content Include="Js\lang\ru.js" />
+    <Content Include="Js\lang\zh-CN.js" />
+    <Content Include="Js\lang\zh-TW.js" />
+    <Content Include="Assets\js\lib\city.min.js" />
+    <Content Include="Assets\js\lib\director.js" />
+    <Content Include="Assets\js\lib\echarts.js" />
+    <Content Include="Assets\js\lib\jquery.cityselect.js" />
+    <Content Include="Assets\js\lib\jquery.js" />
+    <Content Include="Assets\js\lib\modal.js" />
+    <Content Include="Assets\js\lib\pagination.js" />
+    <Content Include="Assets\js\lib\require.js" />
+    <Content Include="Assets\js\lib\table.js" />
+    <Content Include="Assets\js\lib\text.js" />
+    <Content Include="Assets\js\lib\underscore-min.js" />
+    <Content Include="Js\letter.js" />
+    <Content Include="Js\messageIndex.js" />
+    <Content Include="Js\moment.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\base\worker\workerMain.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\bat.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\coffee.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\cpp.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\csharp.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\css.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\dockerfile.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\fsharp.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\go.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\handlebars.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\html.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\ini.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\java.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\less.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\lua.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\markdown.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\msdax.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\objective-c.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\php.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\postiats.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\powershell.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\pug.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\python.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\r.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\razor.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\ruby.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\sb.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\scss.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\solidity.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\sql.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\swift.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\vb.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\xml.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\basic-languages\src\yaml.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\contrib\suggest\browser\media\String_16x.svg" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\contrib\suggest\browser\media\String_inverse_16x.svg" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.css" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.nls.de.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.nls.es.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.nls.fr.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.nls.hu.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.nls.it.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.nls.ja.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.nls.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.nls.ko.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.nls.pt-br.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.nls.ru.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.nls.tr.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.nls.zh-cn.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.nls.zh-tw.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\standalone\browser\quickOpen\symbol-sprite.svg" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\language\css\cssMode.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\language\css\cssWorker.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\language\html\htmlMode.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\language\html\htmlWorker.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\language\json\jsonMode.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\language\json\jsonWorker.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\language\typescript\lib\typescriptServices.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\language\typescript\src\mode.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\language\typescript\src\worker.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\loader.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\base\worker\workerMain.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\bat.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\coffee.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\cpp.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\csharp.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\css.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\dockerfile.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\fsharp.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\go.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\handlebars.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\html.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\ini.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\java.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\less.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\lua.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\markdown.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\msdax.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\objective-c.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\php.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\postiats.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\powershell.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\pug.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\python.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\r.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\razor.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\ruby.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\sb.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\scss.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\solidity.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\sql.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\swift.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\vb.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\xml.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\basic-languages\src\yaml.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\contrib\suggest\browser\media\String_16x.svg" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\contrib\suggest\browser\media\String_inverse_16x.svg" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.css" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.nls.de.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.nls.es.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.nls.fr.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.nls.hu.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.nls.it.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.nls.ja.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.nls.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.nls.ko.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.nls.pt-br.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.nls.ru.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.nls.tr.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.nls.zh-cn.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\editor.main.nls.zh-tw.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\editor\standalone\browser\quickOpen\symbol-sprite.svg" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\language\css\cssMode.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\language\css\cssWorker.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\language\html\htmlMode.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\language\html\htmlWorker.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\language\json\jsonMode.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\language\json\jsonWorker.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\language\typescript\lib\typescriptServices.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\language\typescript\src\mode.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\language\typescript\src\worker.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min\vs\loader.js" />
+    <Content Include="Js\monaco-editor-0.10.1\package\ThirdPartyNotices.txt" />
+    <Content Include="Js\plugins\anchor\anchor.js" />
+    <Content Include="Js\plugins\autoheight\autoheight.js" />
+    <Content Include="Js\plugins\baidumap\baidumap.js" />
+    <Content Include="Js\plugins\baidumap\index.html" />
+    <Content Include="Js\plugins\baidumap\map.html" />
+    <Content Include="Js\plugins\clearhtml\clearhtml.js" />
+    <Content Include="Js\plugins\code\code.js" />
+    <Content Include="Js\plugins\code\prettify.css" />
+    <Content Include="Js\plugins\code\prettify.js" />
+    <Content Include="Js\plugins\emoticons\emoticons.js" />
+    <Content Include="Js\plugins\emoticons\images\0.gif" />
+    <Content Include="Js\plugins\emoticons\images\1.gif" />
+    <Content Include="Js\plugins\emoticons\images\10.gif" />
+    <Content Include="Js\plugins\emoticons\images\100.gif" />
+    <Content Include="Js\plugins\emoticons\images\101.gif" />
+    <Content Include="Js\plugins\emoticons\images\102.gif" />
+    <Content Include="Js\plugins\emoticons\images\103.gif" />
+    <Content Include="Js\plugins\emoticons\images\104.gif" />
+    <Content Include="Js\plugins\emoticons\images\105.gif" />
+    <Content Include="Js\plugins\emoticons\images\106.gif" />
+    <Content Include="Js\plugins\emoticons\images\107.gif" />
+    <Content Include="Js\plugins\emoticons\images\108.gif" />
+    <Content Include="Js\plugins\emoticons\images\109.gif" />
+    <Content Include="Js\plugins\emoticons\images\11.gif" />
+    <Content Include="Js\plugins\emoticons\images\110.gif" />
+    <Content Include="Js\plugins\emoticons\images\111.gif" />
+    <Content Include="Js\plugins\emoticons\images\112.gif" />
+    <Content Include="Js\plugins\emoticons\images\113.gif" />
+    <Content Include="Js\plugins\emoticons\images\114.gif" />
+    <Content Include="Js\plugins\emoticons\images\115.gif" />
+    <Content Include="Js\plugins\emoticons\images\116.gif" />
+    <Content Include="Js\plugins\emoticons\images\117.gif" />
+    <Content Include="Js\plugins\emoticons\images\118.gif" />
+    <Content Include="Js\plugins\emoticons\images\119.gif" />
+    <Content Include="Js\plugins\emoticons\images\12.gif" />
+    <Content Include="Js\plugins\emoticons\images\120.gif" />
+    <Content Include="Js\plugins\emoticons\images\121.gif" />
+    <Content Include="Js\plugins\emoticons\images\122.gif" />
+    <Content Include="Js\plugins\emoticons\images\123.gif" />
+    <Content Include="Js\plugins\emoticons\images\124.gif" />
+    <Content Include="Js\plugins\emoticons\images\125.gif" />
+    <Content Include="Js\plugins\emoticons\images\126.gif" />
+    <Content Include="Js\plugins\emoticons\images\127.gif" />
+    <Content Include="Js\plugins\emoticons\images\128.gif" />
+    <Content Include="Js\plugins\emoticons\images\129.gif" />
+    <Content Include="Js\plugins\emoticons\images\13.gif" />
+    <Content Include="Js\plugins\emoticons\images\130.gif" />
+    <Content Include="Js\plugins\emoticons\images\131.gif" />
+    <Content Include="Js\plugins\emoticons\images\132.gif" />
+    <Content Include="Js\plugins\emoticons\images\133.gif" />
+    <Content Include="Js\plugins\emoticons\images\134.gif" />
+    <Content Include="Js\plugins\emoticons\images\14.gif" />
+    <Content Include="Js\plugins\emoticons\images\15.gif" />
+    <Content Include="Js\plugins\emoticons\images\16.gif" />
+    <Content Include="Js\plugins\emoticons\images\17.gif" />
+    <Content Include="Js\plugins\emoticons\images\18.gif" />
+    <Content Include="Js\plugins\emoticons\images\19.gif" />
+    <Content Include="Js\plugins\emoticons\images\2.gif" />
+    <Content Include="Js\plugins\emoticons\images\20.gif" />
+    <Content Include="Js\plugins\emoticons\images\21.gif" />
+    <Content Include="Js\plugins\emoticons\images\22.gif" />
+    <Content Include="Js\plugins\emoticons\images\23.gif" />
+    <Content Include="Js\plugins\emoticons\images\24.gif" />
+    <Content Include="Js\plugins\emoticons\images\25.gif" />
+    <Content Include="Js\plugins\emoticons\images\26.gif" />
+    <Content Include="Js\plugins\emoticons\images\27.gif" />
+    <Content Include="Js\plugins\emoticons\images\28.gif" />
+    <Content Include="Js\plugins\emoticons\images\29.gif" />
+    <Content Include="Js\plugins\emoticons\images\3.gif" />
+    <Content Include="Js\plugins\emoticons\images\30.gif" />
+    <Content Include="Js\plugins\emoticons\images\31.gif" />
+    <Content Include="Js\plugins\emoticons\images\32.gif" />
+    <Content Include="Js\plugins\emoticons\images\33.gif" />
+    <Content Include="Js\plugins\emoticons\images\34.gif" />
+    <Content Include="Js\plugins\emoticons\images\35.gif" />
+    <Content Include="Js\plugins\emoticons\images\36.gif" />
+    <Content Include="Js\plugins\emoticons\images\37.gif" />
+    <Content Include="Js\plugins\emoticons\images\38.gif" />
+    <Content Include="Js\plugins\emoticons\images\39.gif" />
+    <Content Include="Js\plugins\emoticons\images\4.gif" />
+    <Content Include="Js\plugins\emoticons\images\40.gif" />
+    <Content Include="Js\plugins\emoticons\images\41.gif" />
+    <Content Include="Js\plugins\emoticons\images\42.gif" />
+    <Content Include="Js\plugins\emoticons\images\43.gif" />
+    <Content Include="Js\plugins\emoticons\images\44.gif" />
+    <Content Include="Js\plugins\emoticons\images\45.gif" />
+    <Content Include="Js\plugins\emoticons\images\46.gif" />
+    <Content Include="Js\plugins\emoticons\images\47.gif" />
+    <Content Include="Js\plugins\emoticons\images\48.gif" />
+    <Content Include="Js\plugins\emoticons\images\49.gif" />
+    <Content Include="Js\plugins\emoticons\images\5.gif" />
+    <Content Include="Js\plugins\emoticons\images\50.gif" />
+    <Content Include="Js\plugins\emoticons\images\51.gif" />
+    <Content Include="Js\plugins\emoticons\images\52.gif" />
+    <Content Include="Js\plugins\emoticons\images\53.gif" />
+    <Content Include="Js\plugins\emoticons\images\54.gif" />
+    <Content Include="Js\plugins\emoticons\images\55.gif" />
+    <Content Include="Js\plugins\emoticons\images\56.gif" />
+    <Content Include="Js\plugins\emoticons\images\57.gif" />
+    <Content Include="Js\plugins\emoticons\images\58.gif" />
+    <Content Include="Js\plugins\emoticons\images\59.gif" />
+    <Content Include="Js\plugins\emoticons\images\6.gif" />
+    <Content Include="Js\plugins\emoticons\images\60.gif" />
+    <Content Include="Js\plugins\emoticons\images\61.gif" />
+    <Content Include="Js\plugins\emoticons\images\62.gif" />
+    <Content Include="Js\plugins\emoticons\images\63.gif" />
+    <Content Include="Js\plugins\emoticons\images\64.gif" />
+    <Content Include="Js\plugins\emoticons\images\65.gif" />
+    <Content Include="Js\plugins\emoticons\images\66.gif" />
+    <Content Include="Js\plugins\emoticons\images\67.gif" />
+    <Content Include="Js\plugins\emoticons\images\68.gif" />
+    <Content Include="Js\plugins\emoticons\images\69.gif" />
+    <Content Include="Js\plugins\emoticons\images\7.gif" />
+    <Content Include="Js\plugins\emoticons\images\70.gif" />
+    <Content Include="Js\plugins\emoticons\images\71.gif" />
+    <Content Include="Js\plugins\emoticons\images\72.gif" />
+    <Content Include="Js\plugins\emoticons\images\73.gif" />
+    <Content Include="Js\plugins\emoticons\images\74.gif" />
+    <Content Include="Js\plugins\emoticons\images\75.gif" />
+    <Content Include="Js\plugins\emoticons\images\76.gif" />
+    <Content Include="Js\plugins\emoticons\images\77.gif" />
+    <Content Include="Js\plugins\emoticons\images\78.gif" />
+    <Content Include="Js\plugins\emoticons\images\79.gif" />
+    <Content Include="Js\plugins\emoticons\images\8.gif" />
+    <Content Include="Js\plugins\emoticons\images\80.gif" />
+    <Content Include="Js\plugins\emoticons\images\81.gif" />
+    <Content Include="Js\plugins\emoticons\images\82.gif" />
+    <Content Include="Js\plugins\emoticons\images\83.gif" />
+    <Content Include="Js\plugins\emoticons\images\84.gif" />
+    <Content Include="Js\plugins\emoticons\images\85.gif" />
+    <Content Include="Js\plugins\emoticons\images\86.gif" />
+    <Content Include="Js\plugins\emoticons\images\87.gif" />
+    <Content Include="Js\plugins\emoticons\images\88.gif" />
+    <Content Include="Js\plugins\emoticons\images\89.gif" />
+    <Content Include="Js\plugins\emoticons\images\9.gif" />
+    <Content Include="Js\plugins\emoticons\images\90.gif" />
+    <Content Include="Js\plugins\emoticons\images\91.gif" />
+    <Content Include="Js\plugins\emoticons\images\92.gif" />
+    <Content Include="Js\plugins\emoticons\images\93.gif" />
+    <Content Include="Js\plugins\emoticons\images\94.gif" />
+    <Content Include="Js\plugins\emoticons\images\95.gif" />
+    <Content Include="Js\plugins\emoticons\images\96.gif" />
+    <Content Include="Js\plugins\emoticons\images\97.gif" />
+    <Content Include="Js\plugins\emoticons\images\98.gif" />
+    <Content Include="Js\plugins\emoticons\images\99.gif" />
+    <Content Include="Js\plugins\emoticons\images\static.gif" />
+    <Content Include="Js\plugins\filemanager\filemanager.js" />
+    <Content Include="Js\plugins\filemanager\images\file-16.gif" />
+    <Content Include="Js\plugins\filemanager\images\file-64.gif" />
+    <Content Include="Js\plugins\filemanager\images\folder-16.gif" />
+    <Content Include="Js\plugins\filemanager\images\folder-64.gif" />
+    <Content Include="Js\plugins\filemanager\images\go-up.gif" />
+    <Content Include="Js\plugins\fixtoolbar\fixtoolbar.js" />
+    <Content Include="Js\plugins\flash\flash.js" />
+    <Content Include="Js\plugins\image\image.js" />
+    <Content Include="Js\plugins\image\images\align_left.gif" />
+    <Content Include="Js\plugins\image\images\align_right.gif" />
+    <Content Include="Js\plugins\image\images\align_top.gif" />
+    <Content Include="Js\plugins\image\images\refresh.png" />
+    <Content Include="Js\plugins\insertfile\insertfile.js" />
+    <Content Include="Js\plugins\lineheight\lineheight.js" />
+    <Content Include="Js\plugins\link\link.js" />
+    <Content Include="Js\plugins\map\map.html" />
+    <Content Include="Js\plugins\map\map.js" />
+    <Content Include="Js\plugins\media\media.js" />
+    <Content Include="Js\plugins\multiimage\images\image.png" />
+    <Content Include="Js\plugins\multiimage\images\select-files-en.png" />
+    <Content Include="Js\plugins\multiimage\images\select-files-zh-CN.png" />
+    <Content Include="Js\plugins\multiimage\images\swfupload.swf" />
+    <Content Include="Js\plugins\multiimage\multiimage.js" />
+    <Content Include="Js\plugins\pagebreak\pagebreak.js" />
+    <Content Include="Js\plugins\plainpaste\plainpaste.js" />
+    <Content Include="Js\plugins\preview\preview.js" />
+    <Content Include="Js\plugins\quickformat\quickformat.js" />
+    <Content Include="Js\plugins\table\table.js" />
+    <Content Include="Js\plugins\template\html\1.html" />
+    <Content Include="Js\plugins\template\html\2.html" />
+    <Content Include="Js\plugins\template\html\3.html" />
+    <Content Include="Js\plugins\template\template.js" />
+    <Content Include="Js\plugins\wordpaste\wordpaste.js" />
+    <Content Include="Js\plupload.full.min.js" />
+    <Content Include="Js\plupload.js" />
+    <Content Include="Assets\js\routes\router.js" />
+    <Content Include="Assets\js\services\baseServices.js" />
+    <Content Include="Assets\js\services\departmentServices.js" />
+    <Content Include="Assets\js\services\fileServices.js" />
+    <Content Include="Assets\js\services\menuServices.js" />
+    <Content Include="Assets\js\services\roleServices.js" />
+    <Content Include="Assets\js\services\userServices.js" />
+    <Content Include="Js\uploader.js" />
+    <Content Include="Js\utils.js" />
+    <Content Include="Js\wangEditor.js" />
+    <Content Include="Js\wangEditor.min.js" />
+    <Content Include="Js\widgets.js" />
+    <Content Include="login.html" />
+    <Content Include="signalr.html" />
+    <Content Include="Temp\FormTemp.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Attach\" />
+    <Folder Include="obj\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="Fonts\icomoon.ttf" />
+    <Content Include="Fonts\iconfont.eot" />
+    <Content Include="Fonts\iconfont.ttf" />
+    <Content Include="Fonts\iconfont.woff" />
+    <Content Include="Assets\css\app.less" />
+    <Content Include="Assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Assets\fonts\FontAwesome.otf" />
+    <Content Include="Js\monaco-editor-0.10.1\package\CHANGELOG.md" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\bundleInfo.json" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\nls.metadata.json" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\base\worker\workerMain.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\editor\editor.main.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\dev\vs\loader.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\LICENSE" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\base\worker\workerMain.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.nls.de.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.nls.es.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.nls.fr.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.nls.hu.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.nls.it.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.nls.ja.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.nls.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.nls.ko.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.nls.pt-br.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.nls.ru.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.nls.tr.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.nls.zh-cn.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\editor\editor.main.nls.zh-tw.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\min-maps\vs\loader.js.map" />
+    <Content Include="Js\monaco-editor-0.10.1\package\package.json" />
+    <Content Include="Js\monaco-editor-0.10.1\package\README.md" />
+    <Content Include="Js\jquery-1.10.2.min.map" />
+    <Content Include="Js\jquery.min.map" />
+    <Content Include="Js\param.js" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Views\CustomFrom\Index.cshtml" />
+    <Content Include="Views\CustomFrom\DyncForm.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\DyncForm\FormTable.cshtml" />
+    <Content Include="Views\DyncForm\Index.cshtml" />
+    <Content Include="Views\Cms\Site.cshtml" />
+    <Content Include="Views\Cms\ModifySite.cshtml" />
+    <Content Include="Views\Cms\CmsTemp.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\FileUpload\Index.cshtml" />
+    <Content Include="Views\Cms\GenerateCmsTempView.cshtml" />
+    <Content Include="Views\Setting\Param.cshtml" />
+    <Content Include="Views\Message\Index.cshtml" />
+    <Content Include="Views\Message\Letter.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GS.Api.Model\GS.Api.Model.csproj">
+      <Project>{98fe92d1-bf65-459f-a4ff-21e0f3e85360}</Project>
+      <Name>GS.Api.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.Cache.Factory\GS.Cache.Factory.csproj">
+      <Project>{6B19720C-4909-4EFC-9F0F-FE3B92C2BAAE}</Project>
+      <Name>GS.Cache.Factory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.Cache.Identity\GS.Cache.Identity.csproj">
+      <Project>{E981F643-CDEA-43DB-87B3-0D14446CACB3}</Project>
+      <Name>GS.Cache.Identity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.Common.Http\GS.Common.Http.csproj">
+      <Project>{CE6FCFC0-83AC-450B-9909-D81116C840CB}</Project>
+      <Name>GS.Common.Http</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.Common.Injection.Core\GS.Common.Injection.Core.csproj">
+      <Project>{0455ed65-5b89-43d9-81af-969783824e62}</Project>
+      <Name>GS.Common.Injection.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.Common.Util\GS.Common.Util.csproj">
+      <Project>{FBFACAF4-CA28-4010-BBCF-3FE3219FA62F}</Project>
+      <Name>GS.Common.Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.Common.Web\GS.Common.Web.csproj">
+      <Project>{F891B9E7-3CBA-4C9F-B6B8-53DC66CE0C32}</Project>
+      <Name>GS.Common.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.Services\GS.Services.csproj">
+      <Project>{9A977B95-CAF1-4523-89C8-A0DAB38D3312}</Project>
+      <Name>GS.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.SQL.DataSource\GS.SQL.DataSource.csproj">
+      <Project>{9C37BEB5-8DF6-488E-AD3E-FA0E9B3D0929}</Project>
+      <Name>GS.SQL.DataSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.SQLModel\GS.SQLModel.csproj">
+      <Project>{2F8791B0-56C1-42F3-9365-F8162F845E36}</Project>
+      <Name>GS.SQLModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.View.Model\GS.View.Model.csproj">
+      <Project>{07B755EE-4741-4548-9CB5-3811B1FDD1A1}</Project>
+      <Name>GS.View.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MessageCilentProxy\MessageCilentProxy.csproj">
+      <Project>{3a6bf2bd-ab0a-4562-89b8-4d467cc70df2}</Project>
+      <Name>MessageCilentProxy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Js\monaco-editor-0.10.1\package\monaco.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58624</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58624/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

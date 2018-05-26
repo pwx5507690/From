@@ -1,0 +1,103 @@
+﻿@using GS.Api.Tool.Models
+@model GS.Api.Tool.Models.ApiResponseParamModels
+@{
+	Layout = null;
+	var apiRequestParamModels = ViewBag.apiRequestParamModels as ApiRequestParamModels;
+}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Api 请求测试</title>
+	<meta charset="utf-8" />
+	<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+	<style>
+		h3 {
+			font-weight: bold;
+		}
+
+		label {
+			font-weight: bold;
+			font-size: 12px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div style="margin-top:20px;"><h3>Api 请求测试</h3></div>
+	</div>
+	<hr />
+	@using (Html.BeginForm("Send", "Tool", FormMethod.Post))
+	{
+		@Html.AntiForgeryToken();
+		<div class="container">
+			<div class="alert alert-danger" role="alert" style="display:none" id="messageContent">
+				<a href="javascript:;" class="alert-link"></a>
+			</div>
+			<div class="form-horizontal">
+				<div class="form-group">
+					<label for="url" class="col-sm-2 control-label" id="urlLabel">请求路径:</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control input-sm" value="@apiRequestParamModels.Url" id="url" name="url" placeholder="请求路径">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="heardParam" class="col-sm-2 control-label">头参数名称:</label>
+					<div class="col-sm-4">
+						<input type="text" class="form-control input-sm" value="@apiRequestParamModels.HeardParam" id="heardParam" name="heardParam" placeholder="头参数名称">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="heardParamValue" class="col-sm-2 control-label">参数值:</label>
+					<div class="col-sm-4">
+						<input type="text" class="form-control input-sm" value="@apiRequestParamModels.HeardParamValue" id="heardParamValue" name="heardParamValue" placeholder="参数值">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="type" class="col-sm-2 control-label">请求类型:</label>
+					<div class="col-sm-4">
+						<select class="form-control input-sm" id="type" name="type">
+							<option @(apiRequestParamModels.Type == "GET" ? "selected" : "") value="GET">GET</option>
+							<option @(apiRequestParamModels.Type == "POST" ? "selected" : "") value="POST">POST</option>
+							<option @(apiRequestParamModels.Type == "DELETE" ? "selected" : "") value="DELETE">DELETE</option>
+							<option @(apiRequestParamModels.Type == "PUT" ? "selected" : "") value="PUT">PUT</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group" style="display:none" id="paramTypeContent">
+					<label for="type" class="col-sm-2 control-label">参数类型:</label>
+					<div class="col-sm-4">
+						<select class="form-control input-sm" id="paramType" name="paramType">
+							<option @(apiRequestParamModels.Type == "application/json" ? "selected" : "") value="application/json">application/json</option>
+							<option @(apiRequestParamModels.Type == "application/x-www-form-urlencoded" ? "selected" : "") value="application/x-www-form-urlencoded">application/x-www-form-urlencoded</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group" style="display:none" id="paramValueContent">
+					<label for="paramValue" class="col-sm-2 control-label">发送内容参数:</label>
+					<div class="col-sm-10">
+						<textarea class="form-control" rows="5" id="paramValue" name="paramValue">@(apiRequestParamModels.ParamValue)</textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" class="btn btn-primary" id="send" style="font-weight:bold">发送请求</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	}
+	@if (Model != null)
+	{
+		<div class="container">
+			<div style="margin-top:20px;"><h3>@(apiRequestParamModels.Url)响应结果</h3></div>
+		</div>
+		<hr />
+		<div class="container" style="background-color:#eee; border:1px solid #ddd">
+			<p style="margin-top:10px;">Code:@Model.StatusCode</p>
+			<p>Message:@Model.ResponseMessage</p>
+			<p>Content:<pre>@Model.Content</pre></p>
+		</div>
+	}
+    <script src="~/Script/toolApi.js"></script>
+</body>
+</html>

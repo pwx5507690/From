@@ -1,0 +1,36 @@
+2017-11-23 13:43:02,674 [1] ERROR - 2017-11-23 : 未能加载文件或程序集“System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)--   在 GS.Common.Injection.Core.WebModuleRegistration.Load(ContainerBuilder builder)
+   在 Autofac.Module.Configure(IComponentRegistry componentRegistry)
+   在 Autofac.ContainerBuilder.Build(IComponentRegistry componentRegistry, Boolean excludeDefaultModules)
+   在 Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistry componentRegistry)
+   在 Autofac.ContainerBuilder.Update(IContainer container, ContainerBuildOptions options)
+   在 Autofac.ContainerBuilder.Update(IContainer container)
+   在 GS.Common.Injection.Core.AutofacConfig.Configure(IContainer container, String assemblyPrefix) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Injection.Core\AutofacConfig.cs:行号 18
+   在 GS.Common.Injection.Core.Bootstrap.ConfigureApplication(IContainer container) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Injection.Core\Bootstrap.cs:行号 37
+   在 GS.Common.Web.Application.Application_Start() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Web\Application.cs:行号 28
+   在 GS.Cache.Identity.IdentityApplication.Application_Start() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Cache.Identity\IdentityApplication.cs:行号 18
+2017-11-23 13:52:20,984 [1] ERROR - 2017-11-23 : 未能加载文件或程序集“System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)--   在 GS.Common.Injection.Core.WebModuleRegistration.Load(ContainerBuilder builder)
+   在 Autofac.Module.Configure(IComponentRegistry componentRegistry)
+   在 Autofac.ContainerBuilder.Build(IComponentRegistry componentRegistry, Boolean excludeDefaultModules)
+   在 Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistry componentRegistry)
+   在 Autofac.ContainerBuilder.Update(IContainer container, ContainerBuildOptions options)
+   在 Autofac.ContainerBuilder.Update(IContainer container)
+   在 GS.Common.Injection.Core.AutofacConfig.Configure(IContainer container, String assemblyPrefix) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Injection.Core\AutofacConfig.cs:行号 18
+   在 GS.Common.Injection.Core.Bootstrap.ConfigureApplication(IContainer container) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Injection.Core\Bootstrap.cs:行号 37
+   在 GS.Common.Web.Application.Application_Start() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Web\Application.cs:行号 28
+   在 GS.Cache.Identity.IdentityApplication.Application_Start() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Cache.Identity\IdentityApplication.cs:行号 18
+2017-11-23 13:56:07,002 [1] ERROR - 2017-11-23 : 未能加载文件或程序集“System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)--   在 GS.Common.Injection.Core.Bootstrap.ConfigureMvc(IContainer container)
+   在 GS.Common.Web.Application.Application_Start() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Web\Application.cs:行号 29
+   在 GS.Cache.Identity.IdentityApplication.Application_Start() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Cache.Identity\IdentityApplication.cs:行号 18
+2017-11-23 13:57:41,281 [1] ERROR - 2017-11-23 : 未能加载文件或程序集“System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)--   在 GS.Common.Injection.Core.Bootstrap.ConfigureWebApi(IContainer container)
+   在 GS.Common.Web.Application.Application_Start() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Web\Application.cs:行号 30
+   在 GS.Cache.Identity.IdentityApplication.Application_Start() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Cache.Identity\IdentityApplication.cs:行号 18
+2017-11-23 15:13:41,317 [103] ERROR - 2017-11-23 : 未能加载文件或程序集“System.Web.Http, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)--   在 GS.Common.Injection.Core.WebModuleRegistration.Load(ContainerBuilder builder)
+   在 Autofac.Module.Configure(IComponentRegistry componentRegistry)
+   在 Autofac.ContainerBuilder.Build(IComponentRegistry componentRegistry, Boolean excludeDefaultModules)
+   在 Autofac.ContainerBuilder.UpdateRegistry(IComponentRegistry componentRegistry)
+   在 Autofac.ContainerBuilder.Update(IContainer container, ContainerBuildOptions options)
+   在 Autofac.ContainerBuilder.Update(IContainer container)
+   在 GS.Common.Injection.Core.AutofacConfig.Configure(IContainer container, String assemblyPrefix) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Injection.Core\AutofacConfig.cs:行号 18
+   在 GS.Common.Injection.Core.Bootstrap.ConfigureApplication(IContainer container) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Injection.Core\Bootstrap.cs:行号 37
+   在 GS.Common.Web.Application.Application_Start() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Web\Application.cs:行号 28
+   在 GS.Cache.Identity.IdentityApplication.Application_Start() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Cache.Identity\IdentityApplication.cs:行号 18

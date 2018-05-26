@@ -1,0 +1,86 @@
+﻿@using GS.Common.Util
+@model GS.View.Model.Login
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>登录页面</title>
+	<meta name="description" content="登录">
+	<meta name="keywords" content="index">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<link rel="icon" type="image/png" href="~/Assets/i/favicon.png">
+	<link rel="apple-touch-icon-precomposed" href="~/Assets/i/app-icon72x72@2x.png">
+	<meta name="apple-mobile-web-app-title" content="统一登录页面" />
+	<script>
+		window.model = {
+			message: "@ViewBag.Message",
+			loginUrl: "@Model.LoginUrl",
+			sessionId: "@Model.SessionId",
+			location: "@Model.Location",
+			isLogin: "@Model.IsLogin"
+		};
+	</script>
+	@Styles.Render("~/css/login")
+	@Scripts.Render("~/js/login")
+</head>
+
+<body class="theme-white" data-type="login">
+	<script src="~/Assets/js/theme.js"></script>
+	<div class="am-g tpl-g">
+		<div class="tpl-skiner">
+			<div class="tpl-skiner-toggle am-icon-cog">
+			</div>
+		</div>
+		<div class="tpl-login">
+			<div class="tpl-login-content">
+				<div class="tpl-login-logo">
+					
+				</div>
+				<form action="@Url.Action("UserLogin","Login")" method="post" id="loginForm" class="am-form tpl-form-line-form">
+					@Html.AntiForgeryToken()
+					
+					<div class="am-form-group">
+						<input type="text" class="tpl-form-input" name="Name" id="userNme" placeholder="请输入账号" required>
+					</div>
+					<div class="am-form-group">
+						<input type="password" class="tpl-form-input" name="Password" id="password" placeholder="请输入密码" required>
+					</div>
+					<input type="hidden" name="LoginUrl" value="@Model.LoginUrl" />
+					<input type="hidden" name="Location" value="@Model.Location" />
+					<div class="am-form-group tpl-login-remember-me">
+						<input id="rememberMe" name="RememberMe" type="checkbox">
+						<label for="rememberMe">
+							记住密码
+						</label>
+					</div>
+					<div class="am-form-group">
+						<button type="submit" class="am-btn am-btn-primary  am-btn-block tpl-btn-bg-color-success  tpl-login-btn">提交</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="am-modal am-modal-loading am-modal-no-btn" tabindex="-1" id="loading">
+		<div class="am-modal-dialog">
+			<div class="am-modal-hd">请求中....</div>
+			<div class="am-modal-bd">
+				<span class="am-icon-spinner am-icon-spin"></span>
+			</div>
+		</div>
+	</div>
+	<div class="am-modal am-modal-alert" tabindex="-3" id="alert">
+		<div class="am-modal-dialog">
+			<div class="am-modal-hd">提示！</div>
+			<div class="am-modal-bd" id="message">
+				@ViewBag.Message
+			</div>
+			<div class="am-modal-footer">
+				<span class="am-modal-btn">确定</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

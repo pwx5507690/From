@@ -1,0 +1,118 @@
+﻿@model LetterModel
+@{
+
+    var title = string.IsNullOrEmpty(Model.MessageAcceptUserItem.MessageCode) ? "发件" : "回复";
+    var replay = new System.Text.StringBuilder();
+    if (!string.IsNullOrEmpty(Model.MessageAcceptUserItem.MessageCode) && Model.Message.Any())
+    {
+        var lastItem = Model.Message.LastOrDefault();
+        var list = Model.Message.ToList();
+        list.RemoveAt(Model.Message.Count() - 1);
+        replay.Append("<div style='padding-left:25%'>");
+        if (list.Count > 0)
+        {
+            replay.Append("<label data-stats='down' style='font-size:14px' id='replayStats' class='am-form-label'>展开全部回复<i class='am-icon-angle-down'></i></label>");
+        }
+        foreach (var item in list)
+        {
+            replay.Append(FormTemp.GetTempByKey("replayList", item.SendUser.Name, item.Title, item.Content,item.Updatetime.Value.ToString("yyyy-MM-dd"), "style='display:none' data-replay"));
+        }
+        replay.Append(FormTemp.GetTempByKey("replayList", lastItem.SendUser.Name, lastItem.Title, lastItem.Content, lastItem.Updatetime.Value.ToString("yyyy-MM-dd"),string.Empty));
+        replay.Append("</div>");
+    }
+}
+@helper GenerateUserSelect()
+{
+if (!Model.User.Any())
+{
+    return;
+}
+foreach (var item in Model.User)
+{
+    var select = item.User.Id == Model.MessageAcceptUserItem.SendUserId ? "selected" : string.Empty;
+        <option value="@item.User.Id">@item.User.Name</option>
+}
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@title</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/Assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="/Assets/css/app.css">
+    <link href="~/css/amazeui.chosen.css" rel="stylesheet" />
+    <link href="~/css/themes/default/default.css" rel="stylesheet" />
+    <link href="~/js/plugins/code/prettify.css" rel="stylesheet" />
+    <script src="~/js/jquery-1.7.2.min.js"></script>
+    <script src="~/js/kindeditor-all.js"></script>
+    <script src="~/js/lang/zh-CN.js"></script>
+    <script src="~/js/plugins/code/prettify.js"></script>
+    <script src="~/js/amazeui.chosen.js"></script>
+    <script data-message="@ViewBag.Message" src="~/js/letter.js"></script>
+</head>
+<body class="theme-white" style="background-color:#ffffff;">
+    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+        <div class="widget am-cf">
+            <div class="widget-head am-cf">
+                <div class="widget-title  am-fl">@title</div>
+                <div class="widget-function am-fr">
+                    <a href="/Message/Index" class="am-icon-reply"></a>
+                </div>
+            </div>
+            <div class="widget-body am-fr">
+                @Html.Raw(replay.ToString())
+                <form action="/Message/Send" method="post" onsubmit="return window.valid()" class="am-form tpl-form-line-form">
+                    <input type="hidden" name="AcceptUserId" value="@Model.MessageAcceptUserItem.AcceptUserId" id="acceptUserId" />
+                    <input type="hidden" name="Id" value="@Model.MessageAcceptUserItem.Id" />
+                    @if (string.IsNullOrEmpty(Model.MessageAcceptUserItem.MessageCode))
+                    {
+                        <div class="am-form-group">
+                            <label class="am-u-sm-3 am-form-label" style="font-size:14px">收件人</label>
+                            <div class="am-u-sm-3">
+                                <select id="acceptUser" placeholder="收件用户">
+                                    @GenerateUserSelect()
+                                </select>
+
+                            </div>
+                            <div class="am-u-sm-3">
+                            </div>
+                            <div class="am-u-sm-3">
+                            </div>
+                        </div>
+                        <div class="am-form-group">
+                            <label class="am-u-sm-3 am-form-label" style="font-size:14px">标题</label>
+                            <div class="am-u-sm-3">
+                                <input required class="tpl-form-input" name="Title" id="title" placeholder="标题"
+                                       value="@Model.MessageAcceptUserItem.Title" type="text">
+                            </div>
+                            <div class="am-u-sm-3">
+                            </div>
+                            <div class="am-u-sm-3">
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <input required class="tpl-form-input" name="Title" id="title" placeholder="标题"
+                               value="@Model.MessageAcceptUserItem.Title" type="hidden">
+                    }
+                    <div class="am-form-group">
+                        <label class="am-u-sm-3 am-form-label" style="font-size:14px">内容</label>
+                        <div class="am-u-sm-6">
+                            <textarea placeholder="内容" id="content" name="Content" style="height:250px"></textarea>
+                        </div>
+                        <div class="am-u-sm-3">
+                        </div>
+                    </div>
+                    <input type="hidden" name="MessageCode" id="messageCode" value="@Model.MessageAcceptUserItem.MessageCode">
+                    <div class="am-form-group">
+                        <div class="am-u-sm-9 am-u-sm-push-3">
+                            <button type="submit" id="sub" class="am-btn am-btn-primary tpl-btn-bg-color-success">发送/回复</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

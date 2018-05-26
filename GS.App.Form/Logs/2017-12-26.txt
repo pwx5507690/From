@@ -1,0 +1,2 @@
+2017-12-26 15:13:34,764 [12] INFO  - use DyncData create table 表单名称 ( Id int identity(1,1) primary key,  [Updatetime] [datetime] NULL ,_35 [datetime] NULL,_177 text NULL,_4 [nvarchar](150) NULL,_105 [nvarchar](150) NULL)
+2017-12-26 15:46:49,023 [16] INFO  - use DyncData create table 表单名称96 ( Id int identity(1,1) primary key,  [Updatetime] [datetime] NULL ,_58 [nvarchar](150) NULL)

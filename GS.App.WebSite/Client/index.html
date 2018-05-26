@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>管理首页</title>
+	<meta name="description" content="管理首页">
+	<meta name="keywords" content="index">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="Cache-Control" content="no-siteapp" />
+	<link rel="icon" type="image/png" href="/Assets/i/favicon.png">
+	<link rel="apple-touch-icon-precomposed" href="/Assets/i/app-icon72x72@2x.png">
+	<meta name="apple-mobile-web-app-title" content="管理首页" />
+	<link rel="stylesheet" href="/Assets/css/amazeui.min.css" />
+	<link rel="stylesheet" href="/Assets/css/app.css">
+	<script type="text/javascript" src="../Assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../Assets/js/amazeui.min.js"></script>
+	<script type="text/javascript" src="../Assets/js/common/config.js"></script>
+	<script type="text/javascript" src="../Assets/js/lib/jquery.cityselect.js"></script>
+	<script type="text/javascript" src="../Assets/js/lib/require.js" data-main="../Assets/js/common/strat.js"></script>
+</head>
+
+<body data-type="index" >
+	<div class="am-modal am-modal-loading am-modal-no-btn" tabindex="-1" id="checkUserloading">
+		<div class="am-modal-dialog">
+			<div class="am-modal-hd">验证中...</div>
+			<div class="am-modal-bd">
+				<span class="am-icon-spinner am-icon-spin"></span>
+			</div>
+		</div>
+	</div>
+	<div id="body" style="display:none">
+		<div class="am-g tpl-g">
+			<header>
+				<div class="am-fl tpl-header-logo">
+					<a href="javascript:;"><img src="/assets/img/logo.png" alt=""></a>
+				</div>
+				<div class="tpl-header-fluid">
+					<div class="am-fl tpl-header-switch-button am-icon-list">
+						<span>
+						</span>
+					</div>
+					<div class="am-fl tpl-header-search">
+						<form class="tpl-header-search-form" action="javascript:;">
+							<button class="tpl-header-search-btn am-icon-search"></button>
+							<input class="tpl-header-search-box" type="text" placeholder="搜索内容...">
+						</form>
+					</div>
+					<div class="am-fr tpl-header-navbar">
+						<ul>
+							<li class="am-text-sm tpl-header-navbar-welcome">
+								<a href="javascript:;">欢迎你, <span id="mainRoleName"></span> </a>
+							</li>
+							<li class="am-dropdown tpl-dropdown" data-am-dropdown>
+								<a href="javascript:;" class="am-dropdown-toggle tpl-dropdown-toggle" data-am-dropdown-toggle>
+									<i class="am-icon-envelope"></i>
+									<span class="am-badge am-badge-success am-round item-feed-badge">4</span>
+								</a>
+								<ul class="am-dropdown-content tpl-dropdown-content">
+									<li class="tpl-dropdown-menu-messages">
+										<a href="javascript:;" class="tpl-dropdown-menu-messages-item am-cf">
+											<div class="menu-messages-ico">
+												<img src="assets/img/user04.png" alt="">
+											</div>
+											<div class="menu-messages-time">
+												3小时前
+											</div>
+											<div class="menu-messages-content">
+												<div class="menu-messages-content-title">
+													<i class="am-icon-circle-o am-text-success"></i>
+													<span>夕风色</span>
+												</div>
+												<div class="am-text-truncate"> Amaze UI 的诞生，依托于 GitHub 及其他技术社区上一些优秀的资源；Amaze UI 的成长，则离不开用户的支持。 </div>
+												<div class="menu-messages-content-time">2016-09-21 下午 16:40</div>
+											</div>
+										</a>
+									</li>
+									<li class="tpl-dropdown-menu-messages">
+										<a href="javascript:;" class="tpl-dropdown-menu-messages-item am-cf">
+											<div class="menu-messages-ico">
+												<img src="assets/img/user02.png" alt="">
+											</div>
+											<div class="menu-messages-time">
+												5天前
+											</div>
+											<div class="menu-messages-content">
+												<div class="menu-messages-content-title">
+													<i class="am-icon-circle-o am-text-warning"></i>
+													<span>禁言小张</span>
+												</div>
+												<div class="am-text-truncate"> 为了能最准确的传达所描述的问题， 建议你在反馈时附上演示，方便我们理解。 </div>
+												<div class="menu-messages-content-time">2016-09-16 上午 09:23</div>
+											</div>
+										</a>
+									</li>
+									<li class="tpl-dropdown-menu-messages">
+										<a href="javascript:;" class="tpl-dropdown-menu-messages-item am-cf">
+											<i class="am-icon-circle-o"></i> 进入列表…
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="am-dropdown" data-am-dropdown>
+								<a href="javascript:;" class="am-dropdown-toggle" data-am-dropdown-toggle>
+									<i class="am-icon-bell"></i>
+									<span class="am-badge am-badge-warning am-round item-feed-badge">5</span>
+								</a>
+								<ul class="am-dropdown-content tpl-dropdown-content">
+									<li class="tpl-dropdown-menu-notifications">
+										<a href="javascript:;" class="tpl-dropdown-menu-notifications-item am-cf">
+											<div class="tpl-dropdown-menu-notifications-title">
+												<i class="am-icon-line-chart"></i>
+												<span> 有6笔新的销售订单</span>
+											</div>
+											<div class="tpl-dropdown-menu-notifications-time">
+												12分钟前
+											</div>
+										</a>
+									</li>
+									<li class="tpl-dropdown-menu-notifications">
+										<a href="javascript:;" class="tpl-dropdown-menu-notifications-item am-cf">
+											<div class="tpl-dropdown-menu-notifications-title">
+												<i class="am-icon-star"></i>
+												<span> 有3个来自人事部的消息</span>
+											</div>
+											<div class="tpl-dropdown-menu-notifications-time">
+												30分钟前
+											</div>
+										</a>
+									</li>
+									<li class="tpl-dropdown-menu-notifications">
+										<a href="javascript:;" class="tpl-dropdown-menu-notifications-item am-cf">
+											<div class="tpl-dropdown-menu-notifications-title">
+												<i class="am-icon-folder-o"></i>
+												<span> 上午开会记录存档</span>
+											</div>
+											<div class="tpl-dropdown-menu-notifications-time">
+												1天前
+											</div>
+										</a>
+									</li>
+
+									<li class="tpl-dropdown-menu-notifications">
+										<a href="javascript:;" class="tpl-dropdown-menu-notifications-item am-cf">
+											<i class="am-icon-bell"></i> 进入列表…
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="am-text-sm">
+								<a href="javascript:;">
+									<span class="am-icon-sign-out"></span> 退出
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</header>
+			<div class="tpl-skiner">
+				<div class="tpl-skiner-toggle am-icon-cog">
+				</div>
+				<div class="tpl-skiner-content">
+					<div class="tpl-skiner-content-title">
+						选择主题
+					</div>
+					<div class="tpl-skiner-content-bar">
+						<span class="skiner-color skiner-white" data-color="theme-white"></span>
+						<span class="skiner-color skiner-black" data-color="theme-black"></span>
+					</div>
+				</div>
+			</div>
+			<div class="left-sidebar">
+				<div class="tpl-sidebar-user-panel">
+					<div class="tpl-user-panel-slide-toggleable">
+						<div class="tpl-user-panel-profile-picture">
+							<img src="assets/img/user04.png" alt="">
+						</div>
+						<span class="user-panel-logged-in-text">
+							<i class="am-icon-circle-o am-text-success tpl-user-panel-status-icon"></i>
+							禁言小张
+						</span>
+						<a href="javascript:;" class="tpl-user-panel-action-link">
+							<span class="am-icon-pencil"></span> 账号设置
+						</a>
+					</div>
+				</div>
+
+				<ul class="sidebar-nav" id="menuContainer"></ul>
+			</div>
+			<div style="padding-top:15px" class="tpl-content-wrapper">
+				<div style="margin-top:15px;">
+					<div style="display:none" class="am-alert am-alert-success" id="optionMessage">
+						<button onclick="$(this).parent().hide()" type="button" class="am-close">&times;</button>
+						<p></p>
+					</div>
+					<div id="container">
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="am-modal am-modal-loading am-modal-no-btn" tabindex="-1" id="loading">
+			<div class="am-modal-dialog">
+				<div class="am-modal-hd">正在载入...</div>
+				<div class="am-modal-bd">
+					<span class="am-icon-spinner am-icon-spin"></span>
+				</div>
+			</div>
+		</div>
+		<div class="am-modal am-modal-confirm" tabindex="-2" id="confirm">
+			<div class="am-modal-dialog">
+				<div class="am-modal-hd">询问？</div>
+				<div class="am-modal-bd" id="conMessage">
+
+				</div>
+				<div class="am-modal-footer">
+					<span class="am-modal-btn" data-am-modal-cancel>取消</span>
+					<span class="am-modal-btn" data-am-modal-confirm>确定</span>
+				</div>
+			</div>
+		</div>
+		<div class="am-modal am-modal-alert" tabindex="-3" id="alert">
+			<div class="am-modal-dialog">
+				<div class="am-modal-hd">提示！</div>
+				<div class="am-modal-bd" id="message">
+
+				</div>
+				<div class="am-modal-footer">
+					<span class="am-modal-btn">确定</span>
+				</div>
+			</div>
+		</div>
+		<div class="am-modal am-modal-no-btn" tabindex="-5" id="modal">
+			<div class="am-modal-dialog">
+				<div class="am-modal-hd">
+					<h4 id="modalTitle"></h4>
+					<a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+				</div>
+				<div class="am-modal-bd">
+					<div id="modalContent">
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/template" id="tempUpload">
+			<iframe src="FileUpload/file.html" style="width:100%; height:380px; overflow:auto " frameborder="0"></iframe>
+		</script>
+		<script type="text/template" id="tempMenu">
+			<li class="<%=liClass%>">
+				<%if(eTitle){%>
+				<%=eTitle%>
+				<%}%>
+				<<%if(eTitle){%>span<%}else{%>a<%}%> id="<%=id%>" href="<%=url%>" class="<%=aClass%>">
+				<%if(icon){%>
+				<i class="<%=icon%> sidebar-nav-link-logo"></i><%}%>
+				<%=title%>
+				</<%if(eTitle){%>span<%}else{%>a<%}%>>
+			</li>
+		</script>
+		<script type="text/template" id="optionTemp">
+			<div class="tpl-table-black-operation">
+				<a href="#/<%=editPath%>">
+					<i class="am-icon-pencil"></i> 编辑
+				</a>
+				<a href="javascript:;" data-delete="<%=id%>" class="tpl-table-black-operation-del">
+					<i class="am-icon-trash"></i> 删除
+				</a>
+			</div>
+		</script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+2018-02-27 09:45:27,394 [15] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-02-27 09:45:27,803 [15] INFO  -  where  ( Id in(12) )
+2018-02-27 09:45:39,545 [15] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-02-27 09:45:39,550 [15] INFO  -  where  ( Id in(12) )
+2018-02-27 09:45:40,673 [18] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-02-27 09:45:40,680 [18] INFO  -  where  ( Id in(12) )
+2018-02-27 09:45:45,991 [13] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-02-27 09:45:45,994 [13] INFO  -  where  ( Id in(12) )
+2018-02-27 09:45:51,102 [18] INFO  -  where  ( (AcceptUserId = 12) and (Stats = 'Important') ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-02-27 09:45:52,540 [5] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 1) )order by ( Updatetime ) ASC
+2018-02-27 09:45:53,367 [8] INFO  -  where  ( (AcceptUserId = 12) and (Stats = 'Important') ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-02-27 09:45:54,068 [5] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-02-27 09:45:54,073 [5] INFO  -  where  ( Id in(12) )
+2018-02-27 09:45:54,670 [15] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-02-27 09:45:54,673 [15] INFO  -  where  ( Id in(12) )
+2018-02-27 09:45:55,412 [5] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-02-27 09:45:55,414 [5] INFO  -  where  ( Id in(12) )

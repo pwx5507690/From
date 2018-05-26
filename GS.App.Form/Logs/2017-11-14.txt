@@ -1,0 +1,145 @@
+2017-11-14 14:30:49,232 [11] INFO  - elm count = 1
+2017-11-14 14:30:53,457 [5] INFO  - elm count = 1
+2017-11-14 14:30:53,466 [5] INFO  - elm count = 1
+2017-11-14 14:30:53,466 [5] INFO  - elm count = 1
+2017-11-14 14:30:53,467 [5] INFO  - elm count = 1
+2017-11-14 14:33:38,641 [6] INFO  - elm count = 1
+2017-11-14 14:33:38,758 [6] INFO  - elm count = 1
+2017-11-14 14:33:38,759 [6] INFO  - elm count = 1
+2017-11-14 14:33:38,760 [6] INFO  - elm count = 1
+2017-11-14 14:35:05,202 [17] INFO  - elm count = 1
+2017-11-14 14:35:05,233 [17] INFO  - elm count = 1
+2017-11-14 14:35:05,234 [17] INFO  - dyncData/exp/Dropdown
+2017-11-14 14:35:05,285 [17] INFO  - <log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>{"Table":"990d7d48-40c0-40fe-8050-c6a2793aff73","FiledName":"_15","Param":null}</format><args>{}</args></log4net.Error>
+2017-11-14 14:35:05,556 [15] ERROR - request api error  message=已取消一个任务。 - {"Url":"http://localhost:18635//api/dyncData/exp/Dropdown","Method":0,"IsUseBase":false,"Type":"application/json","Content":{"Headers":[{"Key":"Content-Type","Value":["application/json"]},{"Key":"Content-Length","Value":["79"]}]},"Uri":"http://localhost:18635//api/dyncData/exp/Dropdown"}
+2017-11-14 14:35:05,625 [17] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.DyncFormController   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 GS.App.Form.Models.Bulider.FormItemView.SetSourceValue(DyncField dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 135
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 26
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 60
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-14 14:35:05,673 [17] ERROR - 2017-11-14 : 已取消一个任务。 - {"Url":"http://localhost:18635//api/dyncData/exp/Dropdown","Method":0,"IsUseBase":false,"Type":"application/json","Content":{"Headers":[{"Key":"Content-Type","Value":["application/json"]},{"Key":"Content-Length","Value":["79"]}]},"Uri":"http://localhost:18635//api/dyncData/exp/Dropdown"}--   在 GS.Common.Http.HttpRequest.<Send>d__1.MoveNext() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 57
+2017-11-14 16:00:12,512 [41] INFO  - elm count = 1
+2017-11-14 16:00:14,923 [34] INFO  - elm count = 1
+2017-11-14 16:00:15,698 [34] INFO  - elm count = 1
+2017-11-14 16:00:15,700 [34] INFO  - dyncData/exp/Dropdown
+2017-11-14 16:00:15,945 [34] INFO  - <log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>{"Table":"990d7d48-40c0-40fe-8050-c6a2793aff73","FiledName":"_15","Param":null}</format><args>{}</args></log4net.Error>
+2017-11-14 16:00:17,272 [41] ERROR - request api error  message=已取消一个任务。 - {"Url":"http://localhost:18635//api/dyncData/exp/Dropdown","Method":0,"IsUseBase":false,"Type":"application/json","Content":{"Headers":[{"Key":"Content-Type","Value":["application/json"]},{"Key":"Content-Length","Value":["79"]}]},"Uri":"http://localhost:18635//api/dyncData/exp/Dropdown"}
+2017-11-14 16:00:19,017 [34] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.DyncFormController   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 GS.App.Form.Models.Bulider.FormItemView.SetSourceValue(DyncField dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 135
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 26
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 60
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-14 16:00:19,262 [34] ERROR - 2017-11-14 : 已取消一个任务。 - {"Url":"http://localhost:18635//api/dyncData/exp/Dropdown","Method":0,"IsUseBase":false,"Type":"application/json","Content":{"Headers":[{"Key":"Content-Type","Value":["application/json"]},{"Key":"Content-Length","Value":["79"]}]},"Uri":"http://localhost:18635//api/dyncData/exp/Dropdown"}--   在 GS.Common.Http.HttpRequest.<Send>d__1.MoveNext() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 57
+2017-11-14 16:52:34,793 [61] INFO  - elm count = 1
+2017-11-14 16:52:40,927 [53] INFO  - elm count = 1
+2017-11-14 16:52:40,993 [53] INFO  - elm count = 1
+2017-11-14 16:52:40,994 [53] INFO  - dyncData/exp/Dropdown
+2017-11-14 16:52:41,087 [53] INFO  - <log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>{"Table":"990d7d48-40c0-40fe-8050-c6a2793aff73","FiledName":"_15","Param":null}</format><args>{}</args></log4net.Error>
+2017-11-14 16:52:42,496 [68] ERROR - request api error  message=已取消一个任务。 - {"Url":"http://localhost:18635//api/dyncData/exp/Dropdown","Method":0,"IsUseBase":false,"Type":"application/json","Content":{"Headers":[{"Key":"Content-Type","Value":["application/json"]},{"Key":"Content-Length","Value":["79"]}]},"Uri":"http://localhost:18635//api/dyncData/exp/Dropdown"}
+2017-11-14 16:52:44,677 [53] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.DyncFormController   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 GS.App.Form.Models.Bulider.FormItemView.SetSourceValue(DyncField dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 135
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 26
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 60
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-14 16:52:45,977 [53] ERROR - 2017-11-14 : 已取消一个任务。 - {"Url":"http://localhost:18635//api/dyncData/exp/Dropdown","Method":0,"IsUseBase":false,"Type":"application/json","Content":{"Headers":[{"Key":"Content-Type","Value":["application/json"]},{"Key":"Content-Length","Value":["79"]}]},"Uri":"http://localhost:18635//api/dyncData/exp/Dropdown"}--   在 GS.Common.Http.HttpRequest.<Send>d__1.MoveNext() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 57
+2017-11-14 16:55:48,001 [63] INFO  - elm count = 1
+2017-11-14 16:55:48,099 [63] INFO  - elm count = 1
+2017-11-14 16:55:48,117 [63] INFO  - dyncData/exp/Dropdown
+2017-11-14 16:55:48,183 [63] INFO  - <log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>{"Table":"990d7d48-40c0-40fe-8050-c6a2793aff73","FiledName":"_15","Param":null}</format><args>{}</args></log4net.Error>
+2017-11-14 16:55:48,244 [53] ERROR - request api error  message=   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   在 GS.Common.Http.HttpRequest.<Send>d__1.MoveNext() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 37 - {"Url":"http://localhost:18635//api/dyncData/exp/Dropdown","Method":0,"IsUseBase":false,"Type":"application/json","Content":{"Headers":[{"Key":"Content-Type","Value":["application/json"]},{"Key":"Content-Length","Value":["79"]}]},"Uri":"http://localhost:18635//api/dyncData/exp/Dropdown"}
+2017-11-14 16:55:48,258 [63] ERROR - 发生一个或多个错误。GS.App.Form.Controllers.DyncFormController   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 GS.App.Form.Models.Bulider.FormItemView.SetSourceValue(DyncField dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 135
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 26
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 60
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-14 16:55:48,279 [63] ERROR - 2017-11-14 :    在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   在 GS.Common.Http.HttpRequest.<Send>d__1.MoveNext() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 37 - {"Url":"http://localhost:18635//api/dyncData/exp/Dropdown","Method":0,"IsUseBase":false,"Type":"application/json","Content":{"Headers":[{"Key":"Content-Type","Value":["application/json"]},{"Key":"Content-Length","Value":["79"]}]},"Uri":"http://localhost:18635//api/dyncData/exp/Dropdown"}--   在 GS.Common.Http.HttpRequest.<Send>d__1.MoveNext() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 57
+2017-11-14 17:11:09,793 [7] INFO  - elm count = 1
+2017-11-14 17:11:11,462 [7] INFO  - elm count = 1
+2017-11-14 17:11:11,560 [7] INFO  - elm count = 1
+2017-11-14 17:11:11,611 [7] INFO  - dyncData/exp/Dropdown
+2017-11-14 17:11:11,661 [7] INFO  - <log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>{"Table":"990d7d48-40c0-40fe-8050-c6a2793aff73","FiledName":"_15","Param":null}</format><args>{}</args></log4net.Error>
+2017-11-14 17:28:54,050 [5] INFO  - elm count = 1
+2017-11-14 17:28:54,060 [6] INFO  - elm count = 1
+2017-11-14 17:28:54,149 [5] INFO  - elm count = 1
+2017-11-14 17:28:54,152 [5] INFO  - dyncData/exp/Dropdown
+2017-11-14 17:28:54,150 [6] INFO  - elm count = 1
+2017-11-14 17:28:54,154 [6] INFO  - dyncData/exp/Dropdown
+2017-11-14 17:28:54,188 [6] INFO  - <log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>{"Table":"990d7d48-40c0-40fe-8050-c6a2793aff73","FiledName":"_15","Param":null}</format><args>{}</args></log4net.Error>
+2017-11-14 17:28:54,188 [5] INFO  - <log4net.Error>Exception during StringFormat: 输入字符串的格式不正确。 <format>{"Table":"990d7d48-40c0-40fe-8050-c6a2793aff73","FiledName":"_15","Param":null}</format><args>{}</args></log4net.Error>
+2017-11-14 17:29:51,019 [6] ERROR - request api error api=http://localhost:18635//api/dyncData/exp/Dropdown|StatusCode=InternalServerError, message=System.Net.Http.StreamContent
+2017-11-14 17:29:51,019 [5] ERROR - request api error api=http://localhost:18635//api/dyncData/exp/Dropdown|StatusCode=InternalServerError, message=System.Net.Http.StreamContent
+2017-11-14 17:30:38,077 [6] ERROR - request api error  message=   在 GS.Common.Http.HttpRequest.Send(HttpParam param, IHttpException iHttpException, HttpClient httpClient, CancellationToken cancellationToken) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 48 - {"Url":"http://localhost:18635//api/dyncData/exp/Dropdown","Method":0,"IsUseBase":false,"Type":"application/json","Content":{"Headers":[{"Key":"Content-Type","Value":["application/json"]},{"Key":"Content-Length","Value":["79"]}]},"Uri":"http://localhost:18635//api/dyncData/exp/Dropdown"}

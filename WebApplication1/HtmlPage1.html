@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script src="Scripts/jquery.html5uploader.js"></script>
+    <title></title>
+    <script type="text/javascript">
+        $(function () {
+            $("#dropbox, #multiple").html5Uploader({
+                name: "foo",
+                postUrl: "bar.aspx",
+                onClientProgress: function (e, file) {
+                    file.key = "222";
+                    console.error(e, file);
+                },
+                onClientLoadEnd: function (e, file) {
+                    console.log(file);
+                },
+                onClientLoad: function (e, file) {
+                    alert(e);
+                },
+                onServerProgress: function (e, file) {
+                    console.log(file);
+                },
+                onloadend: function (e, file) {
+                    console.log(file);
+                }
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <style>
+        .file {
+            position: relative;
+        }
+
+            .file input {
+                position: absolute;
+                font-size: 100px;
+                right: 0;
+                top: 0;
+                opacity: 0;
+            }
+
+        .icon-input {
+            font-size: 48px;
+            margin-top: -10px;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+
+        #dropbox {
+            width: 100%;
+            height: 100%;
+        }
+
+        .drogDrop {
+            display: block;
+            width: 343px;
+            margin: 0 auto 25px auto;
+            padding: 25px;
+            height: 350px;
+            color: #8d9499;
+            color: #97A1A8;
+            background: #f8f8f8;
+            border: 2px dashed #C8CBCE;
+            text-align: center;
+            -webkit-transition: box-shadow 0.3s, border-color 0.3s;
+            -moz-transition: box-shadow 0.3s, border-color 0.3s;
+            transition: box-shadow 0.3s, border-color 0.3s;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/amazeui.min.css" />
+    <link rel="stylesheet" href="/css/app.css">
+    <div id="progressContent">
+
+    </div>
+
+    <div class="drogDrop">
+        <div id="dropbox">
+            <div class="icon-input">
+                <i class="am-icon-cloud-upload"></i>
+            </div>
+            <div>
+                <h3>拖拽&amp;拖拽文件至此</h3>
+                <span style="display:inline-block; margin: 15px 0">或者</span>
+            </div><a class="am-btn am-btn-default am-btn-secondary file">
+                选择文件
+                <input id="multiple" type="file" multiple>
+            </a>
+        </div>
+    </div>
+    <script>
+        var progress = function () {
+            var _timers;
+            var _container;
+            var _dic;
+            var _getProgress = function (name, percentage) {
+                var temp = "<div style='width: 343px; margin: 0 auto 25px auto;padding-top:20px;'>";
+                temp += "<div><label>" + name + "</label></div>";
+                temp += "<div class='am-progress am-progress-xs'>";
+                temp += "<div class='am-progress-bar' style='width: " + percentage + "%'></div>";
+                temp += "</div>";
+                temp += "</div>";
+                return jQuery(temp);
+            };
+            var _setProgress = function (key, percentage) {
+                if (percentage > 100) {
+                    return;
+                }
+                _dic[key].find(".am-progress-bar").css("width", percentage + "%");
+                if (percentage == 100)
+                    clearInterval(_timers[key]);
+            };
+            var _run = function (key, name, percentage) {
+                if (key in _dic) {
+                    _setProgress(key, percentage);
+                } else {
+                    _dic[key] = _getProgress(name, percentage).appendTo(_container);
+                    _timers[key] = setInterval(function () {
+                        percentage++;
+                        _setProgress(key, percentage);
+                    }, 100);
+                }
+            };
+            this.init = function (param) {
+                _container = typeof param.container === "string"
+                    ? jQuery(document.getElementById(param.container)) : param.container;
+                _dic = new Object();
+                _timers = new Object();
+                return this;
+            };
+            this.run = function (key, name, percentage) {
+                _run(key, name, percentage);
+            };
+        };
+
+        var uploader = function () {
+            var _server = "bar.aspx";
+            var _name = "foo";
+            var _html5UploaderConent = ["#dropbox", "#multiple"];
+            var _keys = [];
+            var _progress;
+            var _progressContent;
+            var _drogDrop;
+            var _successCall;
+            var _onClientLoad = function (e, file) {
+                file.key = _keys.length + "f";
+                _keys.push(file.key);
+                _progress.run(file.key, file.name, 0);
+            };
+            var _onSuccess = function (e, file, responseText) {
+                _progress.run(file.key, file.name, 100);
+                _keys.splice($.inArray(file.key, _keys), 1);
+                if (_keys.length === 0) {
+                    _successCall && _successCall()
+                }
+            };
+            var _html5UploaderInit = function () {
+                jQuery(_html5UploaderConent.join(',')).html5Uploader({
+                    name: _name,
+                    postUrl: _server,
+                    onClientLoad: _onClientLoad,
+                    onSuccess: _onSuccess
+                });
+            };
+            this.init = function (param) {
+                _successCall = param && param.successCall
+                _progressContent = jQuery("#progressContent");
+                _drogDrop = jQuery(".drogDrop");
+                _progress = new progress().init({
+                    container: _progressContent
+                });
+                $.setHtml5UploaderPostUrl();
+                _html5UploaderInit();
+            };
+            return this;
+        };
+
+        var uploaderControl = function () {
+           
+        };
+
+        var p = new progress();
+        $(function () {
+            p.init({
+                container: "progressContent"
+            }).run("f1", "aa", 0);
+            p.run("f2", "dd", 0);
+        });
+    </script>
+</body>
+</html>

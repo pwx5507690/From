@@ -1,0 +1,57 @@
+2017-09-27 08:49:11,114 [7] ERROR - 表单名称已经存在
+2017-09-27 08:49:32,916 [8] ERROR - 表单名称已经存在
+2017-09-27 10:57:40,332 [6] ERROR - 表单名称已经存在
+2017-09-27 10:57:44,327 [6] ERROR - 表单名称已经存在
+2017-09-27 10:58:02,964 [13] ERROR - “6969”附近有语法错误。
+2017-09-27 13:02:31,860 [5] ERROR - 表单名称已经存在
+2017-09-27 13:02:36,888 [5] ERROR - 请输入表单名称
+2017-09-27 13:02:39,295 [5] ERROR - 请输入表单名称
+2017-09-27 13:02:43,067 [5] ERROR - 表单名称请不要以数字和特殊字符开头
+2017-09-27 13:03:00,191 [5] ERROR - 值不能为 null。
+参数名: value
+2017-09-27 13:03:09,114 [6] ERROR - 表单名称已经存在
+2017-09-27 13:38:57,971 [5] ERROR - 表单名称已经存在
+2017-09-27 13:39:00,611 [12] ERROR - 表单名称已经存在
+2017-09-27 13:39:02,833 [5] ERROR - 表单名称已经存在
+2017-09-27 13:39:15,081 [6] ERROR - 表单名称已经存在
+2017-09-27 13:39:18,338 [5] ERROR - 表单名称已经存在
+2017-09-27 13:39:30,450 [8] ERROR - 表单名称已经存在
+2017-09-27 13:39:32,425 [7] ERROR - 表单名称已经存在
+2017-09-27 13:40:07,817 [5] ERROR - 表单名称已经存在
+2017-09-27 13:40:12,441 [8] ERROR - 表单名称已经存在
+2017-09-27 13:40:44,161 [15] ERROR - 表单名称已经存在
+2017-09-27 13:40:45,769 [12] ERROR - 表单名称已经存在
+2017-09-27 13:40:48,197 [11] ERROR - 表单名称已经存在
+2017-09-27 13:40:56,761 [11] ERROR - 表单名称已经存在
+2017-09-27 13:41:02,817 [11] ERROR - 表单名称已经存在
+2017-09-27 13:41:09,928 [7] ERROR - 表单名称已经存在
+2017-09-27 13:41:35,499 [8] ERROR - 表单名称已经存在
+2017-09-27 13:41:37,785 [8] ERROR - 表单名称已经存在
+2017-09-27 13:41:40,945 [5] ERROR - 表单名称已经存在
+2017-09-27 13:42:01,802 [8] ERROR - 表单名称已经存在
+2017-09-27 13:42:11,715 [8] ERROR - 表单名称已经存在
+2017-09-27 14:04:28,721 [6] ERROR - 2017-09-27 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)
+2017-09-27 14:08:29,398 [7] ERROR - 2017-09-27 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)
+2017-09-27 14:11:16,100 [8] ERROR - 2017-09-27 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)
+2017-09-27 14:15:24,679 [7] ERROR - 2017-09-27 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)
+2017-09-27 14:29:49,508 [8] ERROR - 2017-09-27 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)
+2017-09-27 14:56:54,086 [8] ERROR - 表单名称已经存在
+2017-09-27 14:57:06,466 [5] ERROR - 请输入表单名称
+2017-09-27 14:57:31,761 [8] ERROR - 请输入表单名称
+2017-09-27 14:58:37,730 [8] ERROR - 请输入表单名称
+2017-09-27 14:59:58,608 [5] ERROR - 请输入表单名称
+2017-09-27 15:00:08,769 [6] ERROR - 请输入表单名称
+2017-09-27 15:01:40,373 [5] ERROR - 表单名称已经存在
+2017-09-27 15:01:47,537 [5] ERROR - 请输入表单名称
+2017-09-27 15:03:25,263 [5] ERROR - 服务器无法在已发送 HTTP 标头之后设置状态。
+2017-09-27 15:04:29,863 [5] ERROR - 表单名称已经存在
+2017-09-27 15:04:33,536 [6] ERROR - 请输入表单名称
+2017-09-27 15:08:19,316 [7] ERROR - 请输入表单名称
+2017-09-27 15:23:44,995 [5] ERROR - 表单名称已经存在
+2017-09-27 16:11:05,770 [5] ERROR - 服务器无法在已发送 HTTP 标头之后设置状态。
+2017-09-27 16:11:35,522 [6] ERROR - 表单名称已经存在

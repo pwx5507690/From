@@ -1,0 +1,8 @@
+ SQLListActivities = " SELECT DISTINCT(ActivityID) as id,tblActivity.* FROM tblActivity  "  
+		    SQLListActivities = SQLListActivities & " INNER JOIN dbo.tblCodeXRF ON tblActivity.ActivityID = dbo.tblCodeXRF.FKCodeID " 
+		    SQLListActivities = SQLListActivities & " WHERE (Inactive=0 and ((ActivityCatIDFK)=" & strACTCAT & ") And IsNull(IsOverheadActivity,0)=0 ) AND dbo.tblCodeXRF.XrfStatus = 1 "
+		    SQLListActivities = SQLListActivities & " AND dbo.tblCodeXRF.XrfType = 1 AND (dbo.tblCodeXRF.FKProjectID = "& Request.QueryString("Site") &")  union  "
+		    SQLListActivities = " SELECT DISTINCT(ActivityID) as id,tblActivity.* FROM tblActivity "  
+		    SQLListActivities = SQLListActivities & " INNER JOIN dbo.tblCodeXRF ON tblActivity.ActivityID = dbo.tblCodeXRF.FKCodeID " 
+		    SQLListActivities = SQLListActivities & " left join tblTimecardDetail as tim on tblActivity.ActivityID = tim.FKActivityID "
+		    SQLListActivities = SQLListActivities & " WHERE tim.TCActivityHrs > 0 and Inactive=1 and tim.FKProjectID = "& Request.QueryString("Site") &" ORDER BY ActivityCode"

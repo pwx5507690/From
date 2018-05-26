@@ -1,0 +1,68 @@
+﻿@model PagedList<Site>
+@{
+    var head = new List<string>() { "站点名称", "启动页面", "访问次数", "过滤ip", "修改时间" };
+    var page = Convert.ToString(ViewBag.page);
+    var content = Model.Select(t =>
+    {
+        Func<string> edit = () =>
+        {
+            return FormTemp.GetTempByKey
+            (
+                "tableOption"
+                , $"/Cms/ModifySite?code={t.Id}"
+                , $"/Cms/Delete?code={t.Id}&page={page}"
+             );
+        };
+        var value = new List<string>() {
+            t.Name,
+            t.PageName,
+            t.Access.ToString(),
+            t.IpFilter,
+            t.Updatetime.Value.ToString("yyyy-MM-dd hh:ss")
+        };
+        return new Tuple<IList<string>, Func<string>>(value, edit);
+    });
+    var tableParam = new Tuple<IList<string>, IList<Tuple<IList<string>, Func<string>>>, bool>(head, content.ToList(), true);
+}
+<title>站点列表</title>
+<link rel="stylesheet" href="~/Assets/css/amazeui.min.css" />
+<link rel="stylesheet" href="~/Assets/css/amazeui.datatables.min.css" />
+<link rel="stylesheet" href="~/Assets/css/app.css" />
+<style>
+    #pager {
+        margin-right: 20px;
+    }
+</style>
+<script src="~/js/jquery-1.7.2.min.js"></script>
+<script src="~/Assets/js/amazeui.min.js"></script>
+<script src="~/js/cms.js" data-init="view" data-message="@ViewBag.message"></script>
+<body class="theme-white" style="background-color:#ffffff;overflow:hidden;">
+    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+        <div class="widget am-cf">
+            <div class="widget-head am-cf">
+                <div class="widget-title  am-cf">站点列表</div>
+            </div>
+            <div class="widget-body  am-fr">
+               
+                @Html.BuildByKey("seachTitle", "/Cms/ModifySite", "输入站点名称")
+                @Html.BuildByTable(tableParam)
+                <div class="am-u-sm-12">
+                    
+                    @Html.Pager(Model, new PagerOptions
+               {
+                   HorizontalAlign = "Right",
+                   RouteName = "Default",
+                   PageIndexParameterName = "currentPage",
+                   ContainerTagName = "ul",
+                   CssClass = "am-pagination tpl-pagination",
+                   CurrentPagerItemTemplate = "<li class=\"am-active\"><a href=\"#\">{0}</a></li>",
+                   DisabledPagerItemTemplate = "<li class=\"am-disabled\"><a>{0}</a></li>",
+                   PagerItemTemplate = "<li>{0}</li>",
+                   Id = "pager"
+               })
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

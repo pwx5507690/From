@@ -1,0 +1,110 @@
+﻿@model  LetterModel
+@{
+    var head = new List<string>() { "时间", "状态", "标题", "内容", "发送人" };
+    var page = Convert.ToString(ViewBag.page);
+    var content = Model.MessageAcceptUser.Select(t =>
+    {
+        var mark = "/Message/UBindImportant";
+        var icon = "star-o";
+        var tdIcon = "<i class='am-icon-star' style='color:red'></i>&nbsp;";
+        if (t.Stats != "Important")
+        {
+            mark = "/Message/BindImportant";
+            icon = "star";
+            tdIcon = "&nbsp;&nbsp;";
+        }
+        Func<string> edit = () =>
+        {
+            return FormTemp.GetTempByKey
+            (
+                "tableOption3"
+                , $"/Message/Letter?id={t.Id}"
+                , $"/Message/Delete?id={t.Id}&page={page}&type={Request["type"]}"
+                , $"{mark}?id={t.Id}&page={page}&type={Request["type"]}"
+                , icon
+             );
+        };
+        var value = new List<string>() {
+            tdIcon + t.Updatetime.Value.ToString("yyyy-MM-dd hh:ss"),
+            t.IsRead?"已读":"未读",
+            t.Title,
+            t.Content.Length>30?$"{t.Content.Substring(0,30)}....": t.Content,
+            t.SendUserId>0?t.SendUser.Name:$"站点:{t.SendUser.Name}"
+                                                                                                };
+        return new Tuple<IList<string>, Func<string>>(value, edit);
+    });
+    var tableParam = new Tuple<IList<string>, IList<Tuple<IList<string>, Func<string>>>, bool>(head, content.ToList(), true);
+}
+@helper  GenerateMessageMenu()
+{
+    var dic = new Dictionary<string, string>() { { "2", "未读" }, { "1", "已读" }, { "0", "全部" }, { "3", "重要信息" }, { "4", "垃圾箱" } };
+    var type = Request["type"] ?? "2";
+    foreach (var item in dic)
+    {
+        if (item.Key == "3" || item.Key == "4")
+        {
+            <li class="am-nav-divider"></li>
+    }
+    if (item.Key == type)
+    {
+            <li style="font-size:14px" class="am-nav-header">@item.Value</li>
+    }
+    else
+    {
+            <li style="font-size:14px"><a href="/Message/Index?type=@item.Key">@item.Value</a></li>
+    }
+}
+}
+<html>
+<head>
+    <title>收件箱</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/Assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="/Assets/css/app.css">
+    <link href="~/Css/amazeui.chosen.css" rel="stylesheet" />
+    <script src="~/Js/jquery-1.7.2.min.js"></script>
+    <script data-message="@ViewBag.Message" data-type="@Request["type"]" src="~/Js/messageIndex.js"></script>
+    <style>
+        .am-nav-header {
+            margin-top: 0.5em !important;
+        }
+    </style>
+</head>
+<body class="theme-white" style="background-color:#ffffff;overflow:hidden;">
+    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+        <div class="widget am-cf">
+            <div class="widget-head am-cf">
+                <div class="widget-title  am-cf">收件箱</div>
+            </div>
+            <div class="widget-body  am-fr">
+                <div class="am-u-sm-2" style="border-right:1px solid #ddd;">
+                    <ul class="am-nav">
+                        @GenerateMessageMenu()
+                    </ul>
+                </div>
+                <div class="am-u-sm-10">
+                    <div class="am-u-sm-12">
+                        @Html.BuildByKey("seachTitleAndTime", "/Message/Letter", "输入标题", (string)ViewBag.Title, (string)ViewBag.Time)
+                        @Html.BuildByTable(tableParam)
+                    </div>
+                    <div class="am-u-sm-12">
+                        @Html.Pager(Model.MessageAcceptUser, new PagerOptions
+                   {
+                       HorizontalAlign = "Right",
+                       RouteName = "Default",
+                       PageIndexParameterName = "currentPage",
+                       ContainerTagName = "ul",
+                       CssClass = "am-pagination tpl-pagination",
+                       CurrentPagerItemTemplate = "<li class=\"am-active\"><a href=\"#\">{0}</a></li>",
+                       DisabledPagerItemTemplate = "<li class=\"am-disabled\"><a>{0}</a></li>",
+                       PagerItemTemplate = "<li>{0}</li>",
+                       Id = "pager"
+                   })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

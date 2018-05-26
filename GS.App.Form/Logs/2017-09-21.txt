@@ -1,0 +1,20 @@
+2017-09-21 13:59:25,234 [17] ERROR - 2017-09-21 : The connection string for the database 'DyncData' does not exist or does not have a valid provider.
+2017-09-21 14:00:57,223 [12] ERROR - 2017-09-21 : The connection string for the database 'DyncData' does not exist or does not have a valid provider.
+2017-09-21 14:01:21,812 [18] ERROR - 2017-09-21 : The connection string for the database 'DyncData' does not exist or does not have a valid provider.
+2017-09-21 14:01:23,103 [12] ERROR - 2017-09-21 : The connection string for the database 'DyncData' does not exist or does not have a valid provider.
+2017-09-21 14:01:36,525 [15] ERROR - 2017-09-21 : The connection string for the database 'DyncData' does not exist or does not have a valid provider.
+2017-09-21 14:01:55,826 [18] ERROR - 2017-09-21 : The connection string for the database 'DyncData' does not exist or does not have a valid provider.
+2017-09-21 14:04:23,423 [18] ERROR - 2017-09-21 : The connection string for the database 'DyncData' does not exist or does not have a valid provider.
+2017-09-21 14:04:43,587 [18] ERROR - 2017-09-21 : The connection string for the database 'DyncData' does not exist or does not have a valid provider.
+2017-09-21 14:05:50,584 [6] ERROR - 2017-09-21 : The connection string for the database 'DyncData' does not exist or does not have a valid provider.
+2017-09-21 14:09:46,578 [12] ERROR - 2017-09-21 : The connection string for the database 'DyncData' does not exist or does not have a valid provider.
+2017-09-21 14:14:39,013 [12] ERROR - 2017-09-21 : The connection string for the database 'DyncData' does not exist or does not have a valid provider.
+2017-09-21 14:19:39,001 [15] ERROR - 2017-09-21 : The connection string for the database 'DyncData' does not exist or does not have a valid provider.
+2017-09-21 15:49:24,759 [8] ERROR - 2017-09-21 : Could not cast or convert from System.String to GS.SQLModel.Form.DyncForm.
+2017-09-21 15:53:35,931 [5] ERROR - 2017-09-21 : 无法创建抽象类。
+2017-09-21 15:53:43,157 [5] ERROR - 2017-09-21 : 无法创建抽象类。
+2017-09-21 15:53:53,292 [5] ERROR - 2017-09-21 : 无法创建抽象类。
+2017-09-21 15:53:54,560 [7] ERROR - 2017-09-21 : 无法创建抽象类。
+2017-09-21 15:53:55,001 [6] ERROR - 2017-09-21 : 无法创建抽象类。
+2017-09-21 16:00:06,402 [7] ERROR - 2017-09-21 : 无法创建抽象类。
+2017-09-21 16:00:13,981 [5] ERROR - 2017-09-21 : 无法创建抽象类。

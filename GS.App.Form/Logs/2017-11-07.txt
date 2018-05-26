@@ -1,0 +1,152 @@
+2017-11-07 08:03:43,785 [6] ERROR - 2017-11-07 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-07 08:04:52,330 [8] ERROR - 2017-11-07 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-07 08:10:30,566 [14] ERROR - 2017-11-07 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-07 12:36:21,603 [75] ERROR - 2017-11-07 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-07 13:19:04,023 [92] ERROR - 2017-11-07 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-07 13:20:50,772 [9] ERROR - 2017-11-07 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-07 13:24:18,926 [7] ERROR - 2017-11-07 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-07 13:25:23,270 [7] ERROR - 2017-11-07 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-07 13:27:02,382 [8] ERROR - 2017-11-07 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-07 13:30:14,953 [8] ERROR - 2017-11-07 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-07 13:33:47,207 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,896 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,897 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,898 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,913 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,914 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,914 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,915 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,915 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,916 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,916 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,917 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,917 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,918 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,918 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,919 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,920 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,920 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,921 [17] INFO  - elm count = 1
+2017-11-07 13:33:48,921 [17] INFO  - elm count = 1
+2017-11-07 13:46:50,814 [12] INFO  - elm count = 1
+2017-11-07 13:46:55,990 [12] INFO  - elm count = 1
+2017-11-07 13:48:43,637 [21] INFO  - elm count = 1
+2017-11-07 13:48:45,346 [21] INFO  - elm count = 1
+2017-11-07 13:48:45,347 [21] INFO  - elm count = 1
+2017-11-07 13:48:45,348 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,009 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,010 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,011 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,012 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,012 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,013 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,013 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,014 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,014 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,016 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,017 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,017 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,018 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,019 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,019 [21] INFO  - elm count = 1
+2017-11-07 13:48:46,021 [21] INFO  - elm count = 1

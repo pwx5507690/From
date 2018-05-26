@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E981F643-CDEA-43DB-87B3-0D14446CACB3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GS.Cache.Identity</RootNamespace>
+    <AssemblyName>GS.Cache.Identity</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseIdentity.cs" />
+    <Compile Include="IdentitiyHandler.cs" />
+    <Compile Include="IdentityApplication.cs" />
+    <Compile Include="IdentityConstant.cs" />
+    <Compile Include="IdentityModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GS.Cache.Factory\GS.Cache.Factory.csproj">
+      <Project>{6b19720c-4909-4efc-9f0f-fe3b92c2baae}</Project>
+      <Name>GS.Cache.Factory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.Cache.Interface\GS.Cache.Interface.csproj">
+      <Project>{5d547561-390d-4536-aee1-bce1b263b716}</Project>
+      <Name>GS.Cache.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.Cache.Memory\GS.Cache.Memory.csproj">
+      <Project>{61D91420-A2CD-452A-87CC-76F9502AC19E}</Project>
+      <Name>GS.Cache.Memory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.Cache.Redis\GS.Cache.Redis.csproj">
+      <Project>{FF1FD5B8-69B2-4C53-8C79-72C7C1E21CB4}</Project>
+      <Name>GS.Cache.Redis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.Common.Injection.Core\GS.Common.Injection.Core.csproj">
+      <Project>{0455ed65-5b89-43d9-81af-969783824e62}</Project>
+      <Name>GS.Common.Injection.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.Common.Util\GS.Common.Util.csproj">
+      <Project>{fbfacaf4-ca28-4010-bbcf-3fe3219fa62f}</Project>
+      <Name>GS.Common.Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GS.Common.Web\GS.Common.Web.csproj">
+      <Project>{f891b9e7-3cba-4c9f-b6b8-53dc66ce0c32}</Project>
+      <Name>GS.Common.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

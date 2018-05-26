@@ -1,0 +1,2 @@
+2017-09-14 14:09:43,966 [112] ERROR - 2017-09-14 : 未能找到路径“C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement\GS.App.FileStorage\client\pwxo12\nis”的一部分。
+2017-09-14 15:45:45,862 [107] ERROR - 2017-09-14 : 未能找到路径中的某个部分。

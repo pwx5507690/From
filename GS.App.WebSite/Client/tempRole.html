@@ -1,0 +1,46 @@
+﻿<run data-load="roleoption" />
+<div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+	<div class="widget am-cf">
+		<div class="widget-head am-cf">
+			<div class="widget-title am-fl">角色</div>
+			<div class="widget-function am-fr">
+				<a href="javascript:;" class="am-icon-cog"></a>
+			</div>
+		</div>
+		<div class="widget-body am-fr">
+			<form data-form class="am-form tpl-form-line-form" onsubmit="return app.valid()">
+				<div class="am-form-group">
+					<label for="user-phone" class="am-u-sm-3 am-form-label">角色名称 
+					<span class="tpl-form-line-small-title">Role Name</span></label>
+					<div class="am-u-sm-9">
+						<input type="text" class="tpl-form-input"  required oninvalid="setCustomValidity('请入输角色名称！');" oninput="setCustomValidity('');" placeholder="角色名称" id="name" name="name"  />
+						<small>请输入角色名称。</small>
+					</div>
+				</div>
+
+				<div class="am-form-group">
+					<label for="user-name" class="am-u-sm-3 am-form-label">菜单模块 <span class="tpl-form-line-small-title">Menu Model</span></label>
+					<div class="am-u-sm-9">
+						<div class="am-form-group" id="menuModel" style="margin-top:5px;">
+							 
+						</div>
+					</div>
+				</div>
+				<input type="hidden" name="id" id="id">
+				<div class="am-form-group">
+					<div class="am-u-sm-9 am-u-sm-push-3">
+						<button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<script type="text/template" id="tempMenuModel">
+	<label <%if(value==-1){%> style="font-size:14px;margin-bottom: 0px" <%}else{%> class="am-checkbox-inline" style="padding-left:30px;" <%}%>>
+		<%if(value!=-1){%>
+		<input data-menu-id="<%=value%>" type="checkbox" value="<%=value%>">
+		<%}%>
+		 <%=name%>
+	</label>
+</script>

@@ -1,0 +1,327 @@
+2017-11-17 10:13:05,369 [8] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 10:17:38,439 [7] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 10:18:31,609 [8] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 10:19:25,551 [8] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 10:46:28,751 [25] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 10:54:09,290 [31] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 10:58:29,215 [1] INFO  - GS.Common.Injection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 10:58:29,236 [1] INFO  - GS.Common.Injection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 10:58:30,035 [49] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 10:59:53,628 [1] INFO  - GS.Common.Injection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 10:59:54,388 [39] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 11:10:15,382 [1] INFO  - System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,395 [1] INFO  - System.ServiceModel.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,396 [1] INFO  - System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,396 [1] INFO  - GS.Cache.Factory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,396 [1] INFO  - System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2017-11-17 11:10:15,397 [1] INFO  - System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2017-11-17 11:10:15,397 [1] INFO  - GS.View.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,397 [1] INFO  - System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,398 [1] INFO  - System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,398 [1] INFO  - GS.Cache.Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,398 [1] INFO  - System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2017-11-17 11:10:15,399 [1] INFO  - System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,399 [1] INFO  - Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,399 [1] INFO  - GS.Common.Util, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,400 [1] INFO  - Autofac, Version=4.6.2.0, Culture=neutral, PublicKeyToken=17863af14b0044da
+2017-11-17 11:10:15,400 [1] INFO  - System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2017-11-17 11:10:15,400 [1] INFO  - Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2017-11-17 11:10:15,401 [1] INFO  - Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,401 [1] INFO  - Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,401 [1] INFO  - Microsoft.Owin.Security.Twitter, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,402 [1] INFO  - Microsoft.AI.DependencyCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,402 [1] INFO  - Microsoft.Practices.EnterpriseLibrary.Data, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,402 [1] INFO  - GS.SQL.DataSource, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,403 [1] INFO  - System.Net.Http.Formatting, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,403 [1] INFO  - System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2017-11-17 11:10:15,403 [1] INFO  - System.Web.DynamicData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,404 [1] INFO  - System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2017-11-17 11:10:15,404 [1] INFO  - NPinyin, Version=0.2.6321.26573, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,404 [1] INFO  - Autofac.Integration.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da
+2017-11-17 11:10:15,405 [1] INFO  - GS.SQLModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,405 [1] INFO  - Autofac.Configuration, Version=4.0.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da
+2017-11-17 11:10:15,405 [1] INFO  - System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2017-11-17 11:10:15,406 [1] INFO  - GS.Common.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,406 [1] INFO  - System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,406 [1] INFO  - System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,407 [1] INFO  - mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2017-11-17 11:10:15,407 [1] INFO  - Microsoft.Owin.Security.MicrosoftAccount, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,407 [1] INFO  - System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,408 [1] INFO  - System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2017-11-17 11:10:15,408 [1] INFO  - Autofac.Integration.WebApi, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da
+2017-11-17 11:10:15,408 [1] INFO  - System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,409 [1] INFO  - Webdiyer.MvcPager, Version=3.0.2015.802, Culture=neutral, PublicKeyToken=f6872c5a09aed72c
+2017-11-17 11:10:15,410 [1] INFO  - System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2017-11-17 11:10:15,410 [1] INFO  - GS.App.Form, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,410 [1] INFO  - System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,411 [1] INFO  - Microsoft.Owin.Security.Cookies, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,411 [1] INFO  - Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,411 [1] INFO  - System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2017-11-17 11:10:15,412 [1] INFO  - Microsoft.VisualStudio.Web.PageInspector.Loader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2017-11-17 11:10:15,412 [1] INFO  - Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,412 [1] INFO  - Microsoft.Extensions.Primitives, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2017-11-17 11:10:15,413 [1] INFO  - System.Web.Http, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,413 [1] INFO  - ServiceStack.Redis, Version=3.9.11.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,413 [1] INFO  - Microsoft.Owin.Security.Google, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,413 [1] INFO  - System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,414 [1] INFO  - Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,414 [1] INFO  - GS.Common.Injection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,415 [1] INFO  - App_global.asax.iuxnqe9e, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,415 [1] INFO  - System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2017-11-17 11:10:15,415 [1] INFO  - ServiceStack.Interfaces, Version=3.9.9.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,416 [1] INFO  - GS.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,416 [1] INFO  - Microsoft.ApplicationInsights, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,416 [1] INFO  - ServiceStack.Common, Version=3.9.9.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,417 [1] INFO  - log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a
+2017-11-17 11:10:15,417 [1] INFO  - Microsoft.AspNet.Identity.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,417 [1] INFO  - System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2017-11-17 11:10:15,417 [1] INFO  - Microsoft.Extensions.Configuration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2017-11-17 11:10:15,418 [1] INFO  - GS.Cache.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,418 [1] INFO  - Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5
+2017-11-17 11:10:15,418 [1] INFO  - ServiceStack.Text, Version=3.9.11.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,419 [1] INFO  - System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,419 [1] INFO  - System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,419 [1] INFO  - Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,420 [1] INFO  - System.ServiceModel.Activation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,420 [1] INFO  - Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+2017-11-17 11:10:15,420 [1] INFO  - System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2017-11-17 11:10:15,421 [1] INFO  - Microsoft.AI.WindowsServer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,421 [1] INFO  - GS.Common.Http, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,421 [1] INFO  - Microsoft.Practices.EnterpriseLibrary.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,422 [1] INFO  - System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,422 [1] INFO  - Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f
+2017-11-17 11:10:15,422 [1] INFO  - EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2017-11-17 11:10:15,423 [1] INFO  - Microsoft.Owin.Security.Facebook, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,423 [1] INFO  - Microsoft.AI.Web, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,424 [1] INFO  - GS.Cache.Memory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,424 [1] INFO  - GS.Api.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:15,425 [1] INFO  - Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,425 [1] INFO  - WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,426 [1] INFO  - System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2017-11-17 11:10:15,426 [1] INFO  - Microsoft.AI.PerfCounterCollector, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,426 [1] INFO  - Microsoft.Extensions.Configuration.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2017-11-17 11:10:15,427 [1] INFO  - EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+2017-11-17 11:10:15,427 [1] INFO  - Microsoft.Owin.Host.SystemWeb, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,428 [1] INFO  - Microsoft.AI.ServerTelemetryChannel, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2017-11-17 11:10:15,428 [1] INFO  - GS.Cache.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:10:16,143 [41] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 11:20:40,210 [47] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 11:20:43,285 [47] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 11:20:43,844 [35] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 11:20:44,082 [30] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 11:20:44,288 [47] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 11:20:44,487 [29] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 11:21:53,961 [36] INFO  - aaaa
+2017-11-17 11:21:53,976 [36] INFO  - 1
+2017-11-17 11:21:54,752 [29] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 11:28:46,845 [21] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 11:30:09,935 [36] INFO  - GS.Api.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,952 [36] INFO  - GS.App.Form, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,953 [36] INFO  - GS.Cache.Factory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,954 [36] INFO  - GS.Cache.Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,954 [36] INFO  - GS.Cache.Interface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,954 [36] INFO  - GS.Cache.Memory, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,956 [36] INFO  - GS.Cache.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,956 [36] INFO  - GS.Common.Http, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,957 [36] INFO  - GS.Common.Injection.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,957 [36] INFO  - GS.Common.Util, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,957 [36] INFO  - GS.Common.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,957 [36] INFO  - GS.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,958 [36] INFO  - GS.SQL.DataSource, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,958 [36] INFO  - GS.SQLModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:09,958 [36] INFO  - GS.View.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2017-11-17 11:30:10,868 [35] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 11:38:32,400 [58] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 11:38:33,435 [35] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 11:38:33,626 [21] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 12:08:58,224 [69] ERROR - 2017-11-17 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.IDynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.IDynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 12:19:30,944 [74] ERROR - 2017-11-17 : 没有为该对象定义无参数的构造函数。--   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-17 15:41:51,456 [60] INFO  - elm count = 1
+2017-11-17 15:41:56,981 [144] INFO  - elm count = 1
+2017-11-17 15:41:57,346 [144] INFO  - elm count = 1
+2017-11-17 15:42:13,787 [144] ERROR - request api error api=http://localhost:91//api/dyncData/exp/Dropdown|StatusCode=InternalServerError, message=System.Net.Http.StreamContent
+2017-11-17 15:42:14,063 [144] ERROR - send api http://localhost:91//api/dyncData/exp/Dropdown errorGS.App.Form.Controllers.DyncFormController   在 GS.Common.Http.HttpRequest.Send(HttpParam param, IHttpException iHttpException, HttpClient httpClient, CancellationToken cancellationToken) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 46
+   在 GS.Common.Http.ApiProxy.Send(HttpMethod method, String url, HttpContent content) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\ApiProxy.cs:行号 69
+   在 GS.App.Form.Models.Bulider.FormItemView.SetSourceValue(DyncField dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 133
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 26
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 58
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-17 15:42:14,080 [144] ERROR - 2017-11-17 : send api http://localhost:91//api/dyncData/exp/Dropdown error--   在 GS.Common.Http.HttpRequest.Send(HttpParam param, IHttpException iHttpException, HttpClient httpClient, CancellationToken cancellationToken) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\HttpRequest.cs:行号 46
+   在 GS.Common.Http.ApiProxy.Send(HttpMethod method, String url, HttpContent content) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Common.Http\ApiProxy.cs:行号 69
+   在 GS.App.Form.Models.Bulider.FormItemView.SetSourceValue(DyncField dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 133
+   在 GS.App.Form.Models.Bulider.FormItemView.BuliderFormItemView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormItemView.cs:行号 26
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(DyncField dyncField, String value) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 42
+   在 GS.App.Form.Models.Bulider.FormView.BuliderFormView(HtmlHelper htmlHelper, IEnumerable`1 dyncField, SQLDynamicRow row) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 58
+   在 ASP._Page_Views_DyncForm_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\Index.cshtml:行号 37
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-11-17 16:13:27,878 [144] INFO  - elm count = 1
+2017-11-17 16:14:03,530 [166] INFO  - elm count = 1
+2017-11-17 16:14:03,547 [166] INFO  - elm count = 1
+2017-11-17 16:14:07,718 [166] INFO  - elm count = 1
+2017-11-17 16:14:07,718 [166] INFO  - elm count = 1

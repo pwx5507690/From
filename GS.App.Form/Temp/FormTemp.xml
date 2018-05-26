@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <item id="tableOption2">
+    <![CDATA[
+    <div class="tpl-table-black-operation">
+							<a href="{0}">
+								<i class="am-icon-wpforms"></i> 表单数据列表
+							</a>
+							<a href="{1}">
+								<i class="am-icon-pencil"></i> 编辑
+							</a>			
+							<a href="javascript:;" data-delete="{2}" class="tpl-table-black-operation-del">
+								<i class="am-icon-trash"></i> 删除
+							</a>
+						</div>
+    ]]>
+  </item>
+  <item id="tableOption">
+    <![CDATA[
+       <div class='tpl-table-black-operation'>
+       <a href='{0}'><i class='am-icon-pencil'></i> 编辑</a>
+       <a href='javascript:;' data-delete='{1}' class='tpl-table-black-operation-del'><i class='am-icon-trash'></i> 删除</a></div>
+    ]]>
+  </item>
+
+  <item id="tableOption3">
+    <![CDATA[
+       <div class='tpl-table-black-operation'>
+       <a href='{0}'><i class='am-icon-pencil'></i>查看回复</a>
+       <a href='{2}'><i class='am-icon-{3}'></i> 标记</a>
+       <a href='javascript:;' data-delete='{1}' class='tpl-table-black-operation-del'><i class='am-icon-trash'></i> 删除</a></div>
+    ]]>
+  </item>
+  <item id="table">
+    <![CDATA[
+    <div class="am-u-sm-12">
+    <table class="am-table am-table-compact am-table-striped tpl-table-black">
+        <thead>
+            <tr>
+                {0}
+            </tr>
+        </thead>
+        <tbody>
+            {1}
+        </tbody>
+    </table>
+</div>
+    ]]>
+  </item>
+  <item id="seachTitleAndTime">
+    <![CDATA[
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+	<div class="am-form-group">
+		<div class="am-btn-toolbar">
+			<div class="am-btn-group am-btn-group-xs">
+				<a  class="am-btn am-btn-default am-btn-success"
+				   href="{0}"><span class="am-icon-plus"></span>发送消息</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="am-u-sm-12 am-u-md-6 am-u-lg-3">
+	<div class="am-form-group am-input-group-sm tpl-form-border-form cl-p">
+     <input style='height:33px' type="date" id="date" value='{3}' class="am-form-field ">
+	</div>
+</div>
+<div class="am-u-sm-12 am-u-md-12 am-u-lg-3">
+	<div class="am-input-group am-input-group-sm tpl-form-border-form cl-p">   
+		<input type="text" id="searchText" placeholder='{1}' value='{2}' class="am-form-field ">
+		<span class="am-input-group-btn">
+			<button id="search" 
+					class="am-btn  am-btn-default am-btn-success tpl-table-list-field am-icon-search"
+					 type="button"></button>
+		</span>
+	</div>
+</div>
+    ]]>
+  </item>
+  <item id="seachTitle">
+    <![CDATA[
+    <div class="am-u-sm-12 am-u-md-6 am-u-lg-6">
+	<div class="am-form-group">
+		<div class="am-btn-toolbar">
+			<div class="am-btn-group am-btn-group-xs">
+				<a  class="am-btn am-btn-default am-btn-success"
+				   href="{0}"><span class="am-icon-plus"></span>新增</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="am-u-sm-12 am-u-md-6 am-u-lg-3">
+	<div class="am-form-group tpl-table-list-select">
+	</div>
+</div>
+<div class="am-u-sm-12 am-u-md-12 am-u-lg-3">
+	<div class="am-input-group am-input-group-sm tpl-form-border-form cl-p">
+		<input type="text" id="searchText" placeholder='{1}' class="am-form-field ">
+		<span class="am-input-group-btn">
+			<button id="search" 
+					class="am-btn  am-btn-default am-btn-success tpl-table-list-field am-icon-search"
+					 type="button"></button>
+		</span>
+	</div>
+</div>
+    ]]>
+  </item>
+  <item id="section">
+    <![CDATA[
+      <div class='widget-head am-cf' style='margin-bottom:15px;padding:0'>
+      <div class='widget-title am-fl' title='{0}'>{1}</div></div>
+      ]]>
+  </item>
+  <item id="formFileItem">
+    <![CDATA[
+    <div class='am-form-group'>
+         <label class='am-u-sm-3 am-form-label' style='font-size:12px'>{0}</label>
+         <div class='am-u-sm-3'>
+            <button type="button" data-file='"{1}"' style='float:left' class="am-btn am-btn-default am-btn-sm"><i class="am-icon-cloud-upload"></i> 
+            请选择文件
+            </button>
+            {2}
+         </div>
+         
+         <div class='am-u-sm-3'>
+            <input type='hidden' data-file-hidden={1}>
+         </div>
+           <div class='am-u-sm-3'>
+            
+         </div>
+       </div>
+  ]]>
+  </item>
+  <item id="formItemName">
+    <![CDATA[
+         <div class='am-form-group'>
+         <label class='am-u-sm-3 am-form-label' style='font-size:12px'>{0}</label>
+         <div class='am-u-sm-3'>
+         <input class="tpl-form-input" data-name="{1}" data-reqd="{2}" data-type="name" data-uuid="{3}"  name="{1}" 
+         placeholder="请入输姓" type="text" value="{4}">
+         </div>
+         <div class='am-u-sm-3'>
+         <input class="tpl-form-input" data-name="{1}"   name="{1}" 
+         placeholder="请入输名" type="text" value="{5}">
+         </div>
+         <div class='am-u-sm-3'>   
+         </div></div>
+      ]]>
+  </item>
+  <item id="formItem">
+    <![CDATA[
+         <div class='am-form-group'>
+         <label class='am-u-sm-3 am-form-label' style='font-size:12px'>{0}</label>
+         <div class='am-u-sm-6'>{1}<small>{2}</small></div>
+         <div class='am-u-sm-3'>   
+         </div></div>
+      ]]>
+  </item>
+  <item id="form">
+    <![CDATA[
+         <form action='/DyncForm/save' method='post' class='am-form tpl-form-line-form' onsubmit='return app.valid()'>
+          {0}
+           <input type='hidden' name='code' id='code' />
+           <input type='hidden' name='value' id='value' />
+           <input type='hidden' name='dataId' id='dataId' />
+           <div class='am-form-group'><div class='am-u-sm-9 am-u-sm-push-3'>
+           <button type='submit' id='sub' class='am-btn am-btn-primary tpl-btn-bg-color-success'>保存提交</button></div></div></form>
+      ]]>
+  </item>
+  <item id="formEmpty">
+    <![CDATA[
+         <br /><br /><div class='am-alert am-alert-secondary' style='text-align:center;background:#ffffff;border:none;color:#838FA1'><p>无应用数据</p></div>
+      ]]>
+  </item>
+  <item id="formInfoLink">
+    <![CDATA[
+         <div class='tpl-table-black-operation'><a href='/DyncForm/Index?id={0}&code={1}'><i class='am-icon-pencil'></i>修改</a>&nbsp;
+         <a data-delete='/DyncForm/Delete?code={1}&id={0}&page={2}' class='tpl-table-black-operation-del'><i class='am-icon-trash'></i>删除</a></div>
+      ]]>
+  </item>
+  <item id="checkbox">
+    <![CDATA[
+        <label class='am-checkbox-inline' style='padding-left:30px;'>
+        <input data-group='"{0}"' {1} data-id='{2}' type='checkbox' value='{2}'/>{3}</label>
+      ]]>
+  </item>
+  <item id="radio">
+    <![CDATA[
+         <label class='am-radio-inline'>
+       <input name='"{0}"' {1} data-id='{2}' type='radio' value='{2}'>{3}</label>
+      ]]>
+  </item>
+  <item id="checkboxList">
+    <![CDATA[
+    <div class="am-u-sm-{0}">
+				<select name="type" data-placeholder="{1}" class="prov" id="prov">
+        <select>
+			</div>
+    ]]>
+  </item>
+  <item id="replayList">
+    <![CDATA[
+<div {4}>
+
+<label>{3}</label>
+ &nbsp;&nbsp;<label am-form-label" style="font-size:14px">发件人</label>
+    <span style='font-size:14px'>{0}</span> 
+    &nbsp;&nbsp;<label class="am-form-label" style="font-size:14px;display: inline-block;margin-bottom: 5px;font-weight: 700;color:#838FA1">标题</label>
+    <span style='font-size:14px'>{1}</span> 
+    <p>{2}</p>
+<hr /></div>             
+      ]]>
+ 
+  </item>
+</root>

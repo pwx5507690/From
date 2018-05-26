@@ -1,0 +1,2 @@
+2017-11-17 12:49:34,359 [1] ERROR - 2017-11-17 : 未能加载文件或程序集“Autofac, Version=4.6.2.0, Culture=neutral, PublicKeyToken=17863af14b0044da”或它的某一个依赖项。找到的程序集清单定义与程序集引用不匹配。 (异常来自 HRESULT:0x80131040)--   在 GS.Common.Web.Application.Application_Start()
+   在 GS.Api.WebApiApplication.Application_Start() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Api\Global.asax.cs:行号 17

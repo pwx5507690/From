@@ -1,0 +1,71 @@
+﻿<run data-load="menuoption" />
+<div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+	<div class="widget am-cf">
+		<div class="widget-head am-cf">
+			<div class="widget-title am-fl">菜单</div>
+			<div class="widget-function am-fr">
+				<a href="javascript:;" class="am-icon-cog"></a>
+			</div>
+		</div>
+		<div class="widget-body am-fr">
+			<form data-form class="am-form tpl-form-line-form" onsubmit="return app.valid()">
+				<div class="am-form-group">
+					<label  class="am-u-sm-3 am-form-label">上级菜单 
+					<span class="tpl-form-line-small-title">Parent Menu</span></label>
+					<div class="am-u-sm-9">
+						<select id="parent" style="color:#000000"></select>
+					</div>
+				</div>
+				<div class="am-form-group">
+					<label  class="am-u-sm-3 am-form-label">菜单名称 <span class="tpl-form-line-small-title">Menu Name</span></label>
+					<div class="am-u-sm-9">
+						<input type="text" class="tpl-form-input" name="name" id="name" required oninvalid="setCustomValidity('请入输菜单名称！');" oninput="setCustomValidity('');" placeholder="请入输菜单名称">
+						<small>请入输菜单名称。</small>
+					</div>
+				</div>
+				<div class="am-form-group">
+					<label  class="am-u-sm-3 am-form-label">路径 <span class="tpl-form-line-small-title">Url</span></label>
+					<div class="am-u-sm-9">
+						<input type="text" class="tpl-form-input" placeholder="请输入路径" name="url" id="url">
+						<small>请输入路径。</small>
+					</div>
+				</div>
+				<div class="am-form-group">
+					<label  class="am-u-sm-3 am-form-label">图标 
+					<span class="tpl-form-line-small-title">Icon</span></label>
+					<div class="am-u-sm-9">
+						<input type="text" class="tpl-form-input" placeholder="请输入图标" name="icon" id="icon">
+						<small>请输入图标。</small>
+					</div>
+				</div>
+				<div class="am-form-group">
+					<label for="user-name" class="am-u-sm-3 am-form-label">
+						排序
+						<span class="tpl-form-line-small-title">Sort</span>
+					</label>
+					<div class="am-u-sm-9">
+						<input type="text" class="tpl-form-input" pattern="[0-9]*"  oninvalid="setCustomValidity('请输入正确的序号！');" oninput="setCustomValidity('');" placeholder="排序" name="sort" id="sort">
+						<small>排序。</small>
+					</div>
+				</div>
+				<div class="am-form-group">
+					<label  class="am-u-sm-3 am-form-label">
+						菜单类型
+						<span class="tpl-form-line-small-title">Menu Type</span>
+					</label>
+					<div class="am-u-sm-9">
+						<select name="type" id="type"></select>
+						<!--<input type="text" placeholder="菜单类型" class="tpl-form-input" name="type" id="type">
+						<small>选择菜单类型。</small>-->
+					</div>
+				</div>
+				<input type="hidden" name="id" id="id">
+				<div class="am-form-group">
+					<div class="am-u-sm-9 am-u-sm-push-3">
+						<button type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

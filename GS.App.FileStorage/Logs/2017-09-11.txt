@@ -1,0 +1,3 @@
+2017-09-11 08:53:51,180 [10] ERROR - 2017-09-11 : 输入字符串的格式不正确。
+2017-09-11 08:54:04,366 [8] ERROR - 2017-09-11 : 未能找到路径“C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement\GS.App.FileStorage\client\pwxo12\ddddd”的一部分。
+2017-09-11 08:54:32,760 [10] ERROR - 2017-09-11 : 输入字符串的格式不正确。

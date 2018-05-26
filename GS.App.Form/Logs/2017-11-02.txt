@@ -1,0 +1,1348 @@
+2017-11-02 08:14:37,690 [7] ERROR - 2017-11-02 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-02 08:17:05,229 [7] INFO  - elm count = 1
+2017-11-02 08:17:07,093 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,094 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,094 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,109 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,110 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,111 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,111 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,112 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,112 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,113 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,113 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,114 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,114 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,114 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,115 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,115 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,116 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,116 [10] INFO  - elm count = 1
+2017-11-02 08:17:07,117 [10] INFO  - elm count = 1
+2017-11-02 08:30:11,642 [25] ERROR - 2017-11-02 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = DyncFormController (ReflectionActivator), Services = [GS.App.Form.Controllers.DyncFormController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.DyncFormController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-02 08:31:03,980 [25] INFO  - elm count = 1
+2017-11-02 08:31:03,993 [25] INFO  - elm count = 1
+2017-11-02 08:31:03,993 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,008 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,008 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,009 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,009 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,010 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,010 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,011 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,011 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,012 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,012 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,013 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,013 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,014 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,014 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,014 [25] INFO  - elm count = 1
+2017-11-02 08:31:04,015 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,295 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,295 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,296 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,297 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,297 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,298 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,298 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,299 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,300 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,300 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,301 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,301 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,302 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,302 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,303 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,303 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,304 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,304 [25] INFO  - elm count = 1
+2017-11-02 08:32:02,305 [25] INFO  - elm count = 1
+2017-11-02 08:34:38,275 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,276 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,276 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,277 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,277 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,278 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,278 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,279 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,279 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,280 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,280 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,281 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,281 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,281 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,282 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,282 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,283 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,283 [18] INFO  - elm count = 1
+2017-11-02 08:34:38,284 [18] INFO  - elm count = 1
+2017-11-02 08:35:08,149 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,150 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,150 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,151 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,151 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,152 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,152 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,153 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,153 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,154 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,154 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,155 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,155 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,156 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,156 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,157 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,157 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,158 [20] INFO  - elm count = 1
+2017-11-02 08:35:08,158 [20] INFO  - elm count = 1
+2017-11-02 08:40:30,078 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,079 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,080 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,080 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,081 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,081 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,082 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,082 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,083 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,083 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,084 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,085 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,085 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,085 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,086 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,086 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,087 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,087 [25] INFO  - elm count = 1
+2017-11-02 08:40:30,088 [25] INFO  - elm count = 1
+2017-11-02 08:41:10,792 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,792 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,793 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,793 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,794 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,794 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,795 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,795 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,796 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,796 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,797 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,797 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,798 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,798 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,799 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,799 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,800 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,800 [20] INFO  - elm count = 1
+2017-11-02 08:41:10,800 [20] INFO  - elm count = 1
+2017-11-02 08:44:58,788 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,788 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,789 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,789 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,790 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,790 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,791 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,791 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,792 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,792 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,793 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,793 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,793 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,794 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,794 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,795 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,795 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,796 [24] INFO  - elm count = 1
+2017-11-02 08:44:58,796 [24] INFO  - elm count = 1
+2017-11-02 08:46:33,034 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,034 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,035 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,035 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,036 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,036 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,037 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,037 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,037 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,038 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,038 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,039 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,039 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,040 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,040 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,040 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,041 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,041 [25] INFO  - elm count = 1
+2017-11-02 08:46:33,042 [25] INFO  - elm count = 1
+2017-11-02 08:49:17,802 [22] INFO  - elm count = 1
+2017-11-02 08:49:19,804 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,805 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,805 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,806 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,806 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,807 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,807 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,808 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,808 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,809 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,809 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,810 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,810 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,810 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,811 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,811 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,812 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,812 [24] INFO  - elm count = 1
+2017-11-02 08:49:19,813 [24] INFO  - elm count = 1
+2017-11-02 10:51:43,517 [18] INFO  - elm count = 1
+2017-11-02 10:51:46,627 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,628 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,628 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,629 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,629 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,630 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,630 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,631 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,631 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,632 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,633 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,633 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,634 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,634 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,635 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,635 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,636 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,636 [91] INFO  - elm count = 1
+2017-11-02 10:51:46,636 [91] INFO  - elm count = 1
+2017-11-02 10:59:30,520 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,521 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,521 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,522 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,531 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,531 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,547 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,576 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,576 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,596 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,598 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,598 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,599 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,600 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,600 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,601 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,615 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,616 [10] INFO  - elm count = 1
+2017-11-02 10:59:30,617 [10] INFO  - elm count = 1
+2017-11-02 12:14:38,222 [41] INFO  - elm count = 1
+2017-11-02 12:14:40,899 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,899 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,900 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,900 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,901 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,901 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,902 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,902 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,903 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,904 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,904 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,905 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,905 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,906 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,906 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,906 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,907 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,907 [61] INFO  - elm count = 1
+2017-11-02 12:14:40,908 [61] INFO  - elm count = 1
+2017-11-02 12:15:02,900 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,901 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,901 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,902 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,902 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,903 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,903 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,904 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,904 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,905 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,905 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,906 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,906 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,906 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,907 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,907 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,908 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,908 [41] INFO  - elm count = 1
+2017-11-02 12:15:02,909 [41] INFO  - elm count = 1
+2017-11-02 12:17:28,817 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,818 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,818 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,819 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,819 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,820 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,820 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,821 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,821 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,822 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,822 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,823 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,823 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,823 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,824 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,824 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,825 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,825 [85] INFO  - elm count = 1
+2017-11-02 12:17:28,825 [85] INFO  - elm count = 1
+2017-11-02 12:21:36,707 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,707 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,708 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,708 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,709 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,709 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,710 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,710 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,711 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,711 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,711 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,712 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,712 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,713 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,713 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,714 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,714 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,715 [44] INFO  - elm count = 1
+2017-11-02 12:21:36,715 [44] INFO  - elm count = 1
+2017-11-02 13:07:54,622 [68] INFO  - elm count = 1
+2017-11-02 13:07:57,017 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,018 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,018 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,092 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,093 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,094 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,095 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,095 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,098 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,099 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,104 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,108 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,110 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,114 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,115 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,120 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,123 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,125 [72] INFO  - elm count = 1
+2017-11-02 13:07:57,126 [72] INFO  - elm count = 1
+2017-11-02 13:08:46,881 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,882 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,882 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,883 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,883 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,884 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,884 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,885 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,885 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,886 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,886 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,887 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,887 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,887 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,888 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,888 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,889 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,889 [70] INFO  - elm count = 1
+2017-11-02 13:08:46,889 [70] INFO  - elm count = 1
+2017-11-02 13:08:56,339 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,340 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,340 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,341 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,341 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,342 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,342 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,343 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,343 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,344 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,344 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,345 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,345 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,346 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,346 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,347 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,347 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,347 [68] INFO  - elm count = 1
+2017-11-02 13:08:56,348 [68] INFO  - elm count = 1
+2017-11-02 13:09:08,622 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,623 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,623 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,624 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,624 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,625 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,625 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,625 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,626 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,626 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,627 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,627 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,628 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,628 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,629 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,629 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,630 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,630 [70] INFO  - elm count = 1
+2017-11-02 13:09:08,631 [70] INFO  - elm count = 1
+2017-11-02 13:09:39,468 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,469 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,469 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,470 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,473 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,478 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,479 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,480 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,481 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,487 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,491 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,494 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,497 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,501 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,505 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,507 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,511 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,515 [63] INFO  - elm count = 1
+2017-11-02 13:09:39,520 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,190 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,190 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,191 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,191 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,192 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,193 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,194 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,195 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,196 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,198 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,200 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,202 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,203 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,205 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,205 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,207 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,207 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,208 [63] INFO  - elm count = 1
+2017-11-02 13:10:20,208 [63] INFO  - elm count = 1
+2017-11-02 13:12:38,891 [67] INFO  - elm count = 1
+2017-11-02 13:12:41,269 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,269 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,270 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,270 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,271 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,271 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,272 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,272 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,273 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,273 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,274 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,274 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,275 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,275 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,276 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,277 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,277 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,278 [68] INFO  - elm count = 1
+2017-11-02 13:12:41,278 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,348 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,348 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,349 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,349 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,350 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,350 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,351 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,351 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,352 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,352 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,353 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,353 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,354 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,354 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,355 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,355 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,356 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,356 [68] INFO  - elm count = 1
+2017-11-02 13:13:56,357 [68] INFO  - elm count = 1
+2017-11-02 13:15:53,859 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,860 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,860 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,861 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,861 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,862 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,862 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,863 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,863 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,864 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,864 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,865 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,865 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,866 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,866 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,867 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,867 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,868 [72] INFO  - elm count = 1
+2017-11-02 13:15:53,868 [72] INFO  - elm count = 1
+2017-11-02 13:17:19,643 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,644 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,644 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,645 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,645 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,646 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,646 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,647 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,647 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,648 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,648 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,649 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,650 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,650 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,650 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,651 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,651 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,652 [70] INFO  - elm count = 1
+2017-11-02 13:17:19,652 [70] INFO  - elm count = 1
+2017-11-02 13:18:13,099 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,100 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,101 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,101 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,102 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,102 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,103 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,104 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,104 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,105 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,105 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,106 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,106 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,107 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,108 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,108 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,108 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,109 [64] INFO  - elm count = 1
+2017-11-02 13:18:13,110 [64] INFO  - elm count = 1
+2017-11-02 13:19:17,055 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,056 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,056 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,057 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,057 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,058 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,058 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,059 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,060 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,061 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,061 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,062 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,062 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,063 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,064 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,065 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,065 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,066 [70] INFO  - elm count = 1
+2017-11-02 13:19:17,066 [70] INFO  - elm count = 1
+2017-11-02 13:19:38,250 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,250 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,251 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,251 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,252 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,252 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,253 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,253 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,254 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,255 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,256 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,258 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,258 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,259 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,260 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,260 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,262 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,262 [75] INFO  - elm count = 1
+2017-11-02 13:19:38,263 [75] INFO  - elm count = 1
+2017-11-02 13:21:53,406 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,406 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,407 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,407 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,408 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,408 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,409 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,409 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,410 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,410 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,411 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,411 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,412 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,412 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,413 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,413 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,414 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,414 [71] INFO  - elm count = 1
+2017-11-02 13:21:53,415 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,148 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,149 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,149 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,150 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,150 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,151 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,151 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,152 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,152 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,153 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,154 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,154 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,155 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,155 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,156 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,156 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,156 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,157 [71] INFO  - elm count = 1
+2017-11-02 13:24:54,158 [71] INFO  - elm count = 1
+2017-11-02 13:25:36,193 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,194 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,194 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,195 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,195 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,196 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,196 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,197 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,197 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,198 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,198 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,199 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,199 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,200 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,200 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,200 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,201 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,201 [42] INFO  - elm count = 1
+2017-11-02 13:25:36,202 [42] INFO  - elm count = 1
+2017-11-02 13:26:10,859 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,860 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,860 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,861 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,861 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,862 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,862 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,863 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,863 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,864 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,864 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,865 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,865 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,866 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,866 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,867 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,867 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,868 [67] INFO  - elm count = 1
+2017-11-02 13:26:10,868 [67] INFO  - elm count = 1
+2017-11-02 13:26:34,088 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,089 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,089 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,090 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,091 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,091 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,092 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,092 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,093 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,093 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,094 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,094 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,094 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,095 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,096 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,096 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,097 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,097 [71] INFO  - elm count = 1
+2017-11-02 13:26:34,097 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,020 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,021 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,021 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,022 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,022 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,023 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,023 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,024 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,024 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,025 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,025 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,025 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,026 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,026 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,027 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,027 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,028 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,028 [71] INFO  - elm count = 1
+2017-11-02 13:27:02,029 [71] INFO  - elm count = 1
+2017-11-02 13:27:09,914 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,914 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,915 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,915 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,916 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,916 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,917 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,917 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,918 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,918 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,919 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,919 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,920 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,920 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,920 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,921 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,921 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,922 [64] INFO  - elm count = 1
+2017-11-02 13:27:09,922 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,091 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,092 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,092 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,093 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,093 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,094 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,094 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,094 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,095 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,095 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,096 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,096 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,097 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,097 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,098 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,098 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,099 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,100 [64] INFO  - elm count = 1
+2017-11-02 13:27:32,100 [64] INFO  - elm count = 1
+2017-11-02 13:28:02,489 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,490 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,491 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,492 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,493 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,493 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,494 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,494 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,495 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,496 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,497 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,497 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,498 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,498 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,499 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,500 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,500 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,501 [70] INFO  - elm count = 1
+2017-11-02 13:28:02,501 [70] INFO  - elm count = 1
+2017-11-02 13:28:51,334 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,334 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,335 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,335 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,336 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,337 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,337 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,338 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,338 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,339 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,339 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,340 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,340 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,341 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,341 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,342 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,342 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,343 [63] INFO  - elm count = 1
+2017-11-02 13:28:51,343 [63] INFO  - elm count = 1
+2017-11-02 13:29:55,800 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,800 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,801 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,802 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,802 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,803 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,804 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,813 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,815 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,818 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,819 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,821 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,824 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,827 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,830 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,832 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,833 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,835 [64] INFO  - elm count = 1
+2017-11-02 13:29:55,837 [64] INFO  - elm count = 1
+2017-11-02 13:46:26,845 [60] INFO  - elm count = 1
+2017-11-02 13:46:30,218 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,219 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,220 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,235 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,236 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,238 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,238 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,239 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,239 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,240 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,240 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,241 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,243 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,243 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,244 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,245 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,245 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,246 [45] INFO  - elm count = 1
+2017-11-02 13:46:30,246 [45] INFO  - elm count = 1
+2017-11-02 13:46:40,184 [62] INFO  - ssss
+2017-11-02 13:46:40,213 [62] INFO  - insert into [asassasasa](_22,_51,_87,_249,_11,_88,_63,_26,_24,_61,_226,[Updatetime]) values ('','ssss','ssss','',,'','','','','','','2017-11-02 05:40')
+2017-11-02 13:46:40,619 [62] ERROR - “,”附近有语法错误。GS.App.Form.Controllers.DyncFormController   在 GS.SQL.DataSource.DBHelper.ExecuteNonQueryTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 104
+   在 GS.SQL.DataSource.SQLDynamic.AddDyncForm(SQLDynamicRow sQLDynamicRow, String tblName) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDynamic.cs:行号 234
+   在 GS.Services.DynamicDataservices.AddDyncTableData(SQLDynamicRow sQLDynamicRow, String tableName) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 150
+   在 GS.App.Form.Controllers.DyncFormController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\DyncFormController.cs:行号 67
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-02 13:49:34,123 [45] INFO  - uuy
+2017-11-02 13:49:34,147 [45] INFO  - insert into [asassasasa](_22,_51,_87,_249,_11,_88,_63,_26,_24,_61,_226,[Updatetime]) values ('','','','',,'','','ssss','','ssssss','','2017-11-02 05:34')
+2017-11-02 13:49:34,149 [45] ERROR - “,”附近有语法错误。GS.App.Form.Controllers.DyncFormController   在 GS.SQL.DataSource.DBHelper.ExecuteNonQueryTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 104
+   在 GS.SQL.DataSource.SQLDynamic.AddDyncForm(SQLDynamicRow sQLDynamicRow, String tblName) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDynamic.cs:行号 234
+   在 GS.Services.DynamicDataservices.AddDyncTableData(SQLDynamicRow sQLDynamicRow, String tableName) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 150
+   在 GS.App.Form.Controllers.DyncFormController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\DyncFormController.cs:行号 67
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-02 13:56:28,552 [45] INFO  - uuy
+2017-11-02 13:56:28,578 [45] INFO  - insert into [asassasasa](_22,_51,_87,_249,_11,_88,_63,_26,_24,_61,_226,[Updatetime]) values ('','','','',,'','','uuy','','uuuu','','2017-11-02 05:28')
+2017-11-02 13:56:28,601 [45] ERROR - “,”附近有语法错误。GS.App.Form.Controllers.DyncFormController   在 GS.SQL.DataSource.DBHelper.ExecuteNonQueryTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 104
+   在 GS.SQL.DataSource.SQLDynamic.AddDyncForm(SQLDynamicRow sQLDynamicRow, String tblName) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDynamic.cs:行号 234
+   在 GS.Services.DynamicDataservices.AddDyncTableData(SQLDynamicRow sQLDynamicRow, String tableName) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 150
+   在 GS.App.Form.Controllers.DyncFormController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\DyncFormController.cs:行号 67
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-02 15:13:45,805 [9] ERROR - 2017-11-02 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-02 15:21:31,320 [7] INFO  - elm count = 1
+2017-11-02 15:21:33,769 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,770 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,770 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,785 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,785 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,786 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,787 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,787 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,788 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,788 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,789 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,789 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,790 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,793 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,794 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,794 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,795 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,796 [16] INFO  - elm count = 1
+2017-11-02 15:21:33,796 [16] INFO  - elm count = 1
+2017-11-02 15:24:46,889 [7] INFO  - elm count = 1
+2017-11-02 15:24:46,902 [7] INFO  - elm count = 1
+2017-11-02 15:24:46,903 [7] INFO  - elm count = 1
+2017-11-02 15:24:46,995 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,088 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,089 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,091 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,092 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,092 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,093 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,093 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,094 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,094 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,095 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,095 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,096 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,097 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,097 [7] INFO  - elm count = 1
+2017-11-02 15:24:47,098 [7] INFO  - elm count = 1
+2017-11-02 15:27:09,040 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,053 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,054 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,069 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,070 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,071 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,073 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,074 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,075 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,075 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,076 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,077 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,078 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,079 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,080 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,081 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,082 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,082 [14] INFO  - elm count = 1
+2017-11-02 15:27:09,083 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,388 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,389 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,389 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,390 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,390 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,391 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,391 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,392 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,392 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,393 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,393 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,394 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,394 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,394 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,395 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,395 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,396 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,396 [14] INFO  - elm count = 1
+2017-11-02 15:29:26,397 [14] INFO  - elm count = 1
+2017-11-02 15:31:33,397 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,397 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,398 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,399 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,399 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,400 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,402 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,402 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,403 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,404 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,405 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,406 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,406 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,407 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,408 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,409 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,409 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,410 [7] INFO  - elm count = 1
+2017-11-02 15:31:33,411 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,956 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,957 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,957 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,958 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,958 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,959 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,959 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,960 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,960 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,961 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,961 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,962 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,962 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,963 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,963 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,963 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,964 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,964 [7] INFO  - elm count = 1
+2017-11-02 15:32:14,965 [7] INFO  - elm count = 1
+2017-11-02 15:32:43,241 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,242 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,242 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,243 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,243 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,244 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,244 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,245 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,245 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,246 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,246 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,247 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,247 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,248 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,248 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,249 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,250 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,250 [16] INFO  - elm count = 1
+2017-11-02 15:32:43,250 [16] INFO  - elm count = 1
+2017-11-02 15:33:57,862 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,862 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,863 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,864 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,864 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,864 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,865 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,866 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,866 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,867 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,868 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,868 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,869 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,869 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,870 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,871 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,871 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,872 [7] INFO  - elm count = 1
+2017-11-02 15:33:57,873 [7] INFO  - elm count = 1
+2017-11-02 15:38:17,544 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,545 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,545 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,546 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,547 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,548 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,548 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,549 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,549 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,550 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,550 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,551 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,551 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,552 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,553 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,553 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,554 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,554 [14] INFO  - elm count = 1
+2017-11-02 15:38:17,555 [14] INFO  - elm count = 1
+2017-11-02 15:38:43,805 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,805 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,805 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,806 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,806 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,807 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,807 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,809 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,809 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,809 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,810 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,810 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,811 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,811 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,812 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,812 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,813 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,813 [16] INFO  - elm count = 1
+2017-11-02 15:38:43,814 [16] INFO  - elm count = 1
+2017-11-02 15:39:16,161 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,162 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,162 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,163 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,163 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,164 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,165 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,166 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,167 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,168 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,169 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,172 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,172 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,173 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,174 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,175 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,175 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,176 [9] INFO  - elm count = 1
+2017-11-02 15:39:16,176 [9] INFO  - elm count = 1
+2017-11-02 15:40:04,348 [16] ERROR - 2017-11-02 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = DyncFormController (ReflectionActivator), Services = [GS.App.Form.Controllers.DyncFormController], Lifetime = Autofac.Core.Lifetime.MatchingScopeLifetime, Sharing = Shared, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.DyncFormController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.<Execute>b__5_0()
+   在 Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-02 15:40:52,316 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,328 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,329 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,344 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,345 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,346 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,347 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,347 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,348 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,348 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,349 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,350 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,350 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,351 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,351 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,352 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,353 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,353 [16] INFO  - elm count = 1
+2017-11-02 15:40:52,354 [16] INFO  - elm count = 1
+2017-11-02 15:41:32,046 [9] ERROR - 2017-11-02 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = DyncFormController (ReflectionActivator), Services = [GS.App.Form.Controllers.DyncFormController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.DyncFormController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)--   在 Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.InstanceLookup.Execute()
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   在 Autofac.Integration.Mvc.AutofacDependencyResolver.GetService(Type serviceType)
+   在 System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+2017-11-02 16:00:57,461 [9] INFO  - elm count = 1
+2017-11-02 16:03:15,530 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,531 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,534 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,550 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,551 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,552 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,553 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,553 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,555 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,556 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,557 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,557 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,558 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,558 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,559 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,560 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,561 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,561 [16] INFO  - elm count = 1
+2017-11-02 16:03:15,563 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,309 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,310 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,311 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,311 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,312 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,312 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,312 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,313 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,313 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,314 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,315 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,315 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,316 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,316 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,317 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,317 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,317 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,318 [16] INFO  - elm count = 1
+2017-11-02 16:08:09,318 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,969 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,969 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,970 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,970 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,971 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,971 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,972 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,972 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,972 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,973 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,973 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,974 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,974 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,975 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,975 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,976 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,976 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,977 [16] INFO  - elm count = 1
+2017-11-02 16:08:47,977 [16] INFO  - elm count = 1
+2017-11-02 16:19:22,901 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,552 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,553 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,553 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,595 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,596 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,597 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,598 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,598 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,599 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,600 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,600 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,601 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,601 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,602 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,602 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,603 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,604 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,604 [59] INFO  - elm count = 1
+2017-11-02 16:19:24,605 [59] INFO  - elm count = 1
+2017-11-02 16:20:02,349 [55] INFO  - elm count = 1
+2017-11-02 16:21:01,477 [42] INFO  - elm count = 1
+2017-11-02 16:21:03,066 [55] INFO  - elm count = 1
+2017-11-02 16:21:03,066 [55] INFO  - elm count = 1
+2017-11-02 16:21:03,067 [55] INFO  - elm count = 1
+2017-11-02 16:21:03,067 [55] INFO  - elm count = 1
+2017-11-02 16:21:03,068 [55] INFO  - elm count = 1
+2017-11-02 16:21:30,145 [59] INFO  - elm count = 1
+2017-11-02 16:21:31,930 [59] INFO  - elm count = 1
+2017-11-02 16:21:31,930 [59] INFO  - elm count = 1
+2017-11-02 16:21:31,931 [59] INFO  - elm count = 1
+2017-11-02 16:21:31,932 [59] INFO  - elm count = 1
+2017-11-02 16:21:31,932 [59] INFO  - elm count = 1
+2017-11-02 16:21:36,920 [55] INFO  - elm count = 1
+2017-11-02 16:21:41,047 [42] INFO  - elm count = 1
+2017-11-02 16:21:43,605 [55] INFO  - elm count = 1
+2017-11-02 16:21:45,881 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,082 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,083 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,083 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,084 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,084 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,085 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,085 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,086 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,086 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,087 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,087 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,088 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,088 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,089 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,089 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,090 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,090 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,091 [16] INFO  - elm count = 1
+2017-11-02 16:21:47,091 [16] INFO  - elm count = 1
+2017-11-02 16:22:38,372 [55] INFO  - elm count = 1
+2017-11-02 16:22:43,457 [16] INFO  - elm count = 1
+2017-11-02 16:22:43,457 [16] INFO  - elm count = 1
+2017-11-02 16:22:43,458 [16] INFO  - elm count = 1
+2017-11-02 16:22:43,458 [16] INFO  - elm count = 1
+2017-11-02 16:22:43,459 [16] INFO  - elm count = 1
+2017-11-02 16:23:04,627 [16] INFO  - insert into [表单名称sfdds](_201,_243,_123,[Updatetime]) values ('00:59','00:59','01:02','2017-11-02 08:04')
+2017-11-02 16:23:04,890 [55] ERROR - Unable to resolve the type 'GS.Services.DynamicDataservices' because the lifetime scope it belongs in can't be located. The following services are exposed by this registration:
+- GS.Services.DynamicDataservices
+
+Details ---> No scope with a tag matching 'AutofacWebRequest' is visible from the scope in which the instance was requested.
+
+If you see this during execution of a web application, it generally indicates that a component registered as per-HTTP request is being requested by a SingleInstance() component (or a similar scenario). Under the web integration always request dependencies from the dependency resolver or the request lifetime scope, never from the container itself. (See inner exception for details.)GS.App.Form.Controllers.DyncFormController   在 Autofac.Core.Resolving.InstanceLookup..ctor(IComponentRegistration registration, IResolveOperation context, ISharingLifetimeScope mostNestedVisibleScope, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Container.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context)
+   在 GS.App.Form.App_Start.AutofacConfig.GetServices[T]() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\App_Start\AutofacConfig.cs:行号 164
+   在 GS.App.Form.Models.Bulider.FormView.BuildFormTable(HtmlHelper htmlHelper, PagedList`1 sQLDynamicRow, Int32 page, String code) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 76
+   在 ASP._Page_Views_Shared__FormTableTemp_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\Shared\_FormTableTemp.cshtml:行号 30
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   在 System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   在 System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model)
+   在 ASP._Page_Views_DyncForm_FormTable_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\FormTable.cshtml:行号 33
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-02 16:23:04,892 [55] ERROR - 2017-11-02 : No scope with a tag matching 'AutofacWebRequest' is visible from the scope in which the instance was requested.
+
+If you see this during execution of a web application, it generally indicates that a component registered as per-HTTP request is being requested by a SingleInstance() component (or a similar scenario). Under the web integration always request dependencies from the dependency resolver or the request lifetime scope, never from the container itself.--   在 Autofac.Core.Lifetime.MatchingScopeLifetime.FindScope(ISharingLifetimeScope mostNestedVisibleScope)
+   在 Autofac.Core.Resolving.InstanceLookup..ctor(IComponentRegistration registration, IResolveOperation context, ISharingLifetimeScope mostNestedVisibleScope, IEnumerable`1 parameters)
+2017-11-02 16:23:25,292 [59] INFO  - elm count = 1
+2017-11-02 16:23:32,745 [55] ERROR - Unable to resolve the type 'GS.Services.DynamicDataservices' because the lifetime scope it belongs in can't be located. The following services are exposed by this registration:
+- GS.Services.DynamicDataservices
+
+Details ---> No scope with a tag matching 'AutofacWebRequest' is visible from the scope in which the instance was requested.
+
+If you see this during execution of a web application, it generally indicates that a component registered as per-HTTP request is being requested by a SingleInstance() component (or a similar scenario). Under the web integration always request dependencies from the dependency resolver or the request lifetime scope, never from the container itself. (See inner exception for details.)GS.App.Form.Controllers.DyncFormController   在 Autofac.Core.Resolving.InstanceLookup..ctor(IComponentRegistration registration, IResolveOperation context, ISharingLifetimeScope mostNestedVisibleScope, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.Core.Container.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   在 Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   在 Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context)
+   在 GS.App.Form.App_Start.AutofacConfig.GetServices[T]() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\App_Start\AutofacConfig.cs:行号 164
+   在 GS.App.Form.Models.Bulider.FormView.BuildFormTable(HtmlHelper htmlHelper, PagedList`1 sQLDynamicRow, Int32 page, String code) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Models\Bulider\FormView.cs:行号 76
+   在 ASP._Page_Views_Shared__FormTableTemp_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\Shared\_FormTableTemp.cshtml:行号 30
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   在 System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   在 System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model)
+   在 ASP._Page_Views_DyncForm_FormTable_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\DyncForm\FormTable.cshtml:行号 33
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+2017-11-02 16:23:32,746 [55] ERROR - 2017-11-02 : No scope with a tag matching 'AutofacWebRequest' is visible from the scope in which the instance was requested.
+
+If you see this during execution of a web application, it generally indicates that a component registered as per-HTTP request is being requested by a SingleInstance() component (or a similar scenario). Under the web integration always request dependencies from the dependency resolver or the request lifetime scope, never from the container itself.--   在 Autofac.Core.Lifetime.MatchingScopeLifetime.FindScope(ISharingLifetimeScope mostNestedVisibleScope)
+   在 Autofac.Core.Resolving.InstanceLookup..ctor(IComponentRegistration registration, IResolveOperation context, ISharingLifetimeScope mostNestedVisibleScope, IEnumerable`1 parameters)

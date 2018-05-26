@@ -1,0 +1,88 @@
+2017-09-26 08:56:28,517 [8] ERROR - request api error 
+2017-09-26 08:56:28,517 [6] ERROR - request api error 
+2017-09-26 09:39:54,536 [12] ERROR - request api error 
+2017-09-26 09:39:54,536 [8] ERROR - request api error 
+2017-09-26 09:40:43,766 [12] ERROR - request api error 
+2017-09-26 09:41:00,473 [5] ERROR - request api error 
+2017-09-26 09:54:24,904 [7] ERROR - request api error 
+2017-09-26 09:54:24,904 [14] ERROR - request api error 
+2017-09-26 09:54:24,904 [5] ERROR - request api error 
+2017-09-26 09:54:24,904 [6] ERROR - request api error 
+2017-09-26 09:54:25,570 [7] ERROR - request api error 
+2017-09-26 09:54:25,570 [5] ERROR - request api error 
+2017-09-26 10:05:13,051 [11] ERROR - request api error 
+2017-09-26 10:05:13,051 [10] ERROR - request api error 
+2017-09-26 10:05:13,051 [7] ERROR - request api error 
+2017-09-26 10:05:13,051 [8] ERROR - request api error 
+2017-09-26 10:05:18,666 [11] ERROR - request api error 
+2017-09-26 10:05:19,636 [10] ERROR - request api error 
+2017-09-26 10:05:22,416 [8] ERROR - request api error 
+2017-09-26 10:12:13,930 [8] ERROR - request api error 
+2017-09-26 10:12:13,930 [14] ERROR - request api error 
+2017-09-26 10:12:13,930 [5] ERROR - request api error 
+2017-09-26 10:34:15,648 [5] ERROR - request api error 
+2017-09-26 10:34:15,649 [10] ERROR - request api error 
+2017-09-26 13:28:55,329 [7] ERROR - 已添加了具有相同键的项。
+2017-09-26 13:41:02,921 [5] ERROR - 数据库 '表单名称' 不存在。请确保正确地输入了该名称。
+2017-09-26 13:43:21,773 [5] ERROR - 数据库 '表单名称' 不存在。请确保正确地输入了该名称。
+2017-09-26 13:43:26,318 [7] ERROR - 数据库 '表单名称' 不存在。请确保正确地输入了该名称。
+2017-09-26 14:11:31,927 [8] ERROR - 数据库 '表单名称' 不存在。请确保正确地输入了该名称。
+2017-09-26 14:11:31,927 [5] ERROR - 数据库 '表单名称' 不存在。请确保正确地输入了该名称。
+2017-09-26 14:14:02,260 [5] ERROR - 数据库 '表单名称' 不存在。请确保正确地输入了该名称。
+2017-09-26 14:16:34,925 [7] ERROR - 数据库 'DyncDatacreate' 不存在。请确保正确地输入了该名称。
+2017-09-26 14:16:34,925 [8] ERROR - 数据库 'DyncDatacreate' 不存在。请确保正确地输入了该名称。
+2017-09-26 14:20:22,583 [6] ERROR - CREATE、DROP 或 ALTER 语句中使用了未知的对象类型 'table表单名称'。
+2017-09-26 14:20:38,536 [6] ERROR - CREATE、DROP 或 ALTER 语句中使用了未知的对象类型 'table表单名称'。
+2017-09-26 14:24:26,370 [5] ERROR - “054”附近有语法错误。
+2017-09-26 14:26:52,088 [6] ERROR - “1”附近有语法错误。
+2017-09-26 14:37:52,693 [5] ERROR - 已添加了具有相同键的项。
+2017-09-26 14:39:10,433 [7] ERROR - 数据库表已经存在！
+2017-09-26 14:39:12,888 [8] ERROR - 数据库表已经存在！
+2017-09-26 15:34:13,162 [6] ERROR - Error reading string. Unexpected token: StartArray. Path 'parameterData[1].ITMS'.
+2017-09-26 15:34:43,962 [5] ERROR - Error reading string. Unexpected token: StartArray. Path 'parameterData[1].ITMS'.
+2017-09-26 15:47:28,712 [8] ERROR - 列名 'Itms' 无效。
+列名 'Itms' 无效。
+2017-09-26 15:47:53,178 [12] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:48:17,267 [5] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:48:30,480 [13] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:48:40,842 [12] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:50:39,442 [5] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:50:46,559 [12] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:53:56,526 [8] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:57:24,140 [5] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:57:24,140 [6] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:59:51,925 [8] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:59:53,146 [13] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:59:53,209 [7] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:59:54,049 [24] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:59:54,079 [22] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:59:54,876 [5] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 15:59:59,366 [13] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 16:00:34,897 [5] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 16:00:46,572 [6] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 16:01:06,788 [5] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 16:01:13,544 [7] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 16:02:48,246 [5] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 16:04:18,186 [35] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 16:04:18,257 [6] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 16:04:18,344 [7] ERROR - 类型“System.String”的对象无法转换为类型“System.Int32”。
+2017-09-26 16:22:53,555 [6] ERROR - 数据库 '表单名称' 不存在。请确保正确地输入了该名称。
+2017-09-26 16:25:51,509 [6] ERROR - 表单名称已经存在
+2017-09-26 16:26:00,199 [10] ERROR - 表单名称已经存在
+2017-09-26 16:26:24,724 [5] ERROR - 表单名称已经存在
+2017-09-26 16:29:51,516 [7] ERROR - 2017-09-26 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)
+2017-09-26 16:30:38,296 [7] ERROR - 2017-09-26 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)
+2017-09-26 16:30:51,821 [7] ERROR - 2017-09-26 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)
+2017-09-26 16:31:30,805 [7] ERROR - 2017-09-26 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)
+2017-09-26 16:32:09,759 [8] ERROR - 2017-09-26 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)
+2017-09-26 16:32:09,759 [7] ERROR - 2017-09-26 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)
+2017-09-26 16:32:39,058 [7] ERROR - 2017-09-26 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)
+2017-09-26 16:33:00,072 [7] ERROR - 2017-09-26 : An error occurred during the activation of a particular registration. See the inner exception for details. Registration: Activator = CustomFromController (ReflectionActivator), Services = [GS.App.Form.Controllers.CustomFromController], Lifetime = Autofac.Core.Lifetime.CurrentScopeLifetime, Sharing = None, Ownership = OwnedByLifetimeScope ---> None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'GS.App.Form.Controllers.CustomFromController' can be invoked with the available services and parameters:
+Cannot resolve parameter 'GS.Services.DynamicDataservices dynamicDataservices' of constructor 'Void .ctor(GS.Services.DynamicDataservices)'. (See inner exception for details.)

@@ -1,0 +1,66 @@
+﻿<style>
+    .file {
+        position: relative;
+    }
+
+        .file input {
+            position: absolute;
+            font-size: 100px;
+            right: 0;
+            top: 0;
+            opacity: 0;
+        }
+
+    .icon-input {
+        font-size: 48px;
+        margin-top: -10px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    #dropbox {
+        width: 100%;
+        height: 100%;
+    }
+
+    .drogDrop {
+        display: block;
+        width: 343px;
+        margin: 0 auto 25px auto;
+        padding: 25px;
+
+        height: 350px;
+        color: #8d9499;
+        color: #97A1A8;
+        background: #f8f8f8;
+        border: 2px dashed #C8CBCE;
+        text-align: center;
+        -webkit-transition: box-shadow 0.3s, border-color 0.3s;
+        -moz-transition: box-shadow 0.3s, border-color 0.3s;
+        transition: box-shadow 0.3s, border-color 0.3s;
+    }
+</style>
+<script src="~/js/jquery.html5uploader.js"></script>
+<script src="~/js/uploader.js"></script>
+<body style="background-color:#f8f8f8;height: 380px; margin:0;padding:0;">
+    <div id="progressContent" style="display:none; max-height:370px;overflow:auto">
+
+    </div>
+    <div class="drogDrop">
+        <div id="dropbox">
+            <div class="icon-input">
+                <i class="am-icon-cloud-upload"></i>
+            </div>
+            <div>
+                <h3>拖拽&amp;拖拽文件至此</h3>
+                <span style="display:inline-block; margin: 15px 0">或者</span>
+            </div><a class="am-btn am-btn-default am-btn-secondary file">
+                选择文件
+                <input id="multiple"  type="file" @ViewBag.Accept @ViewBag.Multiple>
+            </a>
+        </div>
+    </div>
+</body>
+
+

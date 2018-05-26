@@ -1,0 +1,8 @@
+2017-09-18 14:14:51,841 [5] ERROR - 2017-09-18 : 未能找到文件“C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement\GS.App.FileStorage\Server\18”。
+2017-09-18 14:27:58,761 [20] ERROR - 2017-09-18 : 未能找到文件“C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement\GS.App.FileStorage\client\pwxo12\新建文本文档 (4).txt”。
+2017-09-18 14:28:24,364 [8] ERROR - 2017-09-18 : 未能找到文件“C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement\GS.App.FileStorage\client\pwxo12\新建文本文档 (4).txt”。
+2017-09-18 14:28:24,497 [19] ERROR - 2017-09-18 : 未能找到文件“C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement\GS.App.FileStorage\client\pwxo12\新建文本文档 (4).txt”。
+2017-09-18 14:28:44,454 [12] ERROR - 2017-09-18 : 未能找到文件“C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement\GS.App.FileStorage\client\pwxo12\新建文本文档 (4).txt”。
+2017-09-18 14:28:44,612 [11] ERROR - 2017-09-18 : 未能找到文件“C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement\GS.App.FileStorage\client\pwxo12\新建文本文档 (4).txt”。
+2017-09-18 14:45:30,369 [11] ERROR - 2017-09-18 : 未能找到文件“C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement\GS.App.FileStorage\client\pwxo12\新建文本文档 (4).txt”。
+2017-09-18 14:45:30,369 [5] ERROR - 2017-09-18 : 未能找到文件“C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement\GS.App.FileStorage\client\pwxo12\新建文本文档 (4).txt”。

@@ -1,0 +1,213 @@
+2018-05-25 13:22:03,717 [12] ERROR - 2018-05-25 : 表单名称已经存在--   在 GS.App.Form.Controllers.CustomFromController.ValidateFormValue(DyncForm formData, List`1 parameterData, Boolean isUpdate) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 67
+   在 GS.App.Form.Controllers.CustomFromController.Add(DyncForm formData, List`1 parameterData) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 74
+   在 GS.App.Form.Controllers.CustomFromController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 111
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-05-25 13:31:37,291 [19] ERROR - 2018-05-25 : 表单名称已经存在--   在 GS.App.Form.Controllers.CustomFromController.ValidateFormValue(DyncForm formData, List`1 parameterData, Boolean isUpdate) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 67
+   在 GS.App.Form.Controllers.CustomFromController.Add(DyncForm formData, List`1 parameterData) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 74
+   在 GS.App.Form.Controllers.CustomFromController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 111
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-05-25 13:31:39,875 [21] ERROR - 2018-05-25 : 表单名称已经存在--   在 GS.App.Form.Controllers.CustomFromController.ValidateFormValue(DyncForm formData, List`1 parameterData, Boolean isUpdate) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 67
+   在 GS.App.Form.Controllers.CustomFromController.Add(DyncForm formData, List`1 parameterData) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 74
+   在 GS.App.Form.Controllers.CustomFromController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 111
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-05-25 15:24:51,839 [56] INFO  - use DyncData create table 表单名称iiuiusnj ( Id int identity(1,1) primary key,  [Updatetime] [datetime] NULL ,_72 [nvarchar](150) NULL,_149 [datetime] NULL)
+2018-05-25 15:45:49,186 [8] INFO  - use DyncData create table 表单名称111111 ( Id int identity(1,1) primary key,  [Updatetime] [datetime] NULL ,Dropdown box [nvarchar](150) NULL,Checkbox [nvarchar](150) NULL)
+2018-05-25 15:45:49,586 [8] ERROR - “nvarchar”附近有语法错误。GS.App.Form.Controllers.CustomFromController
+2018-05-25 15:45:49,619 [8] ERROR - 2018-05-25 : “nvarchar”附近有语法错误。--   在 GS.SQL.DataSource.DBHelper.ExecuteNonQueryTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 100
+   在 GS.SQL.DataSource.SQLDynamic.CreateDataTable(String dt, Dictionary`2 dic, String db) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDynamic.cs:行号 83
+   在 GS.Services.DynamicDataservices.CreateTable(DyncForm dyncForm, IEnumerable`1 dyncField) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\DynamicDataservices.cs:行号 200
+   在 GS.App.Form.Controllers.CustomFromController.Add(DyncForm formData, List`1 parameterData) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 87
+   在 GS.App.Form.Controllers.CustomFromController.Save() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\CustomFromController.cs:行号 120
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-05-25 15:58:31,474 [7] INFO  - use DyncData create table 表单名称jijiji ( Id int identity(1,1) primary key,  [Updatetime] [datetime] NULL ,MultilineText [nvarchar](150) NULL,DropdownBox [nvarchar](150) NULL)
+2018-05-25 16:04:43,247 [6] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:04:43,358 [6] INFO  -  where  ( Id in(12) )
+2018-05-25 16:04:54,476 [8] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:04:54,495 [8] INFO  -  where  ( Id in(12) )
+2018-05-25 16:04:55,322 [7] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:04:55,341 [7] INFO  -  where  ( Id in(12) )
+2018-05-25 16:04:56,497 [15] INFO  -  where  ( (AcceptUserId = 12) and (Stats = 'Important') ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:04:58,093 [19] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:04:58,109 [19] INFO  -  where  ( Id in(12) )
+2018-05-25 16:04:58,577 [7] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:04:58,621 [7] INFO  -  where  ( Id in(12) )
+2018-05-25 16:04:59,095 [7] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:04:59,120 [7] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:04,067 [13] INFO  -  where  ( (Id = 1018) ) AND ( (IsDelete = 0) )
+2018-05-25 16:05:04,084 [13] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:04,100 [13] INFO  -  where  ( (MessageCode = '2b613d66-a929-408c-a202-bc037925a37f') )order by ( Id ) ASC
+2018-05-25 16:05:04,132 [13] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:12,215 [7] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:05:14,283 [7] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:05:14,300 [7] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:14,852 [13] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:05:14,869 [13] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:15,693 [7] INFO  -  where  ( (AcceptUserId = 12) and (Stats = 'Important') ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:05:16,301 [13] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 1) )order by ( Updatetime ) ASC
+2018-05-25 16:05:17,241 [7] INFO  -  where  ( (AcceptUserId = 12) and (Stats = 'Important') ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:05:17,642 [7] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:05:17,656 [7] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:18,197 [8] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:05:18,212 [8] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:18,749 [13] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:05:28,744 [13] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:05:28,758 [13] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:29,579 [13] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:05:29,603 [13] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:31,967 [7] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:05:31,981 [7] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:35,452 [7] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:05:35,466 [7] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:36,901 [7] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:05:36,957 [7] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:50,008 [7] INFO  -  where  ( (Id = 1018) ) AND ( (IsDelete = 0) )
+2018-05-25 16:05:50,040 [7] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:50,054 [7] INFO  -  where  ( (MessageCode = '2b613d66-a929-408c-a202-bc037925a37f') )order by ( Id ) ASC
+2018-05-25 16:05:50,068 [7] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:52,840 [15] INFO  -  where  ( (MessageCode = '2b613d66-a929-408c-a202-bc037925a37f') and (AcceptUserId = 12) )
+2018-05-25 16:05:52,919 [7] INFO  -  where  ( (Id = 1018) ) AND ( (IsDelete = 0) )
+2018-05-25 16:05:52,933 [7] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:52,946 [7] INFO  -  where  ( (MessageCode = '2b613d66-a929-408c-a202-bc037925a37f') )order by ( Id ) ASC
+2018-05-25 16:05:52,960 [7] INFO  -  where  ( Id in(12) )
+2018-05-25 16:05:58,299 [19] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:06:00,232 [7] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:06:00,247 [7] INFO  -  where  ( Id in(12) )
+2018-05-25 16:06:01,536 [15] INFO  -  where  ( (AcceptUserId = 12) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC
+2018-05-25 16:06:01,551 [15] INFO  -  where  ( Id in(12) )
+2018-05-25 16:06:02,886 [13] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) ) AND ( (IsDelete = 0) )order by ( Updatetime ) ASC

@@ -1,0 +1,89 @@
+﻿
+<title>新建站点模板</title>
+<link rel="stylesheet" href="~/Assets/css/amazeui.min.css" />
+<link rel="stylesheet" href="~/Assets/css/amazeui.datatables.min.css" />
+<link rel="stylesheet" href="~/Assets/css/app.css" />
+<link href="~/css/amazeui.chosen.css" rel="stylesheet" />
+<link href="~/css/themes/default/default.css" rel="stylesheet" />
+<link href="~/js/plugins/code/prettify.css" rel="stylesheet" />
+<script src="~/js/jquery-1.7.2.min.js"></script>
+<script src="~/Assets/js/amazeui.min.js"></script>
+<script src="~/js/amazeui.chosen.js"></script>
+<script src="~/js/monaco-editor-0.10.1/package/min/vs/loader.js"></script>
+<script src="~/js/cms.js" data-init="formTemp"></script>
+<body class="theme-white" style="background-color:#ffffff;overflow:hidden;">
+    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+        <div class="widget am-cf">
+            <div class="widget-head am-cf">
+                <div class="widget-title am-fl">新建站点模板</div>
+            </div>
+            <div class="widget-body am-fr">
+                <form action="/Cms/AddCmsTempView" method="post" class="am-form tpl-form-line-form" onsubmit="return window.valid()">
+                    <input type="hidden" id="content" name="Content" />
+                    <div class="am-form-group">
+                        <label class="am-u-sm-3 am-form-label">站点名称</label>
+                        <div class="am-u-sm-6">
+                            @Html.BuliderDropdownView((DropdownControlModel)ViewData["SiteDropDown"])
+                            <input type="hidden" value="@ViewData["Default"]" name="SiteId" />
+                        </div>
+                        <div class="am-u-sm-3">
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label class="am-u-sm-3 am-form-label">模板类型</label>
+                        <div class="am-u-sm-6">
+                            <select id="tempType" style="width:150px;">
+                                <option value="aspx" selected>页面</option>
+                                <option value="control">控件</option>
+                                <option value="js">脚本</option>
+                                <option value="css">样式</option>
+                            </select>
+                            <input type="hidden" value="aspx" name="TempType" />
+                        </div>
+                        <div class="am-u-sm-3">
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label class="am-u-sm-3 am-form-label">模板名称</label>
+                        <div class="am-u-sm-6">
+                            <input class="tpl-form-input" name="TempName" id="tempName" required placeholder="模板名称"
+                                   type="text">
+                        </div>
+                        <div class="am-u-sm-3">
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label class="am-u-sm-3 am-form-label" style="font-size:12px">上传模板文件</label>
+                        <div class="am-u-sm-3">
+                            <button type="button" id="fileTemp" style="float:left" class="am-btn am-btn-default am-btn-sm">
+                                <i class="am-icon-cloud-upload"></i>
+                                点击选择文件
+                            </button>
+
+                        </div>
+                        <div class="am-u-sm-3">
+                        </div>
+                        <div class="am-u-sm-3">
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label class="am-u-sm-3 am-form-label">模板内容</label>
+                        <div class="am-u-sm-9">
+                            <div class="am-panel am-panel-default">
+                                <div class="am-panel-bd">
+                                    <div style="height:450px;" id="container"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <div class="am-u-sm-9 am-u-sm-push-3">
+                            <button type="submit" id="sub" class="am-btn am-btn-primary tpl-btn-bg-color-success">保存提交</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+

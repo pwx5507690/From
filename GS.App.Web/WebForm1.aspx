@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="/PageServices/App.cs" Inherits="GS.App.Web.PageServices.App" %>

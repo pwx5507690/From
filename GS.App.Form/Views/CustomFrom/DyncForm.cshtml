@@ -1,0 +1,65 @@
+﻿@model PagedList<DyncForm>
+@{
+    var head = new List<string>() { "表单名称", "表单Code", "提交信息", "创建时间" };
+    var page = Convert.ToString(ViewBag.page);
+    var content = Model.Select(t =>
+    {
+        Func<string> edit = () =>
+        {
+            return FormTemp.GetTempByKey
+     (
+        "tableOption2"
+        , $"/DyncForm/FormTable?code={t.Code}"
+        , $"/CustomFrom/Index?code={t.Code}"
+        , $"/CustomFrom/Delete?code={t.Code}&page={page}"
+        );
+        };
+        var value = new List<string>() { t.Name, t.Code, t.Cfmmsg, t.Updatetime.ToString() };
+        return new Tuple<IList<string>, Func<string>>(value, edit);
+    });
+    var tableParam = new Tuple<IList<string>, IList<Tuple<IList<string>, Func<string>>>, bool>(head, content.ToList(), true);
+}
+
+<title>表单列表</title>
+<link rel="stylesheet" href="~/Assets/css/amazeui.min.css" />
+<link rel="stylesheet" href="~/Assets/css/amazeui.datatables.min.css" />
+<link rel="stylesheet" href="~/Assets/css/app.css" />
+<style>
+    #pager {
+        margin-right: 20px;
+    }
+</style>
+<script src="~/js/jquery-1.7.2.min.js"></script>
+<script src="~/Assets/js/amazeui.min.js"></script>
+<script src="~/js/dyncFormView.js" data-message="@ViewBag.message"></script>
+<script>
+    top.window.loading(false);
+</script>
+<body class="theme-white" style="background-color:#ffffff;overflow:hidden;">
+    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+        <div class="widget am-cf">
+            <div class="widget-head am-cf">
+                <div class="widget-title  am-cf">表单列表</div>
+            </div>
+            <div class="widget-body  am-fr">
+                @Html.BuildByKey("seachTitle", "/CustomFrom/Index","输入表单名称")
+                @Html.BuildByTable(tableParam)
+                <div class="am-u-sm-12">
+                    @Html.Pager(Model, new PagerOptions
+               {
+                   HorizontalAlign = "Right",
+                   RouteName = "Default",
+                   PageIndexParameterName = "currentPage",
+                   ContainerTagName = "ul",
+                   CssClass = "am-pagination tpl-pagination",
+                   CurrentPagerItemTemplate = "<li class=\"am-active\"><a href=\"#\">{0}</a></li>",
+                   DisabledPagerItemTemplate = "<li class=\"am-disabled\"><a>{0}</a></li>",
+                   PagerItemTemplate = "<li>{0}</li>",
+                   Id = "pager"
+               })
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

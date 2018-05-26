@@ -1,0 +1,765 @@
+2018-02-06 08:18:38,178 [1] INFO  - State Connecting
+2018-02-06 08:18:39,357 [7] INFO  - State Connected
+2018-02-06 08:19:53,202 [6] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 08:21:07,591 [6] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 08:21:30,441 [16] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 08:23:19,875 [17] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 08:23:36,154 [18] INFO  -  where  ( (Id = 10) )
+2018-02-06 08:23:36,160 [18] INFO  -  where  ( Id in(12) )
+2018-02-06 08:24:11,570 [12] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 08:24:11,573 [12] INFO  -  where  ( Id in(12) )
+2018-02-06 08:24:11,607 [12] ERROR - 未将对象引用设置到对象的实例。GS.App.Form.Controllers.MessageController
+2018-02-06 08:24:11,624 [12] ERROR - 2018-02-06 : 未将对象引用设置到对象的实例。--   在 ASP._Page_Views_message_Index_cshtml.<>c__DisplayClass4_1.<Execute>b__0(MessageAcceptUser t) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\message\Index.cshtml:行号 16
+   在 System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ASP._Page_Views_message_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\message\Index.cshtml:行号 25
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-02-06 08:24:50,999 [8] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 08:24:51,002 [8] INFO  -  where  ( Id in(12) )
+2018-02-06 08:24:51,006 [8] ERROR - 未将对象引用设置到对象的实例。GS.App.Form.Controllers.MessageController
+2018-02-06 08:24:51,008 [8] ERROR - 2018-02-06 : 未将对象引用设置到对象的实例。--   在 ASP._Page_Views_message_Index_cshtml.<>c__DisplayClass4_1.<Execute>b__0(MessageAcceptUser t) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\message\Index.cshtml:行号 16
+   在 System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ASP._Page_Views_message_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\message\Index.cshtml:行号 25
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-02-06 10:47:41,837 [1] INFO  - State Connecting
+2018-02-06 10:47:42,970 [6] INFO  - State Connected
+2018-02-06 10:49:30,950 [13] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 10:49:31,384 [13] INFO  -  where  ( Id in(12) )
+2018-02-06 10:51:02,819 [13] ERROR - 未将对象引用设置到对象的实例。GS.App.Form.Controllers.MessageController
+2018-02-06 10:51:02,994 [13] ERROR - 2018-02-06 : 未将对象引用设置到对象的实例。--   在 ASP._Page_Views_message_Index_cshtml.<>c__DisplayClass4_1.<Execute>b__0(MessageAcceptUser t) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\message\Index.cshtml:行号 16
+   在 System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ASP._Page_Views_message_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\message\Index.cshtml:行号 25
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-02-06 10:51:24,512 [24] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 10:51:24,601 [24] INFO  -  where  ( Id in(12) )
+2018-02-06 10:52:08,077 [20] INFO  - State Reconnecting
+2018-02-06 10:52:53,281 [24] ERROR - 未将对象引用设置到对象的实例。GS.App.Form.Controllers.MessageController
+2018-02-06 10:52:53,355 [24] ERROR - 2018-02-06 : 未将对象引用设置到对象的实例。--   在 ASP._Page_Views_message_Index_cshtml.<>c__DisplayClass4_1.<Execute>b__0(MessageAcceptUser t) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\message\Index.cshtml:行号 16
+   在 System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ASP._Page_Views_message_Index_cshtml.Execute() 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\message\Index.cshtml:行号 25
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-02-06 10:52:53,370 [26] ERROR - (null)
+2018-02-06 10:52:53,382 [26] INFO  - State Disconnected
+2018-02-06 10:53:34,254 [17] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 10:55:19,427 [17] INFO  -  where  ( Id in(12) )
+2018-02-06 11:09:42,375 [1] INFO  - State Connecting
+2018-02-06 11:09:42,821 [11] INFO  - State Connected
+2018-02-06 11:11:09,320 [16] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 11:11:12,156 [16] INFO  -  where  ( Id in(12) )
+2018-02-06 11:11:53,021 [16] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 11:11:54,864 [16] INFO  -  where  ( Id in(12) )
+2018-02-06 12:18:46,196 [114] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 12:18:47,558 [114] INFO  -  where  ( Id in(12) )
+2018-02-06 12:20:44,661 [122] ERROR - 2018-02-06 : 在控制器“GS.App.Form.Controllers.MessageController”上未找到公共操作方法“Send”。--   在 System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-02-06 12:20:52,697 [121] ERROR - 2018-02-06 : 在控制器“GS.App.Form.Controllers.MessageController”上未找到公共操作方法“Send”。--   在 System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-02-06 12:21:19,817 [114] INFO  -  where  ( (Id = 11) )
+2018-02-06 12:21:19,903 [114] INFO  -  where  ( Id in(12) )
+2018-02-06 12:33:41,917 [1] INFO  - State Connecting
+2018-02-06 12:33:43,280 [6] INFO  - State Connected
+2018-02-06 12:35:21,684 [14] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 12:35:21,843 [14] INFO  -  where  ( Id in(12) )
+2018-02-06 12:36:04,237 [5] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 12:36:04,243 [5] INFO  -  where  ( Id in(12) )
+2018-02-06 12:36:18,968 [5] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 12:36:18,978 [5] INFO  -  where  ( Id in(12) )
+2018-02-06 12:36:20,440 [8] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 12:36:20,465 [8] INFO  -  where  ( Id in(12) )
+2018-02-06 12:36:28,109 [11] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 12:36:28,115 [11] INFO  -  where  ( Id in(12) )
+2018-02-06 14:02:41,071 [24] INFO  - State Connecting
+2018-02-06 14:02:41,869 [29] INFO  - State Connected
+2018-02-06 14:03:55,855 [29] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 14:03:56,537 [29] INFO  -  where  ( Id in(12) )
+2018-02-06 14:04:02,764 [29] ERROR - C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\message\index.cshtml(81): error CS1501: No overload for method 'BuildByTable' takes 2 argumentsGS.App.Form.Controllers.MessageController
+2018-02-06 14:04:02,781 [29] ERROR - 2018-02-06 : C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Views\message\index.cshtml(81): error CS1501: No overload for method 'BuildByTable' takes 2 arguments--   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-02-06 14:06:54,331 [24] INFO  - State Connecting
+2018-02-06 14:06:54,597 [29] INFO  - State Connected
+2018-02-06 14:11:41,937 [24] INFO  - State Connecting
+2018-02-06 14:11:43,903 [30] INFO  - State Connected
+2018-02-06 14:12:26,714 [30] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 14:12:26,780 [30] INFO  -  where  ( Id in(12) )
+2018-02-06 14:12:47,371 [29] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:12:47,397 [29] INFO  -  where  ( Id in(12) )
+2018-02-06 14:12:48,596 [31] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 14:12:48,604 [31] INFO  -  where  ( Id in(12) )
+2018-02-06 14:12:49,840 [30] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:12:49,846 [30] INFO  -  where  ( Id in(12) )
+2018-02-06 14:17:32,096 [24] INFO  - State Connecting
+2018-02-06 14:17:32,293 [32] INFO  - State Connected
+2018-02-06 14:17:38,760 [29] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:17:38,834 [29] INFO  -  where  ( Id in(12) )
+2018-02-06 14:19:20,897 [29] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:19:20,904 [29] INFO  -  where  ( Id in(12) )
+2018-02-06 14:19:30,205 [30] INFO  -  where  ( (Id = 12) )
+2018-02-06 14:19:30,333 [30] INFO  -  where  ( Id in(12) )
+2018-02-06 14:19:38,831 [29] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 14:19:38,867 [29] INFO  -  where  ( Id in(12) )
+2018-02-06 14:19:39,824 [29] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:19:49,358 [32] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 14:19:49,365 [32] INFO  -  where  ( Id in(12) )
+2018-02-06 14:19:58,628 [31] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:20:00,512 [30] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 14:20:00,543 [30] INFO  -  where  ( Id in(12) )
+2018-02-06 14:20:03,080 [35] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:20:08,183 [32] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 14:20:08,200 [32] INFO  -  where  ( Id in(12) )
+2018-02-06 14:22:30,133 [30] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:22:40,791 [32] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 14:22:40,798 [32] INFO  -  where  ( Id in(12) )
+2018-02-06 14:22:52,967 [32] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:22:59,167 [31] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 14:22:59,173 [31] INFO  -  where  ( Id in(12) )
+2018-02-06 14:23:04,182 [45] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:51:24,590 [31] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:51:56,626 [31] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 14:51:56,648 [31] INFO  -  where  ( Id in(12) )
+2018-02-06 14:52:00,324 [31] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:52:05,843 [30] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 14:52:05,848 [30] INFO  -  where  ( Id in(12) )
+2018-02-06 14:52:30,526 [6] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:52:31,511 [6] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:52:32,067 [31] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:52:33,148 [32] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 14:52:33,154 [32] INFO  -  where  ( Id in(12) )
+2018-02-06 14:52:35,042 [32] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:53:53,115 [24] INFO  - State Connecting
+2018-02-06 14:53:53,369 [6] INFO  - State Connected
+2018-02-06 14:54:12,558 [5] INFO  - State Connecting
+2018-02-06 14:54:12,830 [31] INFO  - State Connected
+2018-02-06 14:54:15,200 [32] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 14:54:15,287 [32] INFO  -  where  ( Id in(12) )
+2018-02-06 14:59:23,480 [45] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 14:59:23,486 [45] INFO  -  where  ( Id in(12) )
+2018-02-06 14:59:25,262 [31] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:59:26,336 [29] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 14:59:26,818 [45] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:00:22,110 [30] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:00:27,095 [45] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:00:27,100 [45] INFO  -  where  ( Id in(12) )
+2018-02-06 15:00:51,123 [32] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:00:53,446 [29] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:00:53,452 [29] INFO  -  where  ( Id in(12) )
+2018-02-06 15:05:09,654 [29] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:05:25,606 [35] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:05:25,630 [35] INFO  -  where  ( Id in(12) )
+2018-02-06 15:05:28,926 [29] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:05:30,824 [7] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:05:31,908 [6] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:05:33,140 [32] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:05:33,143 [32] INFO  -  where  ( Id in(12) )
+2018-02-06 15:05:34,702 [29] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:05:34,705 [29] INFO  -  where  ( Id in(12) )
+2018-02-06 15:05:35,338 [31] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:05:35,342 [31] INFO  -  where  ( Id in(12) )
+2018-02-06 15:05:35,869 [45] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:05:35,876 [45] INFO  -  where  ( Id in(12) )
+2018-02-06 15:05:36,338 [6] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:05:36,341 [6] INFO  -  where  ( Id in(12) )
+2018-02-06 15:05:37,877 [35] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 15:05:37,885 [35] INFO  -  where  ( Id in(12) )
+2018-02-06 15:05:39,604 [30] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 15:05:39,609 [30] INFO  -  where  ( Id in(12) )
+2018-02-06 15:05:40,201 [45] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 15:05:40,237 [45] INFO  -  where  ( Id in(12) )
+2018-02-06 15:05:41,164 [30] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:05:41,170 [30] INFO  -  where  ( Id in(12) )
+2018-02-06 15:06:42,367 [29] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:06:45,861 [7] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:06:45,868 [7] INFO  -  where  ( Id in(12) )
+2018-02-06 15:08:27,357 [35] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:08:38,004 [35] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:08:38,013 [35] INFO  -  where  ( Id in(12) )
+2018-02-06 15:08:39,130 [32] INFO  -  where  ( (AcceptUserId = 12) )order by ( Updatetime ) ASC
+2018-02-06 15:08:39,136 [32] INFO  -  where  ( Id in(12) )
+2018-02-06 15:08:52,951 [35] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:08:52,957 [35] INFO  -  where  ( Id in(12) )
+2018-02-06 15:08:56,846 [35] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:08:56,850 [35] INFO  -  where  ( Id in(12) )
+2018-02-06 15:09:01,572 [32] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:09:02,250 [31] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:09:02,254 [31] INFO  -  where  ( Id in(12) )
+2018-02-06 15:13:17,108 [31] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) ) AND ( Title Like(value(GS.Services.MessageServices+<>c__DisplayClass13_0).name) )order by ( Updatetime ) ASC
+2018-02-06 15:13:17,761 [31] ERROR - “<”附近有语法错误。
+“<”附近有语法错误。GS.App.Form.Controllers.MessageController
+2018-02-06 15:13:17,832 [31] ERROR - 2018-02-06 : “<”附近有语法错误。
+“<”附近有语法错误。--   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.DoLoadDataSet(IDbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String tableName)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteDataSet(DbCommand command)
+   在 GS.SQL.DataSource.DBHelper.ExecuteDataSetTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 68
+   在 GS.SQL.DataSource.SQLExecute.Query(String sql, IEnumerable`1 param) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLExecute.cs:行号 154
+   在 GS.SQL.DataSource.SQLExecute.Query(String tblName, Int32 current, Int32 page, SQLCondition condition, IEnumerable`1 param, String sqlStr, String sqlTotal) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLExecute.cs:行号 206
+   在 GS.SQL.DataSource.SQLDataEnity`1.Query(Int32 pageSize, Int32 currentPage, SQLCondition condition, IEnumerable`1 param, String sql, String sqlTotal) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDataEnity.cs:行号 77
+   在 GS.SQL.DataSource.SQLDataEnityExtensions.QueryPage[T](ExpEnity`1 expr1) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDataEnityExtensions.cs:行号 243
+   在 GS.Services.MessageServices.GetAccepMessageByUserIdRead(Int32 userId, Int32 pageSize, Int32 currentPage, String name) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\MessageServices.cs:行号 166
+   在 GS.App.Form.Controllers.MessageController.Index(Int32 currentPage, Int32 type, String title) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\MessageController.cs:行号 96
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-02-06 15:13:33,045 [30] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) ) AND ( Title Like(value(GS.Services.MessageServices+<>c__DisplayClass13_0).name) )order by ( Updatetime ) ASC
+2018-02-06 15:13:33,066 [30] ERROR - “<”附近有语法错误。
+“<”附近有语法错误。GS.App.Form.Controllers.MessageController
+2018-02-06 15:13:33,075 [30] ERROR - 2018-02-06 : “<”附近有语法错误。
+“<”附近有语法错误。--   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.DoLoadDataSet(IDbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String tableName)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteDataSet(DbCommand command)
+   在 GS.SQL.DataSource.DBHelper.ExecuteDataSetTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 68
+   在 GS.SQL.DataSource.SQLExecute.Query(String sql, IEnumerable`1 param) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLExecute.cs:行号 154
+   在 GS.SQL.DataSource.SQLExecute.Query(String tblName, Int32 current, Int32 page, SQLCondition condition, IEnumerable`1 param, String sqlStr, String sqlTotal) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLExecute.cs:行号 206
+   在 GS.SQL.DataSource.SQLDataEnity`1.Query(Int32 pageSize, Int32 currentPage, SQLCondition condition, IEnumerable`1 param, String sql, String sqlTotal) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDataEnity.cs:行号 77
+   在 GS.SQL.DataSource.SQLDataEnityExtensions.QueryPage[T](ExpEnity`1 expr1) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDataEnityExtensions.cs:行号 243
+   在 GS.Services.MessageServices.GetAccepMessageByUserIdRead(Int32 userId, Int32 pageSize, Int32 currentPage, String name) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\MessageServices.cs:行号 166
+   在 GS.App.Form.Controllers.MessageController.Index(Int32 currentPage, Int32 type, String title) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\MessageController.cs:行号 96
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-02-06 15:16:55,932 [1] INFO  - State Connecting
+2018-02-06 15:16:56,643 [8] INFO  - State Connected
+2018-02-06 15:18:06,867 [8] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:18:29,631 [16] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:18:29,848 [16] INFO  -  where  ( Id in(12) )
+2018-02-06 15:21:08,680 [7] ERROR - (null)
+2018-02-06 15:21:20,644 [8] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) ) AND ( Title Like(value(GS.Services.MessageServices+<>c__DisplayClass13_0).name) )order by ( Updatetime ) ASC
+2018-02-06 15:21:25,193 [7] INFO  - State Disconnected
+2018-02-06 15:21:25,269 [8] ERROR - “<”附近有语法错误。
+“<”附近有语法错误。GS.App.Form.Controllers.MessageController
+2018-02-06 15:21:25,366 [8] ERROR - 2018-02-06 : “<”附近有语法错误。
+“<”附近有语法错误。--   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.DoLoadDataSet(IDbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String tableName)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteDataSet(DbCommand command)
+   在 GS.SQL.DataSource.DBHelper.ExecuteDataSetTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 68
+   在 GS.SQL.DataSource.SQLExecute.Query(String sql, IEnumerable`1 param) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLExecute.cs:行号 154
+   在 GS.SQL.DataSource.SQLExecute.Query(String tblName, Int32 current, Int32 page, SQLCondition condition, IEnumerable`1 param, String sqlStr, String sqlTotal) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLExecute.cs:行号 206
+   在 GS.SQL.DataSource.SQLDataEnity`1.Query(Int32 pageSize, Int32 currentPage, SQLCondition condition, IEnumerable`1 param, String sql, String sqlTotal) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDataEnity.cs:行号 77
+   在 GS.SQL.DataSource.SQLDataEnityExtensions.QueryPage[T](ExpEnity`1 expr1) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDataEnityExtensions.cs:行号 243
+   在 GS.Services.MessageServices.GetAccepMessageByUserIdRead(Int32 userId, Int32 pageSize, Int32 currentPage, String name) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\MessageServices.cs:行号 166
+   在 GS.App.Form.Controllers.MessageController.Index(Int32 currentPage, Int32 type, String title) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\MessageController.cs:行号 96
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-02-06 15:24:00,615 [1] INFO  - State Connecting
+2018-02-06 15:24:00,892 [8] INFO  - State Connected
+2018-02-06 15:24:27,403 [7] INFO  - State Reconnecting
+2018-02-06 15:24:32,363 [11] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:24:32,384 [13] INFO  - State Connected
+2018-02-06 15:25:08,292 [11] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) ) AND ( Title Like(value(GS.Services.MessageServices+<>c__DisplayClass11_0).name) )order by ( Updatetime ) ASC
+2018-02-06 15:25:12,601 [11] ERROR - “<”附近有语法错误。
+“<”附近有语法错误。GS.App.Form.Controllers.MessageController
+2018-02-06 15:25:12,634 [11] ERROR - 2018-02-06 : “<”附近有语法错误。
+“<”附近有语法错误。--   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.DoLoadDataSet(IDbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String tableName)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteDataSet(DbCommand command)
+   在 GS.SQL.DataSource.DBHelper.ExecuteDataSetTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 68
+   在 GS.SQL.DataSource.SQLExecute.Query(String sql, IEnumerable`1 param) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLExecute.cs:行号 154
+   在 GS.SQL.DataSource.SQLExecute.Query(String tblName, Int32 current, Int32 page, SQLCondition condition, IEnumerable`1 param, String sqlStr, String sqlTotal) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLExecute.cs:行号 206
+   在 GS.SQL.DataSource.SQLDataEnity`1.Query(Int32 pageSize, Int32 currentPage, SQLCondition condition, IEnumerable`1 param, String sql, String sqlTotal) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDataEnity.cs:行号 77
+   在 GS.SQL.DataSource.SQLDataEnityExtensions.QueryPage[T](ExpEnity`1 expr1) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDataEnityExtensions.cs:行号 243
+   在 GS.Services.MessageServices.GetAccepMessageByUserIdNoRead(Int32 userId, Int32 pageSize, Int32 currentPage, String name) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\MessageServices.cs:行号 151
+   在 GS.App.Form.Controllers.MessageController.Index(Int32 currentPage, Int32 type, String title) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\MessageController.cs:行号 100
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-02-06 15:25:50,116 [10] INFO  - State Reconnecting
+2018-02-06 15:25:54,625 [16] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) ) AND ( Title Like(value(GS.Services.MessageServices+<>c__DisplayClass11_0).name) )order by ( Updatetime ) ASC
+2018-02-06 15:25:54,672 [17] INFO  - State Connected
+2018-02-06 15:25:59,108 [16] ERROR - “<”附近有语法错误。
+“<”附近有语法错误。GS.App.Form.Controllers.MessageController
+2018-02-06 15:25:59,111 [16] ERROR - 2018-02-06 : “<”附近有语法错误。
+“<”附近有语法错误。--   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.DoLoadDataSet(IDbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String[] tableNames)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command, DataSet dataSet, String tableName)
+   在 Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteDataSet(DbCommand command)
+   在 GS.SQL.DataSource.DBHelper.ExecuteDataSetTp(String sql) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\DBHelper.cs:行号 68
+   在 GS.SQL.DataSource.SQLExecute.Query(String sql, IEnumerable`1 param) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLExecute.cs:行号 154
+   在 GS.SQL.DataSource.SQLExecute.Query(String tblName, Int32 current, Int32 page, SQLCondition condition, IEnumerable`1 param, String sqlStr, String sqlTotal) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLExecute.cs:行号 206
+   在 GS.SQL.DataSource.SQLDataEnity`1.Query(Int32 pageSize, Int32 currentPage, SQLCondition condition, IEnumerable`1 param, String sql, String sqlTotal) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDataEnity.cs:行号 77
+   在 GS.SQL.DataSource.SQLDataEnityExtensions.QueryPage[T](ExpEnity`1 expr1) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.SQL.DataSource\SQLDataEnityExtensions.cs:行号 243
+   在 GS.Services.MessageServices.GetAccepMessageByUserIdNoRead(Int32 userId, Int32 pageSize, Int32 currentPage, String name) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.Services\MessageServices.cs:行号 151
+   在 GS.App.Form.Controllers.MessageController.Index(Int32 currentPage, Int32 type, String title) 位置 C:\Users\Administrator\Desktop\PC_DANDAN\GS.EmployeeManagement (2)\GS.EmployeeManagement\GS.App.Form\Controllers\MessageController.cs:行号 100
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-02-06 15:27:50,161 [11] INFO  - State Reconnecting
+2018-02-06 15:27:50,238 [14] INFO  - State Connected
+2018-02-06 15:29:52,911 [1] INFO  - State Connecting
+2018-02-06 15:29:53,217 [7] INFO  - State Connected
+2018-02-06 15:30:49,478 [6] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:37:04,954 [1] INFO  - State Connecting
+2018-02-06 15:37:05,215 [8] INFO  - State Connected
+2018-02-06 15:38:32,460 [7] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:41:27,736 [1] INFO  - State Connecting
+2018-02-06 15:41:28,077 [8] INFO  - State Connected
+2018-02-06 15:41:58,196 [6] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:42:32,738 [5] INFO  -  where  ( Title Like '%aa%'  )order by ( Updatetime ) ASC
+2018-02-06 15:44:52,617 [1] INFO  - State Connecting
+2018-02-06 15:44:54,058 [5] INFO  - State Connected
+2018-02-06 15:45:29,723 [5] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:45:44,897 [8] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:45:44,983 [8] INFO  -  where  ( Id in(12) )
+2018-02-06 15:45:55,088 [16] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) ) AND ( Title Like '%98%'  )order by ( Updatetime ) ASC
+2018-02-06 15:45:55,161 [16] INFO  -  where  ( Id in(12) )
+2018-02-06 15:46:08,809 [8] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) ) AND ( Title Like '%aa%'  )order by ( Updatetime ) ASC
+2018-02-06 15:46:13,297 [8] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 15:46:14,114 [5] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 1) )order by ( Updatetime ) ASC
+2018-02-06 15:46:14,127 [5] INFO  -  where  ( Id in(12) )
+2018-02-06 16:12:28,594 [1] INFO  - State Connecting
+2018-02-06 16:12:28,867 [16] INFO  - State Connected
+2018-02-06 16:14:19,870 [6] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 16:15:57,113 [6] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 16:18:38,140 [7] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 16:20:09,865 [16] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 16:20:49,843 [12] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 16:21:23,902 [16] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 16:26:10,399 [16] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 16:27:31,377 [8] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 16:27:55,480 [16] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 16:30:40,388 [14] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 16:31:12,534 [13] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 16:41:03,825 [12] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 16:42:07,368 [7] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC
+2018-02-06 16:44:19,997 [12] INFO  -  where  ( (AcceptUserId = 12) and (IsRead = 0) )order by ( Updatetime ) ASC

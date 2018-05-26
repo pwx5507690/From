@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <item id="aspx">
+    <![CDATA[<!--include=true-->
+<!--浏览地址{0}/{1}/{2}-->
+<!--图片资源文件访问/{1}/image/-->
+<!--icon 站点图标/{1}/icon.png-->
+<!--jQuery 引用地址<script src="/Scripts/jquery-1.10.2.js"></script>-->
+<!--修改时间{3}-->
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="/PageServices/App.cs" Inherits="GS.App.Web.PageServices.App" %>
+      ]]>
+  </item>
+  <item id="control">
+    <![CDATA[<!--include=true-->
+<!--文件引用/{0}/control/{1}-->
+<!--图片资源文件访问/{1}/image/-->
+<!--asp.net 用户控件-->  
+<!--修改时间{2}-->
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="/PageServices/CustomControl.cs" Inherits="GS.App.Web.PageServices.CustomControl" %>
+]]>
+  </item>
+  <item id="js">
+    <![CDATA[<!--include=true-->
+<!--文件引用/{0}/js/{1}-->
+<!--图片资源文件访问/{1}/image/-->
+<!--修改时间{2}-->
+  ]]>
+  </item>
+  <item id="css">
+    <![CDATA[<!--include=true-->
+<!--文件引用/{0}/css/{1}-->
+<!--图片资源文件访问/{1}/image/-->
+<!--修改时间{2}-->
+      ]]>
+  </item>
+</root>
